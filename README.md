@@ -1,24 +1,12 @@
-# README
+# 開発言語
+- Ruby2.6.5
+- Rails5.2.5
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# 就業Teamの技術
+- AWS EC2
+- devise
+- Ajaxを使ったコメント機能
+- フォロー機能
+- お気に入り機能
+  
+# 

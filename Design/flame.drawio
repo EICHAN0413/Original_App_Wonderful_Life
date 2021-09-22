@@ -1,0 +1,1465 @@
+<mxfile host="65bd71144e">
+    <diagram id="UwjD9ChrkcDFnQIeQD5A" name="ページ1">
+        <mxGraphModel dx="988" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="53" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="442.65999999999997" y="77.5" width="320" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="592.34" y="117.5" width="160" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="グローバルナビゲーション画面(ログアウト中)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="50" width="260" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="80" width="320" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="230" y="140" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="新規登録" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="245" y="145" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="230" y="180" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="ログイン" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="245" y="185" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="230" y="220" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;font style=&quot;font-size: 11px&quot;&gt;ゲストログイン&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="230" y="225" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="5" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="140" width="120" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="サイト説明文" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="75" y="190" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="新規登録画面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="552.34" y="47.5" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="ログイン画面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="954.68" y="50" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="Wonderful Life" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="90" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="" style="endArrow=none;html=1;exitX=-0.001;exitY=0.15;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.996;entryY=0.146;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="5" target="5" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="500" y="430" as="sourcePoint"/>
+                        <mxPoint x="550" y="380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value="" style="endArrow=none;html=1;exitX=0.002;exitY=0.833;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="5" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="460" y="430" as="sourcePoint"/>
+                        <mxPoint x="360" y="280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="" style="endArrow=none;html=1;exitX=-0.001;exitY=0.15;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.996;entryY=0.146;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="53" target="53" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="862.66" y="427.5" as="sourcePoint"/>
+                        <mxPoint x="912.66" y="377.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="" style="endArrow=none;html=1;exitX=0.005;exitY=0.826;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="53" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="862.66" y="427.5" as="sourcePoint"/>
+                        <mxPoint x="762.66" y="277.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" value="&lt;font style=&quot;font-size: 9px&quot;&gt;Wonderful Life&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="452.34000000000003" y="87.5" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="登録" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="685" y="237.5" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="672.34" y="210" width="65.32" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="672.34" y="180" width="65.32" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="672.34" y="147.5" width="65.32" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;font style=&quot;font-size: 10px&quot;&gt;パスワード：&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="612.34" y="207.5" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="&lt;font style=&quot;font-size: 9px&quot;&gt;メールアドレス：&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="592.34" y="175" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="&lt;font style=&quot;font-size: 10px&quot;&gt;名前：&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="632.3399999999999" y="145" width="50" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="ユーザ登録" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="637.34" y="122.5" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="452.34000000000003" y="117.5" width="130" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="Twetterで登録" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="464.84000000000003" y="136.25" width="105" height="37.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="Instagramで登録" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="457.34000000000003" y="198.75" width="120" height="37.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="&lt;font style=&quot;font-size: 9px&quot;&gt;ログイン&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="657.34" y="87.5" width="50" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="&lt;font style=&quot;font-size: 9px&quot;&gt;新規登録&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="707.66" y="87.5" width="50" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="839.6800000000001" y="80" width="320" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="" style="endArrow=none;html=1;exitX=-0.001;exitY=0.15;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.996;entryY=0.146;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="77" target="77" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1300.32" y="430" as="sourcePoint"/>
+                        <mxPoint x="1350.32" y="380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="79" value="" style="endArrow=none;html=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="839.68" y="280" as="sourcePoint"/>
+                        <mxPoint x="1160" y="280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="80" value="&lt;font style=&quot;font-size: 9px&quot;&gt;Wonderful Life&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="849.68" y="90" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="&lt;font style=&quot;font-size: 9px&quot;&gt;ログイン&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1054.68" y="90" width="50" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="&lt;font style=&quot;font-size: 9px&quot;&gt;新規登録&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1105" y="90" width="50" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="ログイン画面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="954.68" y="130" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="979.68" y="175" width="125" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="&lt;font style=&quot;font-size: 11px&quot;&gt;メールアドレス：&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="869.68" y="172.5" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="979.68" y="210" width="125" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="&lt;font style=&quot;font-size: 11px&quot;&gt;パスワード：&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;rotation=0;" parent="1" vertex="1">
+                    <mxGeometry x="889.68" y="210" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="ログイン" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="974.68" y="245" width="50" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1241.37" y="80" width="370" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="" style="endArrow=none;html=1;exitX=-0.001;exitY=0.15;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.996;entryY=0.146;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="113" target="113" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="471.68999999999994" y="750" as="sourcePoint"/>
+                        <mxPoint x="521.6899999999999" y="700" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="116" value="&lt;font style=&quot;font-size: 9px&quot;&gt;Wonderful Life&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1261.37" y="90" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="&lt;font size=&quot;1&quot;&gt;投稿&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1466.37" y="90" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" value="グローバルナビゲーション画面(ログイン中)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1311.37" y="50" width="250" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="131" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1251.37" y="150" width="50" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="132" value="&lt;font style=&quot;font-size: 6px&quot;&gt;検索&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="1311.37" y="150" width="20" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="137" value="" style="endArrow=none;html=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1341" y="320" as="sourcePoint"/>
+                        <mxPoint x="1341.37" y="120" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="138" value="&lt;font style=&quot;font-size: 8px&quot;&gt;フリーワード検索&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1251.37" y="130" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="139" value="&lt;font style=&quot;font-size: 10px&quot;&gt;カテゴリ一覧&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1246.37" y="180" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="140" value="&lt;font style=&quot;font-size: 10px&quot;&gt;食材一覧&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1256.37" y="200" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="142" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1366.37" y="142.5" width="210" height="165" as="geometry"/>
+                </mxCell>
+                <mxCell id="143" value="投稿画像/動画" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1371.37" y="150" width="100" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="144" value="投稿内容" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1476.37" y="150" width="95" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="145" value="&lt;font style=&quot;font-size: 10px&quot;&gt;詳細　編集　削除&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1481.37" y="280" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="150" value="&lt;font size=&quot;1&quot;&gt;マイページ&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1496.37" y="90" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="151" value="&lt;font size=&quot;1&quot;&gt;ログアウト&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1551.37" y="90" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="152" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="40.45999999999998" y="440" width="370" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="153" value="" style="endArrow=none;html=1;exitX=-0.001;exitY=0.15;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.996;entryY=0.146;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="41.56999999999999" y="481.16" as="sourcePoint"/>
+                        <mxPoint x="410.4599999999999" y="479.99999999999994" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="155" value="&lt;font style=&quot;font-size: 9px&quot;&gt;Wonderful Life&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="55.139999999999986" y="450" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="156" value="&lt;font size=&quot;1&quot;&gt;投稿&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="265.14" y="450" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="157" value="&lt;font size=&quot;1&quot;&gt;マイページ&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="295.4599999999999" y="450" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="158" value="&lt;font size=&quot;1&quot;&gt;ログアウト&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="350.1399999999999" y="450" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="159" value="&lt;font style=&quot;font-size: 6px&quot;&gt;画像&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="90.14" y="490" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="160" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="82.63999999999999" y="540" width="67.5" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="162" value="&lt;font style=&quot;font-size: 6px&quot;&gt;フォロー：〇〇人&amp;nbsp; フォロワー：〇〇人&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="42.639999999999986" y="560" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="166" value="&lt;font style=&quot;font-size: 6px&quot;&gt;ユーザ名&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="41.70999999999999" y="530" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="171" value="プロフィール" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="190.14" y="490" width="200" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="172" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="50.139999999999986" y="590" width="349.68" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="182" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="60.139999999999986" y="617.5" width="330" height="102.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="183" value="投稿画像/動画" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="65.13999999999999" y="625" width="155" height="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="184" value="投稿内容" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="230.14" y="625" width="145" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="185" value="&lt;font style=&quot;font-size: 10px&quot;&gt;詳細　編集　削除&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="265.46000000000004" y="700" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="193" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="483" y="440" width="370" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="194" value="&lt;font style=&quot;font-size: 9px&quot;&gt;Wonderful Life&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="503" y="450" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="195" value="&lt;font size=&quot;1&quot;&gt;投稿&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="708" y="450" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="196" value="&lt;font size=&quot;1&quot;&gt;マイページ&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="738" y="450" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="197" value="&lt;font size=&quot;1&quot;&gt;ログアウト&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="793" y="450" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="198" value="" style="endArrow=none;html=1;exitX=-0.001;exitY=0.15;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.996;entryY=0.146;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="483" y="481.1600000000001" as="sourcePoint"/>
+                        <mxPoint x="851.8899999999999" y="480" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="199" value="マイページ画面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="150.00000000000006" y="410" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="200" value="マイページ編集画面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="611.67" y="410" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="201" value="&lt;font style=&quot;font-size: 6px&quot;&gt;画像&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="525.5" y="495" width="25" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="203" value="画像選択" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="570.34" y="497.5" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="204" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="570.34" y="525" width="122.66" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="205" value="&lt;font style=&quot;font-size: 10px&quot;&gt;名前：&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="525.4999999999999" y="522.5" width="50" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="206" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="570.34" y="548.75" width="242.66" height="91.25" as="geometry"/>
+                </mxCell>
+                <mxCell id="207" value="&lt;font style=&quot;font-size: 10px&quot;&gt;プロフィール：&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="490.3399999999998" y="542.5" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="210" value="選択" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="570.34" y="645" width="52.66" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="211" value="&lt;font style=&quot;font-size: 10px&quot;&gt;公開/非公開：&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="497.9999999999999" y="640" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="214" value="選択" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="570.34" y="667.5" width="52.66" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="215" value="&lt;span style=&quot;font-size: 10px&quot;&gt;生年月日：&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="512.9999999999999" y="660" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="219" value="選択" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="645.3400000000001" y="667.5" width="52.66" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="220" value="選択" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="720.6600000000001" y="667.5" width="52.66" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="221" value="月" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="693" y="665" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="222" value="年" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="618" y="665" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="223" value="日" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="768.3199999999999" y="665" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="224" value="更新" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="628" y="700" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="235" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="800" width="370" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="236" value="&lt;font style=&quot;font-size: 9px&quot;&gt;Wonderful Life&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="810" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="237" value="&lt;font size=&quot;1&quot;&gt;投稿&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="265" y="810" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="238" value="&lt;font size=&quot;1&quot;&gt;マイページ&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="294.99999999999994" y="810" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="239" value="&lt;font size=&quot;1&quot;&gt;ログアウト&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="349.99999999999994" y="810" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="240" value="" style="endArrow=none;html=1;exitX=-0.001;exitY=0.15;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.996;entryY=0.146;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="39.99999999999999" y="841.1600000000001" as="sourcePoint"/>
+                        <mxPoint x="408.89" y="840" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="241" value="フォロー中/フォロワー一覧画面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="770" width="190" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="243" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="900" width="340" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="248" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="49.68" y="895" width="350" height="97.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="251" value="&lt;font style=&quot;font-size: 6px&quot;&gt;画像&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="67.5" y="902.5" width="25" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="255" value="&lt;font style=&quot;font-size: 6px&quot;&gt;ユーザ名&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="938.75" width="42.5" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="258" value="&lt;font style=&quot;font-size: 6px&quot;&gt;フォローする&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="58.75" y="958.75" width="46.25" height="17.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="259" value="プロフィール" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="115" y="898.75" width="275" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="260" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="992.5" width="350" height="97.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="261" value="&lt;font style=&quot;font-size: 6px&quot;&gt;画像&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="67.82" y="1000" width="25" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="262" value="&lt;font style=&quot;font-size: 6px&quot;&gt;ユーザ名&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="60.32" y="1036.25" width="42.5" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="263" value="&lt;font style=&quot;font-size: 6px&quot;&gt;フォローする&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="59.07" y="1056.25" width="46.25" height="17.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="264" value="プロフィール" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="115.32" y="996.25" width="275" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="273" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="483" y="800" width="370" height="630" as="geometry"/>
+                </mxCell>
+                <mxCell id="274" value="&lt;font style=&quot;font-size: 9px&quot;&gt;Wonderful Life&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="503" y="810" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="275" value="&lt;font size=&quot;1&quot;&gt;投稿&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="708" y="810" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="276" value="&lt;font size=&quot;1&quot;&gt;マイページ&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="738" y="810" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="277" value="&lt;font size=&quot;1&quot;&gt;ログアウト&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="793" y="810" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="278" value="" style="endArrow=none;html=1;exitX=-0.001;exitY=0.15;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.996;entryY=0.146;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="483" y="841.1600000000001" as="sourcePoint"/>
+                        <mxPoint x="851.8899999999999" y="840" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="279" value="投稿/編集画面①" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="618" y="770" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="280" value="投稿画像/動画" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="498" y="905" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="282" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="499.84" y="976.25" width="330" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="302" value="材料" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="544.84" y="987.5" width="105" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="303" value="材料" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="544.84" y="1007.5" width="105" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="304" value="材料" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="544.84" y="1027.5" width="105" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="305" value="分量" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="699.84" y="987.5" width="110" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="306" value="分量" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="699.84" y="1027.5" width="110" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="307" value="分量" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="699.84" y="1007.5" width="110" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="308" value="追加" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="760.1600000000001" y="1052.5" width="40" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="314" value="選択" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="526.41" y="961.25" width="30" height="8.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="315" value="コメント" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="585.5" y="880" width="244.5" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="316" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="1073.75" width="330" height="213.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="329" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="510" y="1077.5" width="310" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="330" value="手順画像" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="521.25" y="1083.75" width="70" height="63.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="331" value="手順" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="615" y="1083.75" width="195" height="63.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="332" value="追加" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="762.66" y="1267.5" width="40" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="335" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="510" y="1167.5" width="310" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="336" value="手順画像" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="522.5" y="1173.75" width="70" height="63.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="337" value="手順" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="615" y="1173.75" width="195" height="63.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="341" value="タグ選択：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="526.41" y="1300" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="342" value="選択" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="598.91" y="1300" width="37.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="343" value="カテゴリー選択：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="648.91" y="1300" width="110" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="344" value="選択" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="754.23" y="1300" width="50" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="346" value="&lt;font style=&quot;font-size: 11px&quot;&gt;投稿する&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="625" y="1330" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="348" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="959.2399999999999" y="430" width="370" height="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="349" value="&lt;font style=&quot;font-size: 9px&quot;&gt;Wonderful Life&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="979.2399999999999" y="440" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="350" value="&lt;font size=&quot;1&quot;&gt;投稿&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1184.24" y="440" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="351" value="&lt;font size=&quot;1&quot;&gt;マイページ&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1214.24" y="440" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="352" value="&lt;font size=&quot;1&quot;&gt;ログアウト&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1269.24" y="440" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="353" value="" style="endArrow=none;html=1;exitX=-0.001;exitY=0.15;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.996;entryY=0.146;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="959.2399999999999" y="471.1600000000001" as="sourcePoint"/>
+                        <mxPoint x="1328.1299999999999" y="470" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="354" value="&lt;font style=&quot;font-size: 11px&quot;&gt;投稿する&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="1090.24" y="777.5" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="361" value="&lt;font style=&quot;font-size: 8px&quot;&gt;テンプレート&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="607.92" y="850" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="363" value="&lt;span style=&quot;font-size: 8px&quot;&gt;フリーテキスト&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="667.92" y="850" width="60.16" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="365" value="&lt;font style=&quot;font-size: 8px&quot;&gt;テンプレート&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="1080.24" y="490" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="366" value="&lt;span style=&quot;font-size: 8px&quot;&gt;フリーテキスト&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="1140.24" y="490" width="60.16" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="367" value="フリーテキスト" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1140.24" y="517.5" width="162" height="222.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="369" value="投稿画像/動画" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="983.58" y="557.5" width="141.66" height="86.25" as="geometry"/>
+                </mxCell>
+                <mxCell id="370" value="選択" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1015.2399999999999" y="653.75" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="371" value="タグ選択：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="995.2399999999999" y="692.5" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="372" value="選択" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="1067.74" y="692.5" width="52.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="373" value="カテゴリー選択：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="962.2599999999999" y="722.5" width="110" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="374" value="選択" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="1067.5800000000002" y="722.5" width="50" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="375" value="" style="endArrow=none;html=1;exitX=-0.003;exitY=0.923;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.005;entryY=0.921;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="273" target="273" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="508.0000000000001" y="1380" as="sourcePoint"/>
+                        <mxPoint x="827.36" y="1380.08" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="376" value="" style="endArrow=none;html=1;exitX=-0.003;exitY=0.923;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.005;entryY=0.921;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="957.43" y="831.2599999999998" as="sourcePoint"/>
+                        <mxPoint x="1330.3899999999999" y="830" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="377" value="&lt;font style=&quot;font-size: 11px&quot;&gt;フォロー中&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="870" width="180" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="378" value="&lt;font style=&quot;font-size: 11px&quot;&gt;フォロワー&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="230" y="870" width="170" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="379" value="&lt;font style=&quot;font-size: 11px&quot;&gt;お気に入り&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="230.14" y="592.5" width="160" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="380" value="&lt;span style=&quot;font-size: 11px&quot;&gt;投稿一覧&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="59.97999999999996" y="592.5" width="170.16" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="381" value="投稿/編集画面②" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1107.74" y="400" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="382" value="戻る" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="688" y="700" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="383" value="&lt;font style=&quot;font-size: 11px&quot;&gt;戻る&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="1160.24" y="777.5" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="384" value="&lt;font style=&quot;font-size: 11px&quot;&gt;戻る&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="699.84" y="1330" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="388" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="1200" width="370" height="740" as="geometry"/>
+                </mxCell>
+                <mxCell id="389" value="&lt;font style=&quot;font-size: 9px&quot;&gt;Wonderful Life&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="1210" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="390" value="&lt;font size=&quot;1&quot;&gt;投稿&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="265" y="1210" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="391" value="&lt;font size=&quot;1&quot;&gt;マイページ&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="294.99999999999994" y="1210" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="392" value="&lt;font size=&quot;1&quot;&gt;ログアウト&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="349.99999999999994" y="1210" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="393" value="" style="endArrow=none;html=1;exitX=-0.001;exitY=0.15;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.996;entryY=0.146;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="40" y="1241.16" as="sourcePoint"/>
+                        <mxPoint x="408.8899999999999" y="1240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="394" value="投稿内容詳細①" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="175" y="1173.75" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="395" value="&lt;font style=&quot;font-size: 8px&quot;&gt;編集&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="1260" width="50" height="17.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="396" value="&lt;span style=&quot;font-size: 8px&quot;&gt;戻る&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="165" y="1260" width="50" height="17.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="397" value="投稿画像/動画" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="51.11" y="1295" width="95.78" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="398" value="コメント" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="49.68" y="1728.75" width="220.32" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="399" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="51.11" y="1400" width="218.89" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="400" value="材料" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="58.75" y="1411.25" width="91.25" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="401" value="材料" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="58.75" y="1431.25" width="91.25" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="402" value="材料" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="58.75" y="1451.25" width="91.25" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="403" value="分量" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="174.01" y="1411.25" width="85.99" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="404" value="分量" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="174.01" y="1451.25" width="85.99" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="405" value="分量" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="174.01" y="1431.25" width="85.99" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="406" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="1503.13" width="220" height="213.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="407" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="55.46" y="1508.13" width="204.54" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="408" value="手順画像" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="63.99999999999999" y="1516.25" width="70" height="63.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="409" value="手順" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="1516.26" width="110" height="63.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="413" value="投稿日" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="155" y="1295" width="105" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="414" value="タイトル" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="155" y="1320" width="105" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="415" value="カテゴリ" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="155" y="1350" width="105" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="418" value="タイトル" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="498" y="880" width="82" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="419" value="タグ" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="155" y="1380" width="105" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="421" value="&lt;font style=&quot;font-size: 8px&quot;&gt;編集&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="102.34" y="1852.5" width="50" height="17.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="422" value="&lt;span style=&quot;font-size: 8px&quot;&gt;戻る&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="167.34" y="1852.5" width="50" height="17.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="423" value="" style="endArrow=none;html=1;exitX=-0.003;exitY=0.923;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.005;entryY=0.921;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="38.980000000000075" y="1891.2599999999998" as="sourcePoint"/>
+                        <mxPoint x="411.9399999999999" y="1890" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="430" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="483" y="1520" width="370" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="431" value="&lt;font style=&quot;font-size: 9px&quot;&gt;Wonderful Life&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="503" y="1530" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="432" value="&lt;font size=&quot;1&quot;&gt;投稿&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="708" y="1530" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="433" value="&lt;font size=&quot;1&quot;&gt;マイページ&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="738" y="1530" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="434" value="&lt;font size=&quot;1&quot;&gt;ログアウト&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="793" y="1530" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="435" value="" style="endArrow=none;html=1;exitX=-0.001;exitY=0.15;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.996;entryY=0.146;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="483" y="1561.16" as="sourcePoint"/>
+                        <mxPoint x="851.8899999999999" y="1560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="436" value="" style="endArrow=none;html=1;exitX=-0.003;exitY=0.923;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.005;entryY=0.921;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="483.00000000000006" y="1841.2599999999998" as="sourcePoint"/>
+                        <mxPoint x="855.9599999999997" y="1840" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="437" value="&lt;font style=&quot;font-size: 8px&quot;&gt;編集&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="555.34" y="1578.75" width="50" height="17.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="438" value="&lt;span style=&quot;font-size: 8px&quot;&gt;戻る&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="620.34" y="1578.75" width="50" height="17.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="439" value="フリーテキスト" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="1718.75" width="230" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="440" value="投稿画像/動画" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="499" y="1606.25" width="110" height="101.25" as="geometry"/>
+                </mxCell>
+                <mxCell id="441" value="投稿日" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="618" y="1606.25" width="112" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="442" value="カテゴリ" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="618" y="1659.38" width="112" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="443" value="タグ" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="618" y="1690" width="112" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="445" value="タイトル" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="983.58" y="517.5" width="141.66" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="446" value="タイトル" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="618" y="1630" width="112" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="447" value="投稿内容詳細②" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="614.8399999999999" y="1490" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="448" value="食材一覧画面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1015" y="1330" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="449" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="884" y="1360" width="370" height="1360" as="geometry"/>
+                </mxCell>
+                <mxCell id="450" value="&lt;font style=&quot;font-size: 9px&quot;&gt;Wonderful Life&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="904" y="1370" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="451" value="&lt;font size=&quot;1&quot;&gt;投稿&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1109" y="1370" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="452" value="&lt;font size=&quot;1&quot;&gt;マイページ&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1139" y="1370" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="453" value="&lt;font size=&quot;1&quot;&gt;ログアウト&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1194" y="1370" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="454" value="" style="endArrow=none;html=1;exitX=-0.001;exitY=0.15;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.996;entryY=0.146;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="884" y="1401.16" as="sourcePoint"/>
+                        <mxPoint x="1252.8899999999999" y="1400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="456" value="&lt;u&gt;食材検索&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="904" y="1411.25" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="457" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="900" y="1451.25" width="340" height="88.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="464" value="肉類" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="907.18" y="1461.25" width="47.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="467" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="974" y="1416.25" width="86" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="468" value="&lt;font style=&quot;font-size: 6px&quot;&gt;検索&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="1065" y="1416.25" width="20" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="469" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="900" y="1550" width="340" height="88.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="470" value="魚介類" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="910.25" y="1560" width="47.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="475" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="900" y="1650" width="340" height="88.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="476" value="&lt;font style=&quot;font-size: 8px&quot;&gt;乳製品&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="910.25" y="1660" width="47.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="484" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="900" y="1950" width="340" height="88.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="485" value="&lt;span style=&quot;font-size: 6px&quot;&gt;きのこ・山菜類&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="910.25" y="1960" width="47.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="487" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="900" y="1750" width="340" height="88.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="488" value="卵類" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="910.25" y="1757.5" width="47.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="490" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="900" y="1850" width="340" height="88.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="491" value="芋類" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="910.93" y="1857.5" width="47.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="521" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="900" y="2150" width="340" height="88.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="522" value="&lt;font style=&quot;font-size: 10px&quot;&gt;ごはん類&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="910.25" y="2160" width="47.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="523" value="絵" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="914.68" y="2190" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="524" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="900" y="2050" width="340" height="88.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="525" value="大豆類" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="910.93" y="2060" width="47.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="538" value="絵" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="914" y="2090" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="539" value="絵" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="914" y="1990" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="542" value="絵" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="914" y="1890" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="543" value="絵" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="914" y="1790" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="544" value="絵" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="914" y="1690" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="545" value="絵" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="914" y="1590" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="546" value="絵" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="910.93" y="1490" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="548" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="901" y="2250" width="340" height="88.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="549" value="絵" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="915.68" y="2290" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="550" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="901" y="2350" width="340" height="88.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="551" value="絵" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="915.68" y="2390" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="552" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="899" y="2450" width="340" height="88.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="553" value="絵" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="913.68" y="2490" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="554" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="899" y="2550" width="340" height="88.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="555" value="絵" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="913.68" y="2590" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="479" value="麺類" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="910.31" y="2260" width="47.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="473" value="野菜類" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="910.25" y="2360" width="47.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="528" value="&lt;span style=&quot;font-size: 8px&quot;&gt;その他&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="908.18" y="2560" width="47.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="556" value="牛肉　牛ステーキ　牛ブロック　豚肉　豚ブロック　鳥もも肉　鶏むね肉　手羽先　挽き肉　ハム・ソーセージ・ベーコン類　その他肉類" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="964" y="1461.25" width="266" height="58.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="558" value="さけ・サーモン　ぶり　さば　さんま　しらす　ツナ缶　エビ・カニ　イカ・タコ　貝類　魚卵　練り物　その他魚介類" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="967.81" y="1560" width="262.19" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="559" value="牛乳　チーズ　バター　ヨーグルト　生クリーム　その他乳製品" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="969.62" y="1659.38" width="262.19" height="60.62" as="geometry"/>
+                </mxCell>
+                <mxCell id="560" value="鶏卵　その他鶏卵" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="965.91" y="1757.5" width="262.19" height="62.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="561" value="ジャガイモ　さつまいも　里芋　長芋　山芋　こんにゃく　その他芋類" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="967.81" y="1857.5" width="262.19" height="62.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="562" value="しいたけ　しめじ　エリンギ　えのき　まいたけ　その他きのこ・山菜類" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="969.62" y="1960" width="262.19" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="563" value="豆腐　油揚げ　厚揚げ　納豆　その他大豆類" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="969.68" y="2060" width="262.19" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="564" value="ごはん　米　もち米　餅　その他ご飯類" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="969.68" y="2160" width="262.19" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="565" value="うどん　ラーメン　そば　そうめん　中華麺　パスタ　スパゲティ　その他麺類" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="969.68" y="2258.13" width="262.19" height="61.87" as="geometry"/>
+                </mxCell>
+                <mxCell id="566" value="キャベツ　レタス類　白菜　玉ねぎ　ねぎ　もやし　トマト　きゅうり　なす　ピーマン　かぼちゃ　にんじん　大根　生姜　果物類" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="969.68" y="2360" width="262.19" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="567" value="食パン　フランスパン　その他パン類" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="969.68" y="2458.13" width="262.19" height="61.87" as="geometry"/>
+                </mxCell>
+                <mxCell id="568" value="その他食材" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="969.68" y="2558.13" width="262.19" height="61.87" as="geometry"/>
+                </mxCell>
+                <mxCell id="570" value="パン類" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="909.93" y="2458.13" width="47.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="571" value="&lt;span style=&quot;font-size: 8px&quot;&gt;戻る&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="1170.31" y="1412.5" width="49.69" height="17.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="572" value="&lt;font style=&quot;font-size: 10px&quot;&gt;→肉類レシピ一覧へ&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1116.87" y="1520" width="110" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="573" value="&lt;font style=&quot;font-size: 10px&quot;&gt;→魚介類レシピ一覧へ&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1109" y="1618.75" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="574" value="&lt;font style=&quot;font-size: 10px&quot;&gt;→乳製品レシピ一覧へ&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1111.87" y="1718.75" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="575" value="&lt;font style=&quot;font-size: 10px&quot;&gt;→卵類レシピ一覧へ&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1116.87" y="1820" width="110" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="576" value="&lt;font style=&quot;font-size: 10px&quot;&gt;→芋類レシピ一覧へ&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1116.87" y="1918.75" width="110" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="577" value="&lt;font style=&quot;font-size: 10px&quot;&gt;→きのこ・山菜類レシピ一覧へ&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1086.81" y="2018.75" width="150" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="578" value="&lt;font style=&quot;font-size: 10px&quot;&gt;→大豆類レシピ一覧へ&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1109" y="2118.75" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="579" value="&lt;font style=&quot;font-size: 10px&quot;&gt;→ごはん類レシピ一覧へ&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1106.87" y="2218.75" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="580" value="&lt;font style=&quot;font-size: 10px&quot;&gt;→麺類レシピ一覧へ&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1106.81" y="2318" width="110" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="581" value="&lt;font style=&quot;font-size: 10px&quot;&gt;→パン類レシピ一覧へ&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1101.81" y="2518.75" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="582" value="&lt;font style=&quot;font-size: 10px&quot;&gt;→その他食材レシピ一覧へ&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1090" y="2618.75" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="583" value="&lt;b style=&quot;color: rgb(92 , 92 , 92) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;選択食材レシピ一覧&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="149.53" y="2050" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="589" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="2090" width="370" height="460" as="geometry"/>
+                </mxCell>
+                <mxCell id="590" value="&lt;font style=&quot;font-size: 9px&quot;&gt;Wonderful Life&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="2100" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="591" value="&lt;font size=&quot;1&quot;&gt;投稿&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="265" y="2100" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="592" value="&lt;font size=&quot;1&quot;&gt;マイページ&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="294.99999999999994" y="2100" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="593" value="&lt;font size=&quot;1&quot;&gt;ログアウト&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="349.99999999999994" y="2100" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="594" value="" style="endArrow=none;html=1;exitX=-0.001;exitY=0.15;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.996;entryY=0.146;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="40" y="2131.16" as="sourcePoint"/>
+                        <mxPoint x="408.8899999999999" y="2130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="595" value="「選択食材」レシピ一覧　　　　　" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="49.68" y="2145" width="349.54" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="584" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="60.620000000000005" y="2215.5" width="330" height="102.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="585" value="投稿画像/動画" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="70.95999999999998" y="2225.5" width="155" height="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="586" value="投稿内容" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="236.86999999999995" y="2225.5" width="145" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="587" value="&lt;font style=&quot;font-size: 10px&quot;&gt;詳細　編集　削除&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="267.8" y="2298" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="608" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="60.63" y="2318.75" width="330" height="102.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="609" value="投稿画像/動画" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="70.96999999999998" y="2328.75" width="155" height="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="610" value="投稿内容" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="236.87999999999994" y="2328.75" width="145" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="611" value="&lt;font style=&quot;font-size: 10px&quot;&gt;詳細　編集　削除&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="267.81" y="2401.25" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="612" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="60.620000000000005" y="2421.25" width="330" height="102.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="613" value="投稿画像/動画" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="70.95999999999998" y="2431.25" width="155" height="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="614" value="投稿内容" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="236.86999999999995" y="2431.25" width="145" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="615" value="&lt;font style=&quot;font-size: 10px&quot;&gt;詳細　編集　削除&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="267.8" y="2503.75" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="616" value="&lt;span style=&quot;font-size: 8px&quot;&gt;食材一覧へ戻る&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="320.46" y="2162.5" width="59.54" height="17.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="617" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="2077" width="370" height="1013" as="geometry"/>
+                </mxCell>
+                <mxCell id="618" value="&lt;font style=&quot;font-size: 9px&quot;&gt;Wonderful Life&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="2090" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="619" value="&lt;font size=&quot;1&quot;&gt;投稿&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="705" y="2090" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="620" value="&lt;font size=&quot;1&quot;&gt;マイページ&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="735" y="2090" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="621" value="&lt;font size=&quot;1&quot;&gt;ログアウト&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="790" y="2090" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="622" value="" style="endArrow=none;html=1;exitX=-0.001;exitY=0.15;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.996;entryY=0.146;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="480" y="2121.16" as="sourcePoint"/>
+                        <mxPoint x="848.8899999999999" y="2120" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="623" value="カテゴリー別レシピ一覧" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="589.8399999999999" y="2050" width="150" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="625" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="498" y="2180" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="626" value="肉料理" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="538" y="2187.5" width="47.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="627" value="絵" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="500.5" y="2183.75" width="27.5" height="27.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="629" value="&lt;u&gt;カテゴリ検索&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="484.84" y="2131.25" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="630" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="569.8399999999999" y="2136.25" width="86" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="631" value="&lt;font style=&quot;font-size: 6px&quot;&gt;検索&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="660.8399999999999" y="2136.25" width="20" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="632" value="&lt;span style=&quot;font-size: 8px&quot;&gt;戻る&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="766.1499999999999" y="2132.5" width="49.69" height="17.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="634" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="618" y="2180" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="635" value="魚料理" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="658" y="2188.5" width="47.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="636" value="絵" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="620.5" y="2184.75" width="27.5" height="27.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="637" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="738" y="2180" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="638" value="麺料理" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="778" y="2187.5" width="47.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="639" value="絵" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="740.5" y="2183.75" width="27.5" height="27.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="640" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="499" y="2301" width="100" height="99" as="geometry"/>
+                </mxCell>
+                <mxCell id="641" value="&lt;font style=&quot;font-size: 10px&quot;&gt;野菜料理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="539" y="2308.5" width="47.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="642" value="絵" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="501.5" y="2304.75" width="27.5" height="27.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="643" value="&lt;font style=&quot;font-size: 10px&quot;&gt;レシピ①&lt;br&gt;レシピ②&lt;br&gt;レシピ③&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="510" y="2335" width="60" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="644" value="&lt;font style=&quot;font-size: 10px&quot;&gt;→もっとみる&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="522.75" y="2381.25" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="649" value="&lt;font style=&quot;font-size: 10px&quot;&gt;レシピ①&lt;br&gt;レシピ②&lt;br&gt;レシピ③&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="745.25" y="2212.25" width="60" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="650" value="&lt;font style=&quot;font-size: 10px&quot;&gt;→もっとみる&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="758" y="2258.5" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="651" value="&lt;font style=&quot;font-size: 10px&quot;&gt;レシピ①&lt;br&gt;レシピ②&lt;br&gt;レシピ③&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="623" y="2211.25" width="60" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="652" value="&lt;font style=&quot;font-size: 10px&quot;&gt;→もっとみる&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="635.75" y="2257.5" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="653" value="&lt;font style=&quot;font-size: 10px&quot;&gt;レシピ①&lt;br&gt;レシピ②&lt;br&gt;レシピ③&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="506.25" y="2213.75" width="60" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="654" value="&lt;font style=&quot;font-size: 10px&quot;&gt;→もっとみる&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="519" y="2260" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="655" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="619" y="2298" width="100" height="99" as="geometry"/>
+                </mxCell>
+                <mxCell id="656" value="&lt;font style=&quot;font-size: 9px&quot;&gt;ごはんもの&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="659" y="2305.5" width="47.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="657" value="絵" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="621.5" y="2301.75" width="27.5" height="27.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="658" value="&lt;font style=&quot;font-size: 10px&quot;&gt;レシピ①&lt;br&gt;レシピ②&lt;br&gt;レシピ③&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="630" y="2332" width="60" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="659" value="&lt;font style=&quot;font-size: 10px&quot;&gt;→もっとみる&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="642.75" y="2378.25" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="660" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="735" y="2298" width="100" height="99" as="geometry"/>
+                </mxCell>
+                <mxCell id="661" value="パスタ" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="775" y="2305.5" width="47.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="662" value="絵" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="737.5" y="2301.75" width="27.5" height="27.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="663" value="&lt;font style=&quot;font-size: 10px&quot;&gt;レシピ①&lt;br&gt;レシピ②&lt;br&gt;レシピ③&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="746" y="2332" width="60" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="664" value="&lt;font style=&quot;font-size: 10px&quot;&gt;→もっとみる&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="758.75" y="2378.25" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="665" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="501" y="2419" width="100" height="99" as="geometry"/>
+                </mxCell>
+                <mxCell id="666" value="和食" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="541" y="2426.5" width="47.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="667" value="絵" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="503.5" y="2422.75" width="27.5" height="27.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="668" value="&lt;font style=&quot;font-size: 10px&quot;&gt;レシピ①&lt;br&gt;レシピ②&lt;br&gt;レシピ③&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="512" y="2453" width="60" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="669" value="&lt;font style=&quot;font-size: 10px&quot;&gt;→もっとみる&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="524.75" y="2499.25" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="670" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="619" y="2419" width="100" height="99" as="geometry"/>
+                </mxCell>
+                <mxCell id="671" value="洋食" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="659" y="2426.5" width="47.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="672" value="絵" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="621.5" y="2422.75" width="27.5" height="27.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="673" value="&lt;font style=&quot;font-size: 10px&quot;&gt;レシピ①&lt;br&gt;レシピ②&lt;br&gt;レシピ③&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="630" y="2453" width="60" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="674" value="&lt;font style=&quot;font-size: 10px&quot;&gt;→もっとみる&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="642.75" y="2499.25" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="675" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="735" y="2418" width="100" height="99" as="geometry"/>
+                </mxCell>
+                <mxCell id="676" value="&lt;font style=&quot;font-size: 8px&quot;&gt;イタリア料理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="775" y="2425.5" width="55" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="677" value="絵" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="737.5" y="2421.75" width="27.5" height="27.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="678" value="&lt;font style=&quot;font-size: 10px&quot;&gt;レシピ①&lt;br&gt;レシピ②&lt;br&gt;レシピ③&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="746" y="2452" width="60" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="679" value="&lt;font style=&quot;font-size: 10px&quot;&gt;→もっとみる&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="758.75" y="2498.25" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="680" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="501" y="2539" width="100" height="99" as="geometry"/>
+                </mxCell>
+                <mxCell id="681" value="&lt;font style=&quot;font-size: 8px&quot;&gt;フランス料理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="538" y="2545.5" width="59" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="682" value="絵" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="503.5" y="2542.75" width="27.5" height="27.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="683" value="&lt;font style=&quot;font-size: 10px&quot;&gt;レシピ①&lt;br&gt;レシピ②&lt;br&gt;レシピ③&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="512" y="2573" width="60" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="684" value="&lt;font style=&quot;font-size: 10px&quot;&gt;→もっとみる&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="524.75" y="2619.25" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="685" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="621" y="2538" width="100" height="99" as="geometry"/>
+                </mxCell>
+                <mxCell id="686" value="サラダ" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="661" y="2545.5" width="47.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="687" value="絵" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="623.5" y="2541.75" width="27.5" height="27.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="688" value="&lt;font style=&quot;font-size: 10px&quot;&gt;レシピ①&lt;br&gt;レシピ②&lt;br&gt;レシピ③&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="632" y="2572" width="60" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="689" value="&lt;font style=&quot;font-size: 10px&quot;&gt;→もっとみる&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="644.75" y="2618.25" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="690" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="735" y="2537" width="100" height="99" as="geometry"/>
+                </mxCell>
+                <mxCell id="691" value="&lt;font style=&quot;font-size: 8px&quot;&gt;たれ・ソース&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="775" y="2544.5" width="55" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="692" value="絵" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="737.5" y="2540.75" width="27.5" height="27.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="693" value="&lt;font style=&quot;font-size: 10px&quot;&gt;レシピ①&lt;br&gt;レシピ②&lt;br&gt;レシピ③&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="746" y="2571" width="60" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="694" value="&lt;font style=&quot;font-size: 10px&quot;&gt;→もっとみる&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="758.75" y="2617.25" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="696" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="501" y="2660" width="100" height="99" as="geometry"/>
+                </mxCell>
+                <mxCell id="697" value="粉物" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="541" y="2667.5" width="47.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="698" value="絵" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="503.5" y="2663.75" width="27.5" height="27.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="699" value="&lt;font style=&quot;font-size: 10px&quot;&gt;レシピ①&lt;br&gt;レシピ②&lt;br&gt;レシピ③&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="512" y="2694" width="60" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="700" value="&lt;font style=&quot;font-size: 10px&quot;&gt;→もっとみる&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="524.75" y="2740.25" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="701" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="623" y="2659" width="100" height="99" as="geometry"/>
+                </mxCell>
+                <mxCell id="702" value="&lt;font style=&quot;font-size: 10px&quot;&gt;おつまみ&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="663" y="2666.5" width="47.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="703" value="絵" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="625.5" y="2662.75" width="27.5" height="27.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="704" value="&lt;font style=&quot;font-size: 10px&quot;&gt;レシピ①&lt;br&gt;レシピ②&lt;br&gt;レシピ③&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="634" y="2693" width="60" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="705" value="&lt;font style=&quot;font-size: 10px&quot;&gt;→もっとみる&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="646.75" y="2739.25" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="706" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="735" y="2658" width="100" height="99" as="geometry"/>
+                </mxCell>
+                <mxCell id="707" value="時短" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="775" y="2665.5" width="47.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="708" value="絵" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="737.5" y="2661.75" width="27.5" height="27.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="709" value="&lt;font style=&quot;font-size: 10px&quot;&gt;レシピ①&lt;br&gt;レシピ②&lt;br&gt;レシピ③&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="746" y="2692" width="60" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="710" value="&lt;font style=&quot;font-size: 10px&quot;&gt;→もっとみる&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="758.75" y="2738.25" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="711" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="502" y="2780" width="100" height="99" as="geometry"/>
+                </mxCell>
+                <mxCell id="712" value="&lt;font style=&quot;font-size: 10px&quot;&gt;アニメ飯&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="542" y="2787.5" width="47.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="713" value="絵" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="504.5" y="2783.75" width="27.5" height="27.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="714" value="&lt;font style=&quot;font-size: 10px&quot;&gt;レシピ①&lt;br&gt;レシピ②&lt;br&gt;レシピ③&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="513" y="2814" width="60" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="715" value="&lt;font style=&quot;font-size: 10px&quot;&gt;→もっとみる&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="525.75" y="2860.25" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="716" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="624" y="2780" width="100" height="99" as="geometry"/>
+                </mxCell>
+                <mxCell id="717" value="&lt;font style=&quot;font-size: 9px&quot;&gt;ダイエット&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="664" y="2787.5" width="47.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="718" value="絵" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="626.5" y="2783.75" width="27.5" height="27.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="719" value="&lt;font style=&quot;font-size: 10px&quot;&gt;レシピ①&lt;br&gt;レシピ②&lt;br&gt;レシピ③&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="635" y="2814" width="60" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="720" value="&lt;font style=&quot;font-size: 10px&quot;&gt;→もっとみる&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="647.75" y="2860.25" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="721" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="737" y="2779" width="100" height="99" as="geometry"/>
+                </mxCell>
+                <mxCell id="722" value="&lt;font style=&quot;font-size: 10px&quot;&gt;高タンパク&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="777" y="2786.5" width="53" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="723" value="絵" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="739.5" y="2782.75" width="27.5" height="27.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="724" value="&lt;font style=&quot;font-size: 10px&quot;&gt;レシピ①&lt;br&gt;レシピ②&lt;br&gt;レシピ③&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="748" y="2813" width="60" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="725" value="&lt;font style=&quot;font-size: 10px&quot;&gt;→もっとみる&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="760.75" y="2859.25" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="727" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="502" y="2900" width="100" height="99" as="geometry"/>
+                </mxCell>
+                <mxCell id="728" value="お菓子" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="542" y="2907.5" width="47.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="729" value="絵" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="504.5" y="2903.75" width="27.5" height="27.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="730" value="&lt;font style=&quot;font-size: 10px&quot;&gt;レシピ①&lt;br&gt;レシピ②&lt;br&gt;レシピ③&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="513" y="2934" width="60" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="731" value="&lt;font style=&quot;font-size: 10px&quot;&gt;→もっとみる&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="525.75" y="2980.25" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="732" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="624" y="2900" width="100" height="99" as="geometry"/>
+                </mxCell>
+                <mxCell id="733" value="定番" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="664" y="2907.5" width="47.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="734" value="絵" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="626.5" y="2903.75" width="27.5" height="27.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="735" value="&lt;font style=&quot;font-size: 10px&quot;&gt;レシピ①&lt;br&gt;レシピ②&lt;br&gt;レシピ③&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="635" y="2934" width="60" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="736" value="&lt;font style=&quot;font-size: 10px&quot;&gt;→もっとみる&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="647.75" y="2980.25" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="737" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="738" y="2900" width="100" height="99" as="geometry"/>
+                </mxCell>
+                <mxCell id="738" value="その他" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="778" y="2907.5" width="47.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="739" value="絵" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="740.5" y="2903.75" width="27.5" height="27.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="740" value="&lt;font style=&quot;font-size: 10px&quot;&gt;レシピ①&lt;br&gt;レシピ②&lt;br&gt;レシピ③&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="749" y="2934" width="60" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="741" value="&lt;font style=&quot;font-size: 10px&quot;&gt;→もっとみる&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="761.75" y="2980.25" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="742" value="" style="endArrow=none;html=1;exitX=-0.003;exitY=0.923;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.005;entryY=0.921;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="882.52" y="2678.1299999999997" as="sourcePoint"/>
+                        <mxPoint x="1255.48" y="2676.87" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="743" value="" style="endArrow=none;html=1;exitX=-0.003;exitY=0.923;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.005;entryY=0.921;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="479.99999999999994" y="3041.2599999999998" as="sourcePoint"/>
+                        <mxPoint x="852.96" y="3040" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="763" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="44" y="2680" width="370" height="460" as="geometry"/>
+                </mxCell>
+                <mxCell id="764" value="&lt;font style=&quot;font-size: 9px&quot;&gt;Wonderful Life&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="64" y="2690" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="765" value="&lt;font size=&quot;1&quot;&gt;投稿&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="269" y="2690" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="766" value="&lt;font size=&quot;1&quot;&gt;マイページ&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="298.99999999999994" y="2690" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="767" value="&lt;font size=&quot;1&quot;&gt;ログアウト&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="353.99999999999994" y="2690" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="768" value="「選択カテゴリ」レシピ一覧　　　　　" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="53.68" y="2735" width="349.54" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="769" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="64.62" y="2805.5" width="330" height="102.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="770" value="投稿画像/動画" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="74.95999999999998" y="2815.5" width="155" height="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="771" value="投稿内容" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="240.86999999999995" y="2815.5" width="145" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="772" value="&lt;font style=&quot;font-size: 10px&quot;&gt;詳細　編集　削除&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="271.8" y="2888" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="773" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="64.63" y="2908.75" width="330" height="102.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="774" value="投稿画像/動画" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="74.96999999999998" y="2918.75" width="155" height="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="775" value="投稿内容" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="240.87999999999994" y="2918.75" width="145" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="776" value="&lt;font style=&quot;font-size: 10px&quot;&gt;詳細　編集　削除&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="271.81" y="2991.25" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="777" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="64.62" y="3011.25" width="330" height="102.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="778" value="投稿画像/動画" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="74.95999999999998" y="3021.25" width="155" height="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="779" value="投稿内容" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="240.86999999999995" y="3021.25" width="145" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="780" value="&lt;font style=&quot;font-size: 10px&quot;&gt;詳細　編集　削除&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="271.8" y="3093.75" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="781" value="&lt;span style=&quot;font-size: 8px&quot;&gt;カテゴリー覧へ戻る&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="2752.5" width="74" height="17.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="782" value="選択カテゴリーレシピ一覧" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="144.9799999999999" y="2645.5" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="783" value="コメント欄" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="737" y="1578.75" width="103" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="784" value="コメント欄" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="1290" width="114.62" height="580" as="geometry"/>
+                </mxCell>
+                <mxCell id="785" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="55.46000000000001" y="1596.25" width="204.54" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="786" value="手順画像" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="64" y="1604.37" width="70" height="63.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="787" value="手順" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="1604.38" width="110" height="63.75" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
