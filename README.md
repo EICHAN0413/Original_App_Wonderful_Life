@@ -27,11 +27,12 @@ $ rails s
 ## カタログ設計書・テーブル設計書 
 https://docs.google.com/spreadsheets/d/1vNKCltPzfwPwg2gaHW1JySGZa0V0K3SxM_aHv3JmB8I/edit?usp=sharing
 
-## フレームワーク
-<img width="351" alt="スクリーンショット 2021-09-22 13 54 32" src="https://user-images.githubusercontent.com/85597833/134286019-9cdf9d1c-d815-487c-895c-f3d2bea867e6.png">
+## ワイヤーフレーム
+<img width="819" alt="スクリーンショット 2021-09-24 0 33 47" src="https://user-images.githubusercontent.com/85597833/134538843-9dccb02f-026b-4812-bf41-dae325a35f5c.png">
+
 
 ## ER図
-<img width="831" alt="スクリーンショット 2021-09-22 13 55 36" src="https://user-images.githubusercontent.com/85597833/134285932-573ba9dd-6ff8-4f9f-927f-dfa6fb76a0a9.png">
+<img width="948" alt="スクリーンショット 2021-09-24 0 35 19" src="https://user-images.githubusercontent.com/85597833/134538504-ff57cde0-fa65-4688-b0b2-8c81eb22c339.png">
 
 ## 画面転移図
-<img width="870" alt="スクリーンショット 2021-09-22 13 55 12" src="https://user-images.githubusercontent.com/85597833/134285974-cc242231-652d-4fb8-9f34-cb4c257cf437.png">
+<img width="1022" alt="スクリーンショット 2021-09-24 0 34 23" src="https://user-images.githubusercontent.com/85597833/134538682-a6f84aa7-eed9-4a4a-8902-4fc4814647cf.png">
