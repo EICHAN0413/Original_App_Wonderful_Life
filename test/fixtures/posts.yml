@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  material: MyString
+  amount: MyString
+  procedure: MyText
+  cooking_image: MyText
+  procedure_image: MyText
+  tag: 1
+  text: MyText
+  free_text: MyText
+
+two:
+  title: MyString
+  material: MyString
+  amount: MyString
+  procedure: MyText
+  cooking_image: MyText
+  procedure_image: MyText
+  tag: 1
+  text: MyText
+  free_text: MyText

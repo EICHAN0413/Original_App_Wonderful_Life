@@ -1,0 +1,37 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @post.title %>
+  <%= image_tag @post.cooking_image.url %>
+</p>
+
+<p>
+  <strong>材料</strong>
+  <% %>
+</p>
+
+<p>
+  <strong>Procedure:</strong>
+  <%= @post.procedure %>
+  <%= image_tag @post.procedure_image.url %>
+</p>
+
+
+<p>
+  <strong>Tag:</strong>
+  <%= @post.tag %>
+</p>
+
+<p>
+  <strong>Text:</strong>
+  <%= @post.text %>
+</p>
+
+<p>
+  <strong>Free text:</strong>
+  <%= @post.free_text %>
+</p>
+
+<%= link_to 'Edit', edit_post_path(@post) %> |
+<%= link_to 'Back', posts_path %>

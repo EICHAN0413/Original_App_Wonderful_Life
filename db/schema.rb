@@ -10,9 +10,74 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 2021_09_28_064034) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+  create_table "material_categories", force: :cascade do |t|
+    t.string "type"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "material_relationships", force: :cascade do |t|
+    t.bigint "material_category_id"
+    t.bigint "material_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["material_category_id"], name: "index_material_relationships_on_material_category_id"
+    t.index ["material_id"], name: "index_material_relationships_on_material_id"
+  end
+
+  create_table "materials", force: :cascade do |t|
+    t.string "type_name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "post_material_categories", force: :cascade do |t|
+    t.bigint "post_id"
+    t.bigint "material_category_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["material_category_id"], name: "index_post_material_categories_on_material_category_id"
+    t.index ["post_id"], name: "index_post_material_categories_on_post_id"
+  end
+
+  create_table "post_recipe_categories", force: :cascade do |t|
+    t.bigint "post_id"
+    t.bigint "recipe_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["post_id"], name: "index_post_recipe_categories_on_post_id"
+    t.index ["recipe_id"], name: "index_post_recipe_categories_on_recipe_id"
+  end
+
+  create_table "posts", force: :cascade do |t|
+    t.string "title"
+    t.string "material"
+    t.string "amount"
+    t.text "procedure"
+    t.text "cooking_image"
+    t.text "procedure_image"
+    t.integer "tag"
+    t.text "text"
+    t.text "free_text"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "recipes", force: :cascade do |t|
+    t.string "title_category"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  add_foreign_key "material_relationships", "material_categories"
+  add_foreign_key "material_relationships", "materials"
+  add_foreign_key "post_material_categories", "material_categories"
+  add_foreign_key "post_material_categories", "posts"
+  add_foreign_key "post_recipe_categories", "posts"
+  add_foreign_key "post_recipe_categories", "recipes"
 end
