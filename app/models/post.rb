@@ -5,6 +5,10 @@ class Post < ApplicationRecord
 
     has_many :post_recipe_categories, dependent: :destroy
     has_many :post_material_categories, dependent: :destroy
+    has_many :favorites, dependent: :destroy
+    has_many :favorite_users, through: :favorites, source: :user
+    belongs_to :user
+    has_many :comments, dependent: :destroy
 
 
     enum tag:{ ガッツリ系:0,

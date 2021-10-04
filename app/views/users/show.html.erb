@@ -1,0 +1,20 @@
+<body>
+<h1><%= @user.name %>のページ</h1>
+<p>メールアドレス: <%= @user.email %></p>
+<p><%= link_to '編集', edit_user_registration_path %></p>
+
+<% unless current_user.id == @user.id %>
+<% unless current_user.following?(@user) %>
+<div id="follow_form_<%= @user.id %>">
+  <%= form_with(model: current_user.active_relationships.build(followed_id: @user.id))  do |f| %>
+    <%= f.hidden_field :followed_id %>
+    <%= f.submit "フォロー" %>
+  <% end %>
+  <% else %>
+    <%= form_with(model: current_user.active_relationships.find_by(followed_id: @user.id), method: :delete ) do |f| %>
+      <%= f.submit "フォロー解除" %>
+    <% end %>
+  <% end %>
+  <% end %>
+</div>
+</body>

@@ -17,6 +17,10 @@ gem 'mini_magick'
 gem 'mimemagic', '0.3.7'
 gem "webpacker"
 gem 'nested_form_fields'
+gem 'devise'
+gem 'rexml'
+gem 'devise-i18n'
+gem 'pry-rails'
 
 gem 'bootsnap', '>= 1.1.0', require: false
 
@@ -29,6 +33,7 @@ group :development do
   gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'letter_opener_web'
 end
 
 group :test do
