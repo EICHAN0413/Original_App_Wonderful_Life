@@ -21,6 +21,8 @@ gem 'devise'
 gem 'rexml'
 gem 'devise-i18n'
 gem 'pry-rails'
+gem 'rails_admin'
+gem 'cancancan'
 
 gem 'bootsnap', '>= 1.1.0', require: false
 

@@ -9,7 +9,9 @@
 <p>
   <strong>Title:</strong>
   <%= @post.title %>
-  <%= image_tag @post.cooking_image.url %>
+  <% @post.cooking_images.each do |post| %>
+   <%= image_tag (post.url) %>
+  <% end %>
 </p>
 
 <p>
@@ -20,7 +22,9 @@
 <p>
   <strong>Procedure:</strong>
   <%= @post.procedure %>
-  <%= image_tag @post.procedure_image.url %>
+  <% @post.procedure_images.each do |post| %>
+   <%= image_tag (post.url) %>
+  <% end %>
 </p>
 
 

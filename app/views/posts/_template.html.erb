@@ -1,16 +1,17 @@
-<%= form_with(model: post, local: true) do |form| %>
-  <% if post.errors.any? %>
+<%= form_with(model: @post, local: true) do |form| %>
+  <% if @post.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(post.errors.count, "error") %> prohibited this post from being saved:</h2>
+      <h2><%= pluralize(@post.errors.count, "error") %> prohibited this post from being saved:</h2>
 
       <ul>
-      <% post.errors.full_messages.each do |message| %>
+      <% @post.errors.full_messages.each do |message| %>
         <li><%= message %></li>
       <% end %>
       </ul>
     </div>
   <% end %>
 
+  <div class = "container_template">
   <div class="field">
     <%= form.label :title %>
     <%= form.text_field :title %>
@@ -23,8 +24,9 @@
     <%= form.text_area :text %>
   </div>
 
-  <div id ="material">
-  <%= javascript_pack_tag 'hello_vue' %>
+  <div class ="material">
+    <%= form.label :material %>
+    <%= form.text_area :material %>
   </div>
 
   <div class="field">
@@ -41,11 +43,6 @@
 
   
 
-  <div class="field">
-    <%= form.label :free_text %>
-    <%= form.text_area :free_text %>
-  </div>
-
   <div class="actions">
     <%= form.submit %>
     <%= link_to 'Back', posts_path %>
@@ -53,3 +50,8 @@
 
   
 <% end %>
+
+<div class="field">
+    <%= form.label :free_text %>
+    <%= form.text_area :free_text %>
+  </div>

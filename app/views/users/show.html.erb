@@ -1,8 +1,16 @@
 <body>
-<h1><%= @user.name %>のページ</h1>
-<p>メールアドレス: <%= @user.email %></p>
-<p><%= link_to '編集', edit_user_registration_path %></p>
 
+<% if @user.avatar.attached? %>
+   <%= image_tag @user.avatar.variant(combine_options:{gravity: :center, resize:"200x200^",crop:"640x640+0+0"}).processed %>
+<% end %>
+
+<h1>ユーザ名：<%= @user.name %></h1>
+<h1>誕生日<%= @user.birth_date %></h1>
+<% if current_user.id == @user.id %>
+<h1>フォロー</h1>
+<h1>フォロワー</h1>
+<p><%= link_to '編集', edit_user_registration_path %></p>
+<% end %>
 <% unless current_user.id == @user.id %>
 <% unless current_user.following?(@user) %>
 <div id="follow_form_<%= @user.id %>">
@@ -14,7 +22,15 @@
     <%= form_with(model: current_user.active_relationships.find_by(followed_id: @user.id), method: :delete ) do |f| %>
       <%= f.submit "フォロー解除" %>
     <% end %>
+  <% end %> 
   <% end %>
-  <% end %>
+  
+
+<h1>プロフィール<br><br>
+<%= @user.profile %></h1>
+
+<% render partial: 'users/index',  local: {user: @user, post: @post} %>
+
+
 </div>
 </body>

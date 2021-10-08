@@ -1,4 +1,5 @@
 <template>
+
   <div id="app">
     <label for="material">材料</label>
     <input type="text" 
@@ -21,8 +22,8 @@
            </li>
              </ul>
   </div>
-</template>
 
+</template>
 <script>
 
 export default {

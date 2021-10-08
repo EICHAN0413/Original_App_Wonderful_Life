@@ -57,7 +57,7 @@ class PostsController < ApplicationController
     end
 
     def post_params
-      params.require(:post).permit(:title, :material, :amount, :tag, :text, :free_text, :procedure, :cooking_image, :image_cache, :procedure_image, :image_cache)
+      params.require(:post).permit(:title, :material, :amount, :tag, :text, :free_text, :procedure, { cooking_images: [] }, { procedure_images: [] })
     end
 
     def authenticate_user!

@@ -4,33 +4,43 @@
     <title>WonderfulLife</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-  <% if user_signed_in? %>
-      <%= link_to "トップページ", posts_path %>
-      <%= link_to "レシピ投稿", new_post_path %>
-      <% unless  current_user.email == 'guest@example.com'%>
-        <%= link_to "マイページ", user_path(current_user.id) %>
-      <% end %>
-      <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
-  <% else %>
-      <%= link_to "新規登録", new_user_registration_path %>
-      <%= link_to "ログイン", new_user_session_path %>
-      <%= link_to 'ゲストログイン（閲覧用）', users_guest_sign_in_path, method: :post %>
-  <% end %>
 
-  <% if notice %>
-    <p class="alert alert-notice"><%= notice %></p>
-  <% end %>
-  <% if alert %>
-    <p class="alert alert-error"><%= alert %></p>
-  <% end %>
+  <div class = "login_home">
+    <% if user_signed_in? %>
+      <p><%= link_to "トップページ", posts_path %></p>
+      <p><%= link_to "レシピ投稿", new_post_path %></p>
+    <% unless  current_user.email == 'guest@example.com'%>
+      <p><%= link_to "マイページ", user_path(current_user.id) %></p>
+    <% end %>
+      <p><%= link_to "ログアウト", destroy_user_session_path, method: :delete %></p>
+    <% else %>
+      <p><%= link_to "新規登録", new_user_registration_path %></p>
+      <p><%= link_to "ログイン", new_user_session_path %></p>
+      <p><%= link_to 'ゲストログイン（閲覧用）', users_guest_sign_in_path, method: :post %></p>
+    <% end %>
 
-  <%= yield %>
+    <% if notice %>
+      <p class="alert alert-notice"><%= notice %></p>
+    <% end %>
+    <% if alert %>
+      <p class="alert alert-error"><%= alert %></p>
+    <% end %>
+  </div>
+  
+  <div class ="container">
+    <%= yield %>
+  </div>
+
+  <footer>
+    <p>WonderfuLife.2021</p>
+  </footer>
   </body>
+
+
 </html>
