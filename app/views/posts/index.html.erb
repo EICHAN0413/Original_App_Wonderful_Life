@@ -1,0 +1,39 @@
+<body>
+
+<div class = "container_index">
+  
+  <div class = "side_menu">
+    <h2>tesutooiojojo</h2>
+  </div>
+
+  <div class = "post_index">
+    <% @posts.each do |post| %>
+    <div class = "post_field">
+
+      <div class = "title_field">
+        <h3><%= post.title %></h3>
+        <% @post.cooking_images.each do |post| %>
+          <h3><%= image_tag (post.url), width: '200px', height: '100px' %></h3>
+        <% end %>
+      </div>
+
+      <div class = "title_field">
+        <div class = "content_field">
+          <h3><%= post.text %></h3>
+        </div>
+        <div class = "title_menu">
+          <li><%= link_to 'Show', post %></li>
+          <li><%= link_to 'Edit', edit_post_path(post) %></li>
+          <li><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></li>
+        </div>
+      </div>
+      
+    </div>
+    <% end %>
+  </div>
+
+</div>
+
+</body>
+
+
