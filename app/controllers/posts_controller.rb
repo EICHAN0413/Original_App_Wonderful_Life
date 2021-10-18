@@ -1,6 +1,7 @@
 class PostsController < ApplicationController
   before_action :set_post, only: %i[ show edit update destroy ]
   before_action :authenticate_user!, only: %i[ edit update destroy]
+  before_action :set_q, only: %i[index scope]
 
   def index
     if user_signed_in?
@@ -8,6 +9,8 @@ class PostsController < ApplicationController
     else
       redirect_to new_user_session_path
     end
+
+
   end
 
   def show
@@ -125,6 +128,10 @@ class PostsController < ApplicationController
     end
   end
 
+  def scope
+    @results = @q.result
+  end
+
   private
     def set_post
       @post = Post.find(params[:id])
@@ -160,5 +167,9 @@ class PostsController < ApplicationController
       if @post.user_id != current_user.id
         redirect_to posts_path, notice: "アクセスできません"
       end
+    end
+
+    def set_q
+      @q = Post.ransack(params[:q])
     end
 end
