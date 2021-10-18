@@ -8,54 +8,30 @@ li {
     padding: 10px;
 }
 
-.tab {
-    list-style:none;
-    overflow:hidden;
-    margin: 0;
-  }
-  .tab li {
-    background:#ccc;
-    padding:5px 25px;
-    float:left;
-    margin-right:1px;
-  }
-  .tab li.select {
-    background:#eee;
-  }
-  .container_template {
-    list-style:none；
-  }
- 
-  .container_free {
-    display:none;
-  }
-
   .container_index {
     display:flex;
     justify-content:center;
     align-items:center;
     width: 100%;
-    height: 620px;
+    height: 650px;
   }
   .post_index {
     display: inline-block;
-    width: 1500px;
-    height: 620px;
-    background-color: darkseagreen;
-    text-align:left;
+    width: 100%;
+    height: 650px;
+    background-color:ivory;
+    text-align:left; 
     overflow: scroll;
   }
 
   .side_menu {
     display: inline-block;
-    width: 400px;
     height: 620px;
-    background-color: darkseagreen;
-    border-right: 1px solid;
+    width: 100%;
+    background-color: ivory;
   }
 
   .post_field {
-    width: 1100px;
     height: 200px;
     padding-left: 20px;
     padding-right: 20px;
@@ -63,19 +39,24 @@ li {
 
   }
 
+  .title {
+    padding-top:20px;
+  }
+
   .title_field {
-    width: 50%;
     height: 200px;
     float: left;
   }
 
   .content_field {
-    width: 100%;
     height: 150px;
   }
 
+  .content_field p {
+    float: left
+  }
+
   .title_menu {
-    width: 100%;
     height: 20px;
   }
 
@@ -83,5 +64,209 @@ li {
     float: left;
   }
 
+  .icon{
+    width: 80px;
+    height: 80px;
+  }
 
+  .recipe_menu {
+    display: inline-block;
+    height: 620px;
+    background-color:ivory;
+    text-align:left;
+    overflow: scroll;
+  }
+
+  .error_explanation {
+    width: 100%;
+    height: 100px;
+  }
+
+  .error_explanation h2 li {
+    font-size: 2px;
+  }
+
+  .container_post {
+    height: auto;
+    text-align: center;
+  }
+
+  .top_post {
+    width: 100%;
+    height: 400px;
+  }
+
+  .title_form {
+    width: 50%;
+    height: 300px;
+    float: left;
+  }
+
+  .title_photo {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+
+  }
+
+  .title_comment {
+    width:100%;
+    height: 200px;
+  }
+
+ .title_comment  input[type="text"] {
+  width: 500px;
+  height: 300px;
+ }
+
+.mx-auto {
+  padding: 10px;
+}
+
+
+.category_post {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+.tag_form {
+  padding: 10px;
+}
+
+.tag_form p {
+  text-align: center;
+}
+
+.action {
+  width:100%;
+  height: 50px;
+  float: left;
+}
+
+.action p {
+  float: left;
+}
+
+.show_item {
+  height: 100px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.item_menu {
+  height: 100px;
+}
+
+
+.item_menu p {
+  float: left;
+  padding: 10px;
+}
+
+.show_page {
+  height: 1200px;
+}
+
+.show_recipe {
+  height: 1000px;
   
+}
+
+.show_title {
+  height: 300px;
+}
+
+.show_photo {
+  height: 300px;
+  padding-left: 10px;
+}
+
+.show_tag {
+  height: 300px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.material_title {
+  height: 50px;
+}
+
+.show_material {
+  height: auto;
+  border: 1px solid;
+  
+}
+
+.material_form {
+  height: auto;
+  text-align: center;
+}
+
+.amount {
+  text-align: center;
+}
+
+.show_process {
+  height: auto;
+  text-align: center;
+  border: 1px solid;
+}
+
+.image {
+  height: 200px;
+}
+
+.process {
+  height: 200px;
+  font-size: 20px;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.user_text {
+  height: 300px;
+}
+
+.show_text {
+  height: 300px;
+  
+}
+
+.show_text p {
+  font-size: 20px;
+}
+
+.one_comment {
+  height: 30px;
+  padding: 30px;
+}
+
+.one_comment p {
+  font-size: 20px;
+}
+
+
+.show_comment {
+  height: 1000px;
+  float: left;
+  background-color:bisque;
+  overflow: scroll;
+}
+
+.recipe_title {
+  height: 200px;
+  padding:20px;
+  text-align: center;
+}
+
+.recipe_index {
+  height: 200px;
+  text-align: center;
+  background-color: khaki;
+
+}
+
+.link_form {
+  height: 20px;
+}

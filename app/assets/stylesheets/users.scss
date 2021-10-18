@@ -2,3 +2,40 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.user_page {
+    height: 300px;
+}
+
+.user_title {
+    height:250px;
+}
+
+.user_form {
+    height: 200;
+}
+
+.user_form p{
+    float: left;
+    padding: 20px;
+}
+
+.user_form h4 {
+    padding-top: 20px;
+}
+
+.user_profile {
+    height: auto;
+    overflow-wrap: break-word;
+}
+
+
+
+.profile_form {
+    height: 250px;
+    padding:30px;
+}
+
+.profile_form p {
+    border: 1px solid;
+    padding: 5px;
+}

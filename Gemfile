@@ -23,6 +23,9 @@ gem 'devise-i18n'
 gem 'pry-rails'
 gem 'rails_admin'
 gem 'cancancan'
+gem 'cocoon'
+gem "jquery-rails"
+gem 'seed-fu'
 
 gem 'bootsnap', '>= 1.1.0', require: false
 

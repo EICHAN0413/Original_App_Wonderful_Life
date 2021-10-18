@@ -1,21 +1,20 @@
-<body>
 
- 
   <div class = "container_main">
+
     <div class = "top_menu">
       <div class = "site_logo"></div>
       <div class = "site_explanation">
-        <h3>WonderfulLifeは料理投稿に特化した一般向けSNSアプリです。<br><br>
+        <p>WonderfulLifeは料理投稿に特化した一般向けSNSアプリです。<br><br>
             世の中に料理サイトは多くありますが、もっと気軽に調べて共有できる場所がもっとあればと考えています。<br>
             WonderfulLifeでは他の料理投稿サイトと比べて、普段は料理投稿をしないユーザでもその日食べた料理やレシピを簡単に投稿することができるフォーマットを用意しています。<br>
-            またユーザ同士が料理を通して交流しやすい仕組みや機能を採用しているため、他のサイトにはない拡散力が期待できます。</h3>
+            またユーザ同士が料理を通して交流しやすい仕組みや機能を採用しているため、他のサイトにはない拡散力が期待できます。</p>
       </div>
 
       <div class = "information">
         <ul>
-          <li><button type="button" class="btn btn-secondary"><%= link_to "新規登録", new_user_session_path %></button></li>
-          <li><button type="button" class="btn btn-secondary"><%= link_to "ログイン", user_session_path %></button></li>
-          <li><button type="button" class="btn btn-secondary"><%= link_to "ゲストログイン", new_user_session_path %></button></li>
+          <li><%= link_to "新規登録", new_user_session_path %></li>
+          <li><%= link_to "ログイン", user_session_path %></li>
+          <li><%= link_to "ゲストログイン", new_user_session_path %></li>
         </ul>
       </div>
     </div>
@@ -24,8 +23,3 @@
       <div id="randomImg"></div>
     </div>
   </div>
-  </div>
-
-  </div>
-
-</body>

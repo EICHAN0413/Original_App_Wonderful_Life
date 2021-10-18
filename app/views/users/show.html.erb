@@ -1,36 +1,54 @@
-<body>
 
-<% if @user.avatar.attached? %>
-   <%= image_tag @user.avatar.variant(combine_options:{gravity: :center, resize:"200x200^",crop:"640x640+0+0"}).processed %>
-<% end %>
+<div class = "user_page">
+  <div class=" row user_field">
+    <div class="col-6 user_title">
+      <div class ="user_form">
+        <% if @user.avatar.attached? %>
+          <p><%= image_tag @user.avatar.variant(combine_options:{gravity: :center, resize:"200x200^",crop:"640x640+0+0"}).processed %></p>
+        <% end %>
+        <h4>ユーザ名：<%= @user.name %></h4>
+        <h4>誕生日<%= @user.birth_date %></h4>
+          <p>フォロー<%= @user.following.count %><p>
+          <p>フォロワー<%= @user.followers.count %><p>
+          <% unless current_user.id == @user.id %>
+          <% unless current_user.following?(@user) %>
+            <%= form_with(model: current_user.active_relationships.build(followed_id: @user.id))  do |f| %>
+            <%= f.hidden_field :followed_id %>
+            <p><%= f.submit "フォロー" %></p>
+          <% end %>
+          <% else %>
+          <%= form_with(model: current_user.active_relationships.find_by(followed_id: @user.id), method: :delete ) do |f| %>
+            <p><%= f.submit "フォロー解除" %></p>
+          <% end %>
+          <% end %> 
+          <% end %>
+          <% if current_user.id == @user.id %>
+            <p><%= link_to '編集', edit_user_registration_path %></p>
+          <% end %>
+          
+      </div>  
+    </div>
 
-<h1>ユーザ名：<%= @user.name %></h1>
-<h1>誕生日<%= @user.birth_date %></h1>
-<% if current_user.id == @user.id %>
-<h1>フォロー</h1>
-<h1>フォロワー</h1>
-<p><%= link_to '編集', edit_user_registration_path %></p>
-<% end %>
-<% unless current_user.id == @user.id %>
-<% unless current_user.following?(@user) %>
-<div id="follow_form_<%= @user.id %>">
-  <%= form_with(model: current_user.active_relationships.build(followed_id: @user.id))  do |f| %>
-    <%= f.hidden_field :followed_id %>
-    <%= f.submit "フォロー" %>
-  <% end %>
-  <% else %>
-    <%= form_with(model: current_user.active_relationships.find_by(followed_id: @user.id), method: :delete ) do |f| %>
-      <%= f.submit "フォロー解除" %>
-    <% end %>
-  <% end %> 
-  <% end %>
-  
+    <div class="col-6 user_profile">
+      <div class="profile_form">
+        <h4>プロフィール</h4>
+        <p><%= @user.profile %></p>
+      </div>
+    </div>
+  </div> 
 
-<h1>プロフィール<br><br>
-<%= @user.profile %></h1>
+<ul class="row tab-list list-unstyled">
+  <li class="col-6 tab tab-active">投稿一覧</li>
+  <li class="col-6 tab">お気に入り</li>
+</ul>
 
-<% render partial: 'users/index',  local: {user: @user, post: @post} %>
-
+  <div class="tabbox-contents">
+    <div class="tabbox box-show">
+      <%= render 'users/posting'  %>
+    </div>
+    <div class="tabbox">
+      <%= render 'users/favorite'%>
+    </div>
+  </div>
 
 </div>
-</body>

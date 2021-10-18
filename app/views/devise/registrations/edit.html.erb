@@ -1,45 +1,33 @@
-<h2>マイページ編集画面</h2>
-
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
-  <%= render "devise/shared/error_messages", resource: resource %>
-
-  <div class="field">
-    <%= f.label :画像 %>
-    <%= f.file_field :avatar %>
+  <div class ="error">
+    <%= render "devise/shared/error_messages", resource: resource %>
   </div>
   
-  <div class='field'>
-    <%= f.label :名前 %>
-    <%= f.text_field :name %>
-  </div>
-
-  <div class="field">
-    <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
-  </div>
-
-  <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
-    <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
-  <% end %>
   
-  <div class='field'>
-    <%= f.label :プロフィール %>
-    <%= f.text_field :profile %>
-  </div>
+    <div class ="field">
+      <h2>マイページ編集画面</h2>
+    </div>
 
-  <div class='field'>
-    <%= f.label :公開もしくは非公開 %>
-    <%= f.check_box :public_or_private %>
-  </div>
-  
-  <div class="field">
-    <%= f.label :誕生日 %>
-    <%= f.date_select :birth_date, start_year: 1930, end_year: (Time.now.year), default: Date.new(2000, 1, 1) %>
-  </div>
-  
+    <div class ="row user_form">
+      <div class ="offset-2  avater">
+          <p class ="avater_image">アバター画像 <%= f.file_field :avatar, onchange: 'previewImage(preview)' %></p>
+      </div>
+      <div class ="col-4 user_information">
+        <p>ユーザ名 <%= f.text_field :name %></p>
+        <p>誕生日 <%= f.date_select :birth_date, start_year: 1930, end_year: (Time.now.year), default: Date.new(2000, 1, 1) %></p>
+        <p>非公開設定 <%= f.check_box :public_or_private %></p>
+      </div>
+    </div>
 
+    <div class ="row field">
+      <div class = "offset-3  profile">
+        <p>プロフィール</p>
+        <p><%= f.text_area :profile, :size => "70*100", :maxlength => "300"	%></p>
+      </div>
+    </div>
 
-  <div class="field">
+    <div class ="user_password">
+      <div class="field">
     <%= f.label :password %> <i>(leave blank if you don't want to change it)</i><br />
     <%= f.password_field :password, autocomplete: "new-password" %>
     <% if @minimum_password_length %>
@@ -58,13 +46,28 @@
     <%= f.password_field :current_password, autocomplete: "current-password" %>
   </div>
 
-  <div class="actions">
+  <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
+    <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
+  <% end %>
+    </div>
+
+    <div class ="field">
+      <div class="actions">
     <%= f.submit "更新" %>
-  </div>
+    </div>
+
+    </div>
+
+    
+
 <% end %>
 
-<h3>アカウント削除</h3>
+<div class ="field">
+        <h3>アカウント削除</h3>
+        <p>本当に削除しますか？<%= button_to "アカウント削除", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete %></p>
+    </div>
 
-<p>本当に削除しますか？<%= button_to "アカウント削除", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete %></p>
+  
 
-<%= link_to "Back", :back %>
+
+
