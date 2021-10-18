@@ -38,4 +38,4 @@ https://docs.google.com/spreadsheets/d/1vNKCltPzfwPwg2gaHW1JySGZa0V0K3SxM_aHv3Jm
 
 
 ## 画面転移図
-<img width="1022" alt="スクリーンショット 2021-09-24 0 34 23" src="hhttps://user-images.githubusercontent.com/85597833/137722460-861b26c3-001c-4636-af2b-bac149250467.png">
+<img width="1022" alt="スクリーンショット 2021-09-24 0 34 23" src="https://user-images.githubusercontent.com/85597833/137723076-5fc00524-8e0d-4088-af68-e903b1656355.png">
