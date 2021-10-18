@@ -4,27 +4,58 @@
     <title>WonderfulLife</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag "posts.js" %>
   </head>
 
   <body>
 
-  <div class = "login_home">
-    <% if user_signed_in? %>
-      <p><%= link_to "トップページ", posts_path %></p>
-      <p><%= link_to "レシピ投稿", new_post_path %></p>
-    <% unless  current_user.email == 'guest@example.com'%>
-      <p><%= link_to "マイページ", user_path(current_user.id) %></p>
-    <% end %>
-      <p><%= link_to "ログアウト", destroy_user_session_path, method: :delete %></p>
-    <% else %>
-      <p><%= link_to "新規登録", new_user_registration_path %></p>
-      <p><%= link_to "ログイン", new_user_session_path %></p>
-      <p><%= link_to 'ゲストログイン（閲覧用）', users_guest_sign_in_path, method: :post %></p>
-    <% end %>
+  <nav class="navbar navbar-expand-md navbar-dark bg-main">
+    <div class="login_home">
+      <h1 class="m-0">
+        <a href="#" class="navbar-brand d-block">Wonderful Life</a>
+      </h1>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#grobalNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="grobalNav" class="collapse navbar-collapse">
+      <% if user_signed_in? %>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item pl-4 active">
+            <a href="#" class="nav-link text-center"><%= link_to "トップページ", posts_path %></a>
+          </li>
+          <li class="nav-item pl-4">
+            <a href="#" class="nav-link text-center"><%= link_to "レシピ投稿", new_post_path %></a>
+          </li>
+          <% unless  current_user.email == 'guest@example.com'%>
+          <li class="nav-item pl-4">
+            <a href="#" class="nav-link text-center"><%= link_to "マイページ", user_path(current_user.id) %></a>
+          </li>
+          <% end %>
+          <li class="nav-item pl-4">
+            <a href="#" class="nav-link text-center"><%= link_to "ログアウト", destroy_user_session_path, method: :delete %></a>
+          </li>
+        <% else %>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item pl-3 active">
+            <a href="#" class="nav-link text-center"><%= link_to "新規登録", new_user_registration_path %></a>
+          </li>
+          <li class="nav-item pl-3">
+            <a href="#" class="nav-link text-center"><%= link_to "ログイン", new_user_session_path %></a>
+          </li>
+          
+          <li class="nav-item pl-3">
+            <a href="#" class="nav-link text-center"><%= link_to 'ゲストログイン（閲覧用）', users_guest_sign_in_path, method: :post %></a>
+          </li>
+        <% end %>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    
 
     <% if notice %>
       <p class="alert alert-notice"><%= notice %></p>
@@ -34,7 +65,7 @@
     <% end %>
   </div>
   
-  <div class ="container">
+  <div class ="container-fluid">
     <%= yield %>
   </div>
 

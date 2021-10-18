@@ -1,53 +1,83 @@
-<% unless @post.user_id == current_user.id %>
-  <% if @favorite.present? %>
-    <%= link_to 'お気に入り解除する', favorite_path(id: @favorite.id), method: :delete, class: 'btn btn-danger' %>
-  <% else %>
-    <%= link_to 'お気に入りする', favorites_path(post_id: @post.id), method: :post, class: 'btn btn-primary' %>
-  <% end %>
-<% end %>
-
-<p>
-  <strong>Title:</strong>
-  <%= @post.title %>
-  <% @post.cooking_images.each do |post| %>
-   <%= image_tag (post.url) %>
-  <% end %>
-</p>
-
-<p>
-  <strong>材料</strong>
-  <% %>
-</p>
-
-<p>
-  <strong>Procedure:</strong>
-  <%= @post.procedure %>
-  <% @post.procedure_images.each do |post| %>
-   <%= image_tag (post.url) %>
-  <% end %>
-</p>
-
-
-<p>
-  <strong>Tag:</strong>
-  <%= @post.tag %>
-</p>
-
-<p>
-  <strong>Text:</strong>
-  <%= @post.text %>
-</p>
-
-<p>
-  <strong>Free text:</strong>
-  <%= @post.free_text %>
-</p>
-
-<p>コメント一覧</p>
-  <div id="comments_area">
-    <%= render partial: 'comments/index', locals: { comments: @comments, post: @post } %>
+<div class= " row show_item">
+  <div class = "col-10 recipe_title">
+    <h2><%= @post.title %></h2>
   </div>
-  <%= render partial: 'comments/form', locals: { comment: @comment, post: @post } %>
+  <div class ="col-2 item_menu">
+    <% unless @post.user_id == current_user.id %>
+      <% if @favorite.present? %>
+        <p><%= link_to 'お気に入り解除する', favorite_path(id: @favorite.id), method: :delete, class: 'btn btn-primary' %></p>
+      <% else %>
+        <p><%= link_to 'お気に入りする', favorites_path(post_id: @post.id), method: :post, class: 'btn btn-primary' %></p>
+      <% end %>
+    <% end %>
+    <% if @post.user_id == current_user.id %>
+      <p><%= link_to '編集', edit_post_path(@post), class: 'btn btn-primary' %> </p>
+      <p><%= link_to '戻る', posts_path, class: 'btn btn-primary' %></p>
+    <% end %>
+  </div>
+</div>
 
-<%= link_to 'Edit', edit_post_path(@post) %> |
-<%= link_to 'Back', posts_path %>
+<div class = " row show_page">
+  <div class = "col-10 show_recipe">
+
+    <div class = " row show_title">        
+        <div class = "col-6 show_photo">
+          <%= image_tag @post.cooking_image.url, width: 'cover', height: '300px' %>
+        </div>
+        <div class ="col-6 show_tag">
+          <p>作成日: <%= @post.created_at %></p>
+          <p>カテゴリー: <%= @post.recipe_category %></p>
+          <p>タグ: <%= @post.tag %></p>
+        </div>
+    </div>
+
+    <div class = "row material_title">
+      <h2 class = "offset-5 col-6">材料</h2>
+    </div>
+
+    <div class = "row show_material">
+    
+      <div class ="row material_form">
+        <% @post.materials.each_with_index do |post| %>
+          <p class = "offset-3 col-3"><%= post.material %></p>
+          <p class = "offset-3 col-3 amount "><%= post.amount %></p>
+        <% end %>
+      </div>
+    </div>
+
+    <div class = "row material_title">
+      <h2 class = "offset-5 col-6">作り方</h2>
+    </div>
+
+    <div class =" row show_process">
+      <% @post.procedures.each_with_index do |post,i| %>
+      <% if post.procedure.present? %>
+        <% if post.procedure_image.present? %>
+          <p class = "col-6 image"><%= image_tag post.procedure_image.url, width: '200px', height: '200px' %></p>
+        <% end %>
+        <p class = "col-6 process">手順<%= i +1 %>. <%= post.procedure %></p>
+      <% end %>
+      <% end %>
+    </div>
+
+    <div class ="user_text">
+
+      <div class = "row one_comment" >
+        <p class ="offset-6 col-6">一言コメント</p>
+      </div>
+
+      <div class = "row show_text" >
+        <p><%= @post.text %></p> 
+      </div>
+    </div>
+
+  </div>
+
+  <div class = "col-2 show_comment">
+    <div id="row comments_area">
+    <p>みんなの声</p>
+      <%= render partial: 'comments/index', locals: { comments: @comments, post: @post } %>
+    </div>
+      <%= render partial: 'comments/form', locals: { comment: @comment, post: @post } %>
+  </div>
+</div>  

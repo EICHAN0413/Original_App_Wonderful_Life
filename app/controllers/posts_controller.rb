@@ -18,6 +18,8 @@ class PostsController < ApplicationController
 
   def new
       @post = Post.new
+      @materials = @post.materials.build
+      @procedures = @post.procedures.build
   end
 
   def edit
@@ -51,13 +53,107 @@ class PostsController < ApplicationController
     redirect_to posts_path, notice: "投稿を削除しました"
   end
 
+  def recipe
+    @meats = Post.where(recipe_category: 0)
+    @fishs = Post.where(recipe_category: 1)
+    @noodles = Post.where(recipe_category: 2)
+    @vegetable_dishes = Post.where(recipe_category: 3)
+    @rices = Post.where(recipe_category: 4)
+    @pastas = Post.where(recipe_category: 5 )
+    @washokus = Post.where(recipe_category: 6)
+    @western_foods = Post.where(recipe_category: 7)
+    @italians = Post.where(recipe_category: 8)
+    @frances = Post.where(recipe_category: 9)
+    @saladas = Post.where(recipe_category: 10)
+    @sauces = Post.where(recipe_category: 11)
+    @flours = Post.where(recipe_category: 12)
+    @appetizers =  Post.where(recipe_category: 13)
+    @time_savings = Post.where(recipe_category: 14)
+    @anime_foods = Post.where(recipe_category: 15)
+    @diets = Post.where(recipe_category: 16)
+    @high_proteins = Post.where(recipe_category: 17)
+    @snacks = Post.where(recipe_category: 18)
+    @classics = Post.where(recipe_category: 19)
+    @others = Post.where(recipe_category: 20)
+  end
+
+  def search
+    if params[:sort_meat]
+      @posts = Post.where(recipe_category: 0) 
+    elsif params[:sort_fish]
+      @posts = Post.where(recipe_category: 1)
+    elsif params[:sort_noodle]
+      @posts = Post.where(recipe_category: 2)
+    elsif params[:sort_vegetable_dish]
+      @posts = Post.where(recipe_category: 3)
+    elsif params[:sort_rice]
+      @posts = Post.where(recipe_category: 4)
+    elsif params[:sort_pasta]
+      @posts = Post.where(recipe_category: 5 )
+    elsif params[:sort_washoku]
+      @posts = Post.where(recipe_category: 6)
+    elsif params[:sort_western_food]
+      @posts = Post.where(recipe_category: 7)
+    elsif params[:sort_italian]
+      @posts = Post.where(recipe_category: 8)
+    elsif params[:sort_france]
+      @posts = Post.where(recipe_category: 9)
+    elsif params[:sort_salada]
+      @posts = Post.where(recipe_category: 10)
+    elsif params[:sort_sauce]
+      @posts = Post.where(recipe_category: 11)
+    elsif params[:sort_flour]
+      @posts = Post.where(recipe_category: 12)
+    elsif params[:sort_appetizer]
+      @posts =  Post.where(recipe_category: 13)
+    elsif params[:sort_time_saving]
+      @posts = Post.where(recipe_category: 14)
+    elsif params[:sort_anime_food]
+      @posts = Post.where(recipe_category: 15)
+    elsif params[:sort_diet]
+      @posts = Post.where(recipe_category: 16)
+    elsif params[:sort_high_protein]
+      @posts = Post.where(recipe_category: 17)
+    elsif params[:sort_snack]
+      @posts = Post.where(recipe_category: 18)
+    elsif params[:sort_classic]
+      @posts = Post.where(recipe_category: 19)
+    elsif params[:sort_other]
+      @posts = Post.where(recipe_category: 20)
+    else
+      @post = Post.all
+    end
+  end
+
   private
     def set_post
       @post = Post.find(params[:id])
     end
 
     def post_params
-      params.require(:post).permit(:title, :material, :amount, :tag, :text, :free_text, :procedure, { cooking_images: [] }, { procedure_images: [] })
+      params.require(:post).permit(
+        :title, 
+        :tag, 
+        :recipe_category, 
+        :text, 
+        :free_text, 
+        :procedure, 
+        :cooking_image, 
+        :cooking_image_cache, 
+        :procedure_image, :procedure_image_cache,  
+        materials_attributes: [
+          :id,
+          :material, 
+          :amount,
+          :_destroy
+          ],
+        procedures_attributes: [
+          :id,
+          :procedure,
+          :procedure_image,
+          :_destroy
+        ]
+      )
     end
 
     def authenticate_user!
