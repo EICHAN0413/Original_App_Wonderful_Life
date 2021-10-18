@@ -21,6 +21,7 @@ Rails.application.routes.draw do
     collection do
       get :recipe
       get :search
+      get :scope
     end
   end
   

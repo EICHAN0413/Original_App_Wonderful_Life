@@ -14,7 +14,7 @@ class CookingUploader < CarrierWave::Uploader::Base
   end
 
   def default_url
-    '75167714-円は白背景にサンプル-レッド-スタンプ-テキスト.jpeg'
+    '75167714-円は白背景にサンプル-レッド-スタンプ-テキスト.jpeg'
   end
 
   # Provide a default URL as a default if there hasn't been a file uploaded:
