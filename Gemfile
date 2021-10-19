@@ -28,6 +28,8 @@ gem "jquery-rails"
 gem 'seed-fu'
 gem 'ransack'
 gem 'dotenv-rails'
+gem 'fog-aws'
+gem 'aws-sdk-s3'
 
 gem 'bootsnap', '>= 1.1.0', require: false
 
