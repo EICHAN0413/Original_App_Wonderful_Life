@@ -31,6 +31,7 @@ gem 'dotenv-rails'
 gem 'fog-aws'
 gem 'aws-sdk-s3'
 gem 'unicorn'
+gem 'mini_racer'
 
 gem 'bootsnap', '>= 1.1.0', require: false
 
