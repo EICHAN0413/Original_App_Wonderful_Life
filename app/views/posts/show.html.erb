@@ -5,14 +5,14 @@
   <div class ="col-2 item_menu">
     <% unless @post.user_id == current_user.id %>
       <% if @favorite.present? %>
-        <p><%= link_to 'お気に入り解除する', favorite_path(id: @favorite.id), method: :delete, class: 'btn btn-primary' %></p>
+        <p><%= link_to 'お気に入り解除する', favorite_path(id: @favorite.id), method: :delete, class: "btn btn-success" %></p>
       <% else %>
-        <p><%= link_to 'お気に入りする', favorites_path(post_id: @post.id), method: :post, class: 'btn btn-primary' %></p>
+        <p><%= link_to 'お気に入りする', favorites_path(post_id: @post.id), method: :post, class: "btn btn-success" %></p>
       <% end %>
     <% end %>
     <% if @post.user_id == current_user.id %>
-      <p><%= link_to '編集', edit_post_path(@post), class: 'btn btn-primary' %> </p>
-      <p><%= link_to '戻る', posts_path, class: 'btn btn-primary' %></p>
+      <p><%= link_to '編集', edit_post_path(@post), class: "btn btn-success" %> </p>
+      <p><%= link_to '戻る', posts_path, class: "btn btn-success" %></p>
     <% end %>
   </div>
 </div>

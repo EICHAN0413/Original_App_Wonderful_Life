@@ -13,9 +13,6 @@
 
   <nav class="navbar navbar-expand-md navbar-dark bg-main">
     <div class="login_home">
-      <h1 class="m-0">
-        <a href="#" class="navbar-brand d-block">Wonderful Life</a>
-      </h1>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#grobalNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -23,34 +20,34 @@
       <% if user_signed_in? %>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item pl-4 active">
-            <a href="#" class="nav-link text-center"><%= link_to "トップページ", posts_path %></a>
+            <%= link_to "トップページ", posts_path,class: "btn btn-light btn-block" %></a>
           </li>
           <li class="nav-item pl-4">
-            <a href="#" class="nav-link text-center"><%= link_to "レシピ投稿", new_post_path %></a>
+            <%= link_to "レシピ投稿", new_post_path,class: "btn btn-light btn-block" %></a>
           </li>
           <% unless  current_user.email == 'guest@example.com'%>
           <li class="nav-item pl-4">
-            <a href="#" class="nav-link text-center"><%= link_to "マイページ", user_path(current_user.id) %></a>
+            <%= link_to "マイページ", user_path(current_user.id),class: "btn btn-light btn-block" %></a>
           </li>
+        </ul>
           <% end %>
           <li class="nav-item pl-4">
-            <a href="#" class="nav-link text-center"><%= link_to "ログアウト", destroy_user_session_path, method: :delete %></a>
+            <%= link_to "ログアウト", destroy_user_session_path, method: :delete,class: "btn btn-light btn-block" %></a>
           </li>
         <% else %>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item pl-3 active">
-            <a href="#" class="nav-link text-center"><%= link_to "新規登録", new_user_registration_path %></a>
+            <%= link_to "新規登録", new_user_registration_path,class: "btn btn-light btn-block" %></p>
           </li>
           <li class="nav-item pl-3">
-            <a href="#" class="nav-link text-center"><%= link_to "ログイン", new_user_session_path %></a>
+            <%= link_to "ログイン", new_user_session_path,class: "btn btn-light btn-block" %></a>
           </li>
           
           <li class="nav-item pl-3">
-            <a href="#" class="nav-link text-center"><%= link_to 'ゲストログイン（閲覧用）', users_guest_sign_in_path, method: :post %></a>
+            <%= link_to 'ゲストログイン（閲覧用）', users_guest_sign_in_path, method: :post,class: "btn btn-light btn-block" %></a>
           </li>
-        <% end %>
-
         </ul>
+        <% end %>
       </div>
     </div>
   </nav>

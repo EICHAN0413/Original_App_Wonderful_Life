@@ -87,6 +87,15 @@ class PostsController < ApplicationController
     @snacks = Post.where(recipe_category: 18)
     @classics = Post.where(recipe_category: 19)
     @others = Post.where(recipe_category: 20)
+
+    if params[:q] != nil
+      params[:q]['title_cont_any'] = params[:q]['title_cont_any'].split(/[\p{blank}\s]+/)
+      @keyword =Post.ransack(params[:q])
+      @posts = @keyword.result
+    else
+      @keyword = Post.ransack(params[:q])
+      @posts = @keyword.result #検索の結果を受け取る。
+    end
   end
 
   def scope
@@ -134,6 +143,15 @@ class PostsController < ApplicationController
       @posts = Post.where(recipe_category: 20)
     else
       @post = Post.all
+    end
+
+    if params[:q] != nil
+      params[:q]['title_cont_any'] = params[:q]['title_cont_any'].split(/[\p{blank}\s]+/)
+      @keyword =Post.ransack(params[:q])
+      @posts = @keyword.result
+    else
+      @keyword = Post.ransack(params[:q])
+      @posts = @keyword.result #検索の結果を受け取る。
     end
   end
 
