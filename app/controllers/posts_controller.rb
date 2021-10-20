@@ -1,13 +1,22 @@
 class PostsController < ApplicationController
   before_action :set_post, only: %i[ show edit update destroy ]
   before_action :authenticate_user!, only: %i[ edit update destroy]
-  before_action :set_q, only: %i[index scope]
-
+  before_action :search_product, only: [:index, :show, :search]
+  
   def index
     if user_signed_in?
       @posts = Post.all
     else
       redirect_to new_user_session_path
+    end
+
+    if params[:q] != nil
+      params[:q]['title_cont_any'] = params[:q]['title_cont_any'].split(/[\p{blank}\s]+/)
+      @keyword =Post.ransack(params[:q])
+      @posts = @keyword.result
+    else
+      @keyword = Post.ransack(params[:q])
+      @posts = @keyword.result #検索の結果を受け取る。
     end
 
 
@@ -80,7 +89,7 @@ class PostsController < ApplicationController
     @others = Post.where(recipe_category: 20)
   end
 
-  def search
+  def scope
     if params[:sort_meat]
       @posts = Post.where(recipe_category: 0) 
     elsif params[:sort_fish]
@@ -128,8 +137,7 @@ class PostsController < ApplicationController
     end
   end
 
-  def scope
-    @results = @q.result
+  def search
   end
 
   private
@@ -169,7 +177,9 @@ class PostsController < ApplicationController
       end
     end
 
-    def set_q
-      @q = Post.ransack(params[:q])
-    end
+    
+  def search_product
+    @p = Post.ransack(params[:q])  
+    @results = @p.result
+  end
 end
