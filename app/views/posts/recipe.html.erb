@@ -1,7 +1,7 @@
 <div class = "row container_index">
   
   <div class = "col-3 side_menu">
-    <h2>tesutooiojojo</h2>
+    <%= render 'sidebar' %>
   </div>
 
   <div class = "col-9 recipe_menu">
@@ -21,7 +21,7 @@
       </div>
   
       <ul class="row link_form">
-        <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_meat: "true") %></p>
+        <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_meat: "true") %></p>
       </ul>
     </div>
 
@@ -40,7 +40,7 @@
       </div>
   
       <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_fish: "true") %></p>
+            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_fish: "true") %></p>
       </ul>
     </div>
 
@@ -59,7 +59,7 @@
       </div>
   
       <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_noodle: "true") %></p>
+            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_noodle: "true") %></p>
       </ul>
     </div>
 
@@ -78,7 +78,7 @@
       </div>
   
       <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_vegetable_dish: "true") %></p>
+            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_vegetable_dish: "true") %></p>
       </ul>
     </div>
 
@@ -97,7 +97,7 @@
       </div>
   
       <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_rice: "true") %></p>
+            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_rice: "true") %></p>
       </ul>
     </div>
 
@@ -116,7 +116,7 @@
       </div>
   
       <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_pasta: "true") %></p>
+            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_pasta: "true") %></p>
       </ul>
     </div>
 
@@ -135,7 +135,7 @@
       </div>
   
       <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_washoku: "true") %></p>
+            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_washoku: "true") %></p>
       </ul>
     </div>
 
@@ -154,7 +154,7 @@
       </div>
   
       <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_western_food: "true") %></p>
+            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_western_food: "true") %></p>
       </ul>
     </div>
 
@@ -173,7 +173,7 @@
       </div>
   
       <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_italian: "true") %></p>
+            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_italian: "true") %></p>
       </ul>
     </div>
 
@@ -192,7 +192,7 @@
       </div>
   
       <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_france: "true") %></p>
+            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_france: "true") %></p>
       </ul>
     </div>
 
@@ -211,7 +211,7 @@
       </div>
   
       <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_salada: "true") %></p>
+            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_salada: "true") %></p>
       </ul>
     </div>
 
@@ -230,7 +230,7 @@
       </div>
   
       <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_sauce: "true") %></p>
+            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_sauce: "true") %></p>
       </ul>
     </div>
 
@@ -249,7 +249,7 @@
       </div>
   
       <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_flour: "true") %></p>
+            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_flour: "true") %></p>
       </ul>
     </div>
 
@@ -268,7 +268,7 @@
       </div>
   
       <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_appetizer: "true") %></p>
+            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_appetizer: "true") %></p>
       </ul>
     </div>
 
@@ -287,7 +287,7 @@
       </div>
   
       <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_time_saving: "true") %></p>
+            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_time_saving: "true") %></p>
       </ul>
     </div>
 
@@ -306,7 +306,7 @@
       </div>
   
       <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_anime_food: "true") %></p>
+            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_anime_food: "true") %></p>
       </ul>
     </div>
 
@@ -325,7 +325,7 @@
       </div>
   
       <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_diet: "true") %></p>
+            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_diet: "true") %></p>
       </ul>
     </div>
 
@@ -344,7 +344,7 @@
       </div>
   
       <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_high_protein: "true") %></p>
+            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_high_protein: "true") %></p>
       </ul>
     </div>
 
@@ -363,7 +363,7 @@
       </div>
   
       <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_snack: "true") %></p>
+            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_snack: "true") %></p>
       </ul>
     </div>
 
@@ -382,7 +382,7 @@
       </div>
   
       <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_classic: "true") %></p>
+            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_classic: "true") %></p>
       </ul>
     </div>
 
@@ -401,7 +401,7 @@
       </div>
   
       <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_other: "true") %></p>
+            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_other: "true") %></p>
       </ul>
     </div>
 

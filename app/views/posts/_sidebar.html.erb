@@ -1,10 +1,11 @@
 <p>検索画面</p>
 
-<%= search_form_for @q, url: search_posts_path do |f| %>
-  <%= f.label :キーワード %>
-  <%= f.search_field :title_cont %>
-  <br>
-  <%= f.submit '検索' %>
-<% end %>
+<%= search_form_for(@keyword, method: :get) do |f| %>
+  <%= f.label :title_cont_any, 'タイトル' %>
 
+  <%= f.text_field :title_cont_any %>
+<div>
+  <%= f.submit '検索する' %>
+</div>
+<% end %>
 <p><%= link_to 'カテゴリ一覧', recipe_posts_path %></p>
