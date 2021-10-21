@@ -32,7 +32,7 @@ gem 'fog-aws'
 gem 'aws-sdk-s3'
 gem 'unicorn'
 gem 'mini_racer'
-gem 'popper_js', '~> 2.9.3'
+# gem 'popper_js', '>= 1.14.3'
 
 gem 'bootsnap', '>= 1.1.0', require: false
 
@@ -62,3 +62,5 @@ group :test do
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'bootstrap', '~> 4.5.0'
