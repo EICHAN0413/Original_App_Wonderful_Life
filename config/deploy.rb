@@ -1,12 +1,12 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.16.0"
 
-set :application, "Wonderful-Life"
+set :application, "Wonderful_Life"
 set :repo_url, "https://github.com/EICHAN0413/Original_App_Wonderful_Life"
 
 set :branch, ENV['BRANCH'] || 'master'
 # deploy先のディレクトリ。
-set :deploy_to, '/var/www/Wonderful-Life'
+set :deploy_to, '/var/www/Wonderful_Life'
 # シンボリックリンクをはるフォルダ・ファイル
 set :linked_files, %w{.env config/secrets.yml}
 set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets public/uploads}
