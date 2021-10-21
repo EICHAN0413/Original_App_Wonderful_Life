@@ -2,7 +2,7 @@
 lock "~> 3.16.0"
 
 set :application, "Wonderful-Life"
-set :repo_url, "https://github.com/EICHAN0413/Original_App_Wonderful_Life.git"
+set :repo_url, "https://github.com/EICHAN0413/Original_App_Wonderful_Life"
 
 set :branch, ENV['BRANCH'] || 'master'
 # deploy先のディレクトリ。
