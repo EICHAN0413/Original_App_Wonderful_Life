@@ -32,6 +32,7 @@ gem 'fog-aws'
 gem 'aws-sdk-s3'
 gem 'unicorn'
 gem 'mini_racer'
+gem 'popper_js', '~> 2.9.3'
 
 gem 'bootsnap', '>= 1.1.0', require: false
 
