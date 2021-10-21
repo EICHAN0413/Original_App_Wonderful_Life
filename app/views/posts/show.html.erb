@@ -76,8 +76,8 @@
   <div class = "col-2 show_comment">
     <div id="row comments_area">
     <p>みんなの声</p>
-      <%= render partial: 'comments/index', locals: { comments: @comments, post: @post } %>
-    </div>
       <%= render partial: 'comments/form', locals: { comment: @comment, post: @post } %>
+    </div>
+      <%= render partial: 'comments/index', locals: { comments: @comments, post: @post } %>
   </div>
 </div>  
