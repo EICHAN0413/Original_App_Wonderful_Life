@@ -39,11 +39,3 @@ end
     end
 end
 
-Relationship.seed(
-    :id,{
-    id: i+1,
-    follower_id: rand_id,
-    followed_id: 100
-    },
-)
-end

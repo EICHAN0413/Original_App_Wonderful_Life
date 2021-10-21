@@ -32,9 +32,6 @@ $(document).on('turbolinks:load', function() {
   });
 });
 
-document.addEventListener("turbolinks:load", function() {
-  $('textarea').autosize();
-});
 
 function previewImage(id) {
   const target = this.event.target;   
@@ -49,6 +46,7 @@ function previewImage(id) {
     preview.src = "";
   }
 }
+
 
 var images = [ 'url("https://user-images.githubusercontent.com/85597833/137056833-ca67b7bf-3f9c-401a-a5ce-05d551cb72b8.jpg")',
                'url("https://user-images.githubusercontent.com/85597833/137056433-6966b7cf-2881-4bf4-bf74-bbe15b3c12a0.jpg")',
