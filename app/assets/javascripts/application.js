@@ -15,7 +15,7 @@
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
-//= require popper.js/dist/umd/popper.js
+//= require popper.js
 //= require bootstrap/dist/js/bootstrap.min
 //= require_tree .
 //= require cocoon
