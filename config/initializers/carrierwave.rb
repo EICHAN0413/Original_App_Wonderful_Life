@@ -19,11 +19,11 @@ CarrierWave.configure do |config|
       when 'production'
         config.fog_directory = 'oap-wonderful-life-production'
         config.asset_host = 'https://s3-ap-northeast-3.amazonaws.com/oap-wonderful-life-production'
-        config.asset_host = 'https://oap-wonderful-life-production.s3.amazonaws.com'
+        # config.asset_host = 'https://oap-wonderful-life-production.s3.amazonaws.com'
       when 'development'
         config.fog_directory = 'oap-wonderful-life-develop'
         config.asset_host = 'https://s3-ap-northeast-3.amazonaws.com/oap-wonderful-life-develop'
-        config.asset_host = 'https://oap-wonderful-life-develop.s3.amazonaws.com'
+        # config.asset_host = 'https://oap-wonderful-life-develop.s3.amazonaws.com'
 
       else
         config.storage :file
