@@ -8,7 +8,7 @@ CarrierWave.configure do |config|
         provider:              'AWS',
         aws_access_key_id:     ENV["AWS_ACCESS_KEY_ID"],
         aws_secret_access_key: ENV["AWS_SECRET_ACCESS_KEY"],
-        region:                'ap-northeast-1',
+        region:                'ap-northeast-3',
         path_style:            true,
     }
     config.fog_public     = true
@@ -16,9 +16,9 @@ CarrierWave.configure do |config|
     case Rails.env
       when 'production'
         config.fog_directory = 'oap-wonderful-life-production'
-        config.asset_host = 'https://s3-ap-northeast-1.amazonaws.com/oap-wonderful-life-production'
+        config.asset_host = 'https://s3-ap-northeast-3.amazonaws.com/oap-wonderful-life-production'
       when 'development'
         config.fog_directory = 'oap-wonderful-life-develop'
-        config.asset_host = 'https://s3-ap-northeast-1.amazonaws.com/oap-wonderful-life-develop'
+        config.asset_host = 'https://s3-ap-northeast-3.amazonaws.com/oap-wonderful-life-develop'
     end
   end

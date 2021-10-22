@@ -1,8 +1,21 @@
+User.create! (
+    {
+        name:  "管理者",
+        email: "admin@example.jp",
+        password:  "11111111",
+        password_confirmation: "11111111",  
+        admin: true
+        }
+    )
+
+
+
 100.times do |n|
     User.seed do |s|
         s.email= "test#{n + 1}@test.com"
         s.name="テスト太郎#{n + 1}"
         s.password = "12345678#{n+1}"
+        s.profile = "テストプロフフィール#{n+1}"
         s.id = n + 1 
     end
 end

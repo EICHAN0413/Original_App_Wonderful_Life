@@ -26,7 +26,7 @@ li {
 
   .side_menu {
     display: inline-block;
-    height: 620px;
+    height: 650px;
     width: 100%;
     background-color: ivory;
   }
@@ -69,12 +69,12 @@ li {
     height: 80px;
   }
 
-  .recipe_menu {
+  .recipe {
     display: inline-block;
-    height: 620px;
+    height: auto;
     background-color:ivory;
     text-align:left;
-    overflow: scroll;
+    border: 1px solid;
   }
 
   .error_explanation {
@@ -250,22 +250,44 @@ li {
 .show_comment {
   height: 1000px;
   float: left;
+  padding-top: 10px;
   background-color:bisque;
   overflow: scroll;
 }
 
+.recipe_title_field {
+  height: auto;
+  text-align: center;
+}
+
+.recipe_title_field p {
+  font-size: 30px;
+  padding-top: 50px;
+}
+
 .recipe_title {
-  height: 200px;
+  height: auto;
   padding:20px;
   text-align: center;
 }
 
 .recipe_index {
-  height: 200px;
-  background-color: lightcoral;
-
+  height: auto;
 }
 
 .link_form {
-  height: 20px;
+  height: auto;
 }
+
+.rx-title {
+  padding: 18px;
+}
+
+.rx-link {
+  padding: 18px;
+}
+
+.show_comment {
+  text-align: center;
+}
+
