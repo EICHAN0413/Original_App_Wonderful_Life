@@ -33,47 +33,7 @@
       </div>
     </div> 
     
-    <div class = "material_post">
-      <div class ="material_format">
-        <div class="mx-auto">
-          <h2>材料</h2>
-          <%= f.fields_for :materials do |t| %>
-            <%= render "material_fields", f: t %>
-          <% end %>
-        </div>
 
-        <div id="detail-association-insertion-point"></div>
-
-        <div class="col-5 mx-auto mt-2">
-          <%= link_to_add_association "追加", f, :materials,
-          class: "btn btn-secondary btn-block",
-          data: {
-          association_insertion_node: '#detail-association-insertion-point',
-          association_insertion_method: 'after'
-          }%>
-        </div>
-      </div>
-    </div>
-
-    <div class = "procedure_post"> 
-      <div class="mx-auto">
-        <h2>手順</h2>
-          <%= f.fields_for :procedures do |t| %>
-            <%= render "procedure_fields", f: t %>
-          <% end %>
-      </div>
-
-      <div id="detail-association-insertion-point_procedure"></div>
-
-      <div class="col-5 mx-auto mt-2">
-          <%= link_to_add_association "追加", f, :procedures,
-          class: "btn btn-secondary btn-block",
-          data: {
-          association_insertion_node: '#detail-association-insertion-point_procedure',
-          association_insertion_method: 'after'
-          }%>
-      </div>
-    </div> 
 
     <div class = "category_post">
       <div class="tag_form"> 
