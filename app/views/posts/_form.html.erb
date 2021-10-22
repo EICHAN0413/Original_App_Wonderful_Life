@@ -20,9 +20,9 @@
         <div class = title_photo>
           <p><%= f.label :レシピ名 %></p> 
           <p><%= f.text_field :title, placeholder: "レシピ名", size: 40 %></p>
-          <% if @post.cooking_image.present? %>
+          <%# <% if @post.cooking_image.present? %> %>
             <p><%= image_tag @post.cooking_image.url, id: 'preview',width: '280px', height: '250px', border: '1px solid' %></p>
-          <% end %>
+          <%# <% end %> %>
           <p><%= f.file_field :cooking_image, onchange: 'previewImage(preview)'  %></p>
         </div>
       </div> 

@@ -2,6 +2,8 @@ CarrierWave.configure do |config|
     require 'carrierwave/storage/abstract'
     require 'carrierwave/storage/file'
     require 'carrierwave/storage/fog'
+
+    
     config.storage :fog
     config.fog_provider = 'fog/aws'
     config.fog_credentials = {
@@ -17,8 +19,14 @@ CarrierWave.configure do |config|
       when 'production'
         config.fog_directory = 'oap-wonderful-life-production'
         config.asset_host = 'https://s3-ap-northeast-3.amazonaws.com/oap-wonderful-life-production'
+        config.asset_host = 'https://oap-wonderful-life-production.s3.amazonaws.com'
       when 'development'
         config.fog_directory = 'oap-wonderful-life-develop'
         config.asset_host = 'https://s3-ap-northeast-3.amazonaws.com/oap-wonderful-life-develop'
+        config.asset_host = 'https://oap-wonderful-life-develop.s3.amazonaws.com'
+
+      else
+        config.storage :file
+        config.enable_processing = false if Rails.env.test?
     end
   end
