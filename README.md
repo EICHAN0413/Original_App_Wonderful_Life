@@ -33,7 +33,7 @@ https://docs.google.com/spreadsheets/d/1vNKCltPzfwPwg2gaHW1JySGZa0V0K3SxM_aHv3Jm
 
 
 ## ER図
-<img width="943" alt="スクリーンショット 2021-09-28 11 41 01" src="https://user-images.githubusercontent.com/85597833/138545587-508e231f-023e-48bd-ad33-ed7f2aa73eab.png"">
+<img width="943" alt="スクリーンショット 2021-09-28 11 41 01" src="https://user-images.githubusercontent.com/85597833/138545587-508e231f-023e-48bd-ad33-ed7f2aa73eab.png">
 
 
 ## 画面転移図
