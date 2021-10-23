@@ -1,7 +1,10 @@
 class Post < ApplicationRecord
 
     mount_uploader :cooking_image, CookingUploader
-  
+    
+    validates :title, length: { maximum: 50 }
+    validates :text, length: { maximum: 300 }
+    validates :free_text, length: { maximum: 300 }
 
     has_many :post_recipe_categories, dependent: :destroy
     has_many :post_material_categories, dependent: :destroy

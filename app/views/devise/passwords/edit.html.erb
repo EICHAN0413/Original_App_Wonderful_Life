@@ -1,4 +1,4 @@
-<h2>Change your password</h2>
+<h2>パスワード変更画面</h2>
 
 <%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :put }) do |f| %>
   <%= render "devise/shared/error_messages", resource: resource %>
@@ -17,8 +17,9 @@
     <%= f.password_field :password_confirmation, autocomplete: "new-password" %>
   </div>
 
-  <div class="actions">
-    <%= f.submit "Change my password" %>
+  <div class="fields">
+    <p><%= f.submit "Change my password" %></p>
+    <%= render "devise/shared/links" %>
   </div>
 <% end %>
 

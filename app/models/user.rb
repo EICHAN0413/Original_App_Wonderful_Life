@@ -1,6 +1,8 @@
 class User < ApplicationRecord
-  devise :database_authenticatable, :registerable,
-         :recoverable, :rememberable, :validatable, :confirmable
+  devise :database_authenticatable, :registerable, :recoverable, :rememberable, :validatable
+
+  validates :profile, length: { maximum: 300 }
+
 
   has_many :posts, dependent: :destroy
   has_many :favorites, dependent: :destroy

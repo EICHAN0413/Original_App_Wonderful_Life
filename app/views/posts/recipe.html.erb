@@ -1,417 +1,461 @@
-<div class = "row container_index">
-  
-  <div class = "col-3 side_menu">
-    <h2>tesutooiojojo</h2>
+<div class = "row ">
+  <div class='col-12 recipe_title_field'>
+    <p>レシピカテゴリー画面</p>
   </div>
+</div>
 
-  <div class = "col-9 recipe_menu">
+<div class = "row">
 
-    <div class ="recipe">
+    <div class ="col-4  recipe">
       <div class = "row recipe_form">
         <div class = "col-4 recipe_title">
-          <p><%= image_tag '22001251.png', class: 'icon' %></p>
+          <p><%= image_tag '22184087.png', class: 'icon' %></p>
           <p>肉料理</p>
         </div>
+
+        <div class ="col-8 recipe_index">
         <% @meats.shuffle.first(3).each do |m| %>
-        <ul class ="col-8 recipe_index">
-          <li><%= m.title %></li>
-          <li><%= link_to 'レシピを見る', post_path(m.id) %></li>
-          <% end %>
-        </ul>  
+          <div class = "row">
+            <div class ="col-8 rx-title"><%= m.title %></div>
+            <div class ="col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
+          </div>
+        <% end %>
+          <div class ="offset-8 row "><%= link_to 'レシピをもっと見る', scope_posts_path(sort_meat: "true") %></div>
+        </div> 
       </div>
-  
-      <ul class="row link_form">
-        <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_meat: "true") %></p>
-      </ul>
     </div>
 
-    <div class ="recipe">
+    <div class ="col-4  recipe">
       <div class = "row recipe_form">
+
         <div class = "col-4 recipe_title">
-          <p><%= image_tag '22001251.png', class: 'icon' %></p>
+          <p><%= image_tag '22173284.png', class: 'icon' %></p>
           <p>魚料理</p>
         </div>
+
+        <div class ="col-8 recipe_index">
         <% @fishs.shuffle.first(3).each do |m| %>
-        <ul class ="col-8 recipe_index">
-          <li><%= m.title %></li>
-          <li><%= link_to 'レシピを見る', post_path(m.id) %></li>
+        <div class = "row">
+        
+          <div class = "col-8 rx-title"><%= m.title %></div>
+          <div class = "col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
+        </div>
           <% end %>
-        </ul>  
+          <div class ="offset-8 row"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_fish: "true") %></div>
+        </div>  
       </div>
-  
-      <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_fish: "true") %></p>
-      </ul>
+
     </div>
 
-    <div class ="recipe">
+    <div class ="col-4  recipe">
       <div class = "row recipe_form">
+
         <div class = "col-4 recipe_title">
-          <p><%= image_tag '22001251.png', class: 'icon' %></p>
+          <p><%= image_tag '2660507.png', class: 'icon' %></p>
           <p>麺料理</p>
         </div>
-        <% @noodles.shuffle.first(3).each do |m| %>
-        <ul class ="col-8 recipe_index">
-          <li><%= m.title %></li>
-          <li><%= link_to 'レシピを見る', post_path(m.id) %></li>
+
+        <div class ="col-8 recipe_index">
+          <% @noodles.shuffle.first(3).each do |m|  %>
+          <div class = "row">
+            <div class = "col-8 rx-title"><%= m.title %></div>
+            <div class = "col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
+          </div>
           <% end %>
-        </ul>  
+          <div class ="offset-8 row"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_noodle: "true") %></div>
+        </div> 
       </div>
-  
-      <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_noodle: "true") %></p>
-      </ul>
     </div>
 
-    <div class ="recipe">
+</div>
+
+<div class = "row">
+
+    <div class ="col-4  recipe">
       <div class = "row recipe_form">
         <div class = "col-4 recipe_title">
-          <p><%= image_tag '22001251.png', class: 'icon' %></p>
+          <p><%= image_tag '1969627.png', class: 'icon' %></p>
           <p>野菜料理</p>
         </div>
+
+        <div class ="col-8 recipe_index">
         <% @vegetable_dishes.shuffle.first(3).each do |m| %>
-        <ul class ="col-8 recipe_index">
-          <li><%= m.title %></li>
-          <li><%= link_to 'レシピを見る', post_path(m.id) %></li>
-          <% end %>
-        </ul>  
+          <div class = "row">
+            <div class ="col-8 rx-title"><%= m.title %></div>
+            <div class ="col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
+          </div>
+        <% end %>
+          <div class ="offset-8 row "><%= link_to 'レシピをもっと見る', scope_posts_path(ort_vegetable_dish: "true") %></div>
+        </div> 
       </div>
-  
-      <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_vegetable_dish: "true") %></p>
-      </ul>
     </div>
 
-    <div class ="recipe">
+    <div class ="col-4  recipe">
       <div class = "row recipe_form">
+
         <div class = "col-4 recipe_title">
-          <p><%= image_tag '22001251.png', class: 'icon' %></p>
+          <p><%= image_tag '1922662.png', class: 'icon' %></p>
           <p>ご飯もの</p>
         </div>
+
+        <div class ="col-8 recipe_index">
         <% @rices.shuffle.first(3).each do |m| %>
-        <ul class ="col-8 recipe_index">
-          <li><%= m.title %></li>
-          <li><%= link_to 'レシピを見る', post_path(m.id) %></li>
+        <div class = "row">
+        
+          <div class = "col-8 rx-title"><%= m.title %></div>
+          <div class = "col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
+        </div>
           <% end %>
-        </ul>  
+          <div class ="offset-8 row"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_rice: "true") %></div>
+        </div>  
       </div>
-  
-      <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_rice: "true") %></p>
-      </ul>
+
     </div>
 
-    <div class ="recipe">
+    <div class ="col-4  recipe">
       <div class = "row recipe_form">
+
         <div class = "col-4 recipe_title">
-          <p><%= image_tag '22001251.png', class: 'icon' %></p>
+          <p><%= image_tag '22178519.png', class: 'icon' %></p>
           <p>パスタ</p>
         </div>
-        <% @pastas.shuffle.first(3).each do |m| %>
-        <ul class ="col-8 recipe_index">
-          <li><%= m.title %></li>
-          <li><%= link_to 'レシピを見る', post_path(m.id) %></li>
+
+        <div class ="col-8 recipe_index">
+          <% @pastas.shuffle.first(3).each do |m|  %>
+          <div class = "row">
+            <div class = "col-8 rx-title"><%= m.title %></div>
+            <div class = "col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
+          </div>
           <% end %>
-        </ul>  
+          <div class ="offset-8 row"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_pasta: "true") %></div>
+        </div> 
       </div>
-  
-      <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_pasta: "true") %></p>
-      </ul>
     </div>
 
-    <div class ="recipe">
+</div>
+
+<div class = "row">
+
+    <div class ="col-4  recipe">
       <div class = "row recipe_form">
         <div class = "col-4 recipe_title">
-          <p><%= image_tag '22001251.png', class: 'icon' %></p>
+          <p><%= image_tag '2572753.png', class: 'icon' %></p>
           <p>和食</p>
         </div>
+
+        <div class ="col-8 recipe_index">
         <% @washokus.shuffle.first(3).each do |m| %>
-        <ul class ="col-8 recipe_index">
-          <li><%= m.title %></li>
-          <li><%= link_to 'レシピを見る', post_path(m.id) %></li>
-          <% end %>
-        </ul>  
+          <div class = "row">
+            <div class ="col-8 rx-title"><%= m.title %></div>
+            <div class ="col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
+          </div>
+        <% end %>
+          <div class ="offset-8 row "><%= link_to 'レシピをもっと見る', scope_posts_path(sort_washoku: "true") %></div>
+        </div> 
       </div>
-  
-      <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_washoku: "true") %></p>
-      </ul>
     </div>
 
-    <div class ="recipe">
+    <div class ="col-4  recipe">
       <div class = "row recipe_form">
+
         <div class = "col-4 recipe_title">
           <p><%= image_tag '22001251.png', class: 'icon' %></p>
           <p>洋食料理</p>
         </div>
+
+        <div class ="col-8 recipe_index">
         <% @western_foods.shuffle.first(3).each do |m| %>
-        <ul class ="col-8 recipe_index">
-          <li><%= m.title %></li>
-          <li><%= link_to 'レシピを見る', post_path(m.id) %></li>
+        <div class = "row">
+        
+          <div class = "col-8 rx-title"><%= m.title %></div>
+          <div class = "col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
+        </div>
           <% end %>
-        </ul>  
+          <div class ="offset-8 row"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_western_food: "true") %></div>
+        </div>  
       </div>
-  
-      <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_western_food: "true") %></p>
-      </ul>
+
     </div>
 
-    <div class ="recipe">
+    <div class ="col-4  recipe">
       <div class = "row recipe_form">
+
         <div class = "col-4 recipe_title">
-          <p><%= image_tag '22001251.png', class: 'icon' %></p>
+          <p><%= image_tag '1629311.png', class: 'icon' %></p>
           <p>イタリア料理</p>
         </div>
-        <% @italians.shuffle.first(3).each do |m| %>
-        <ul class ="col-8 recipe_index">
-          <li><%= m.title %></li>
-          <li><%= link_to 'レシピを見る', post_path(m.id) %></li>
+
+        <div class ="col-8 recipe_index">
+          <% @italians.shuffle.first(3).each do |m|  %>
+          <div class = "row">
+            <div class = "col-8 rx-title"><%= m.title %></div>
+            <div class = "col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
+          </div>
           <% end %>
-        </ul>  
+          <div class ="offset-8 row"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_italian: "true") %></div>
+        </div> 
       </div>
-  
-      <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_italian: "true") %></p>
-      </ul>
     </div>
 
-    <div class ="recipe">
+</div>
+
+<div class = "row">
+
+    <div class ="col-4  recipe">
       <div class = "row recipe_form">
         <div class = "col-4 recipe_title">
-          <p><%= image_tag '22001251.png', class: 'icon' %></p>
+          <p><%= image_tag '1085830.png', class: 'icon' %></p>
           <p>フランス料理</p>
         </div>
+
+        <div class ="col-8 recipe_index">
         <% @frances.shuffle.first(3).each do |m| %>
-        <ul class ="col-8 recipe_index">
-          <li><%= m.title %></li>
-          <li><%= link_to 'レシピを見る', post_path(m.id) %></li>
-          <% end %>
-        </ul>  
+          <div class = "row">
+            <div class ="col-8 rx-title"><%= m.title %></div>
+            <div class ="col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
+          </div>
+        <% end %>
+          <div class ="offset-8 row "><%= link_to 'レシピをもっと見る', scope_posts_path(sort_france: "true") %></div>
+        </div> 
       </div>
-  
-      <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_france: "true") %></p>
-      </ul>
     </div>
 
-    <div class ="recipe">
+    <div class ="col-4  recipe">
       <div class = "row recipe_form">
+
         <div class = "col-4 recipe_title">
-          <p><%= image_tag '22001251.png', class: 'icon' %></p>
+          <p><%= image_tag '2553993.png', class: 'icon' %></p>
           <p>サラダ</p>
         </div>
+
+        <div class ="col-8 recipe_index">
         <% @saladas.shuffle.first(3).each do |m| %>
-        <ul class ="col-8 recipe_index">
-          <li><%= m.title %></li>
-          <li><%= link_to 'レシピを見る', post_path(m.id) %></li>
+        <div class = "row">
+        
+          <div class = "col-8 rx-title"><%= m.title %></div>
+          <div class = "col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
+        </div>
           <% end %>
-        </ul>  
+          <div class ="offset-8 row"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_salada: "true") %></div>
+        </div>  
       </div>
-  
-      <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_salada: "true") %></p>
-      </ul>
+
     </div>
 
-    <div class ="recipe">
+    <div class ="col-4  recipe">
       <div class = "row recipe_form">
+
         <div class = "col-4 recipe_title">
-          <p><%= image_tag '22001251.png', class: 'icon' %></p>
+          <p><%= image_tag '1828439.png', class: 'icon' %></p>
           <p>たれ.ソース</p>
         </div>
-        <% @sauces.shuffle.first(3).each do |m| %>
-        <ul class ="col-8 recipe_index">
-          <li><%= m.title %></li>
-          <li><%= link_to 'レシピを見る', post_path(m.id) %></li>
+
+        <div class ="col-8 recipe_index">
+          <% @sauces.shuffle.first(3).each do |m|  %>
+          <div class = "row">
+            <div class = "col-8 rx-title"><%= m.title %></div>
+            <div class = "col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
+          </div>
           <% end %>
-        </ul>  
+          <div class ="offset-8 row"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_sauce: "true") %></div>
+        </div> 
       </div>
-  
-      <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_sauce: "true") %></p>
-      </ul>
     </div>
 
-    <div class ="recipe">
+</div>
+
+<div class = "row">
+
+    <div class ="col-4  recipe">
       <div class = "row recipe_form">
         <div class = "col-4 recipe_title">
-          <p><%= image_tag '22001251.png', class: 'icon' %></p>
+          <p><%= image_tag '22044806.png', class: 'icon' %></p>
           <p>粉物</p>
         </div>
+
+        <div class ="col-8 recipe_index">
         <% @flours.shuffle.first(3).each do |m| %>
-        <ul class ="col-8 recipe_index">
-          <li><%= m.title %></li>
-          <li><%= link_to 'レシピを見る', post_path(m.id) %></li>
-          <% end %>
-        </ul>  
+          <div class = "row">
+            <div class ="col-8 rx-title"><%= m.title %></div>
+            <div class ="col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
+          </div>
+        <% end %>
+          <div class ="offset-8 row "><%= link_to 'レシピをもっと見る', scope_posts_path(sort_flour: "true") %></div>
+        </div> 
       </div>
-  
-      <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_flour: "true") %></p>
-      </ul>
     </div>
 
-    <div class ="recipe">
+    <div class ="col-4  recipe">
       <div class = "row recipe_form">
+
         <div class = "col-4 recipe_title">
-          <p><%= image_tag '22001251.png', class: 'icon' %></p>
+          <p><%= image_tag '2615408.png', class: 'icon' %></p>
           <p>おつまみ</p>
         </div>
+
+        <div class ="col-8 recipe_index">
         <% @appetizers.shuffle.first(3).each do |m| %>
-        <ul class ="col-8 recipe_index">
-          <li><%= m.title %></li>
-          <li><%= link_to 'レシピを見る', post_path(m.id) %></li>
+        <div class = "row">
+        
+          <div class = "col-8 rx-title"><%= m.title %></div>
+          <div class = "col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
+        </div>
           <% end %>
-        </ul>  
+          <div class ="offset-8 row"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_appetizer: "true") %></div>
+        </div>  
       </div>
-  
-      <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_appetizer: "true") %></p>
-      </ul>
+
     </div>
 
-    <div class ="recipe">
+    <div class ="col-4  recipe">
       <div class = "row recipe_form">
+
         <div class = "col-4 recipe_title">
-          <p><%= image_tag '22001251.png', class: 'icon' %></p>
+          <p><%= image_tag '722991.png', class: 'icon' %></p>
           <p>時短料理</p>
         </div>
-        <% @time_savings.shuffle.first(3).each do |m| %>
-        <ul class ="col-8 recipe_index">
-          <li><%= m.title %></li>
-          <li><%= link_to 'レシピを見る', post_path(m.id) %></li>
+
+        <div class ="col-8 recipe_index">
+          <% @time_savings.shuffle.first(3).each do |m|  %>
+          <div class = "row">
+            <div class = "col-8 rx-title"><%= m.title %></div>
+            <div class = "col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
+          </div>
           <% end %>
-        </ul>  
+          <div class ="offset-8 row"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_time_saving: "true") %></div>
+        </div> 
       </div>
-  
-      <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_time_saving: "true") %></p>
-      </ul>
     </div>
 
-    <div class ="recipe">
+</div>
+
+<div class = "row">
+
+    <div class ="col-4  recipe">
       <div class = "row recipe_form">
         <div class = "col-4 recipe_title">
-          <p><%= image_tag '22001251.png', class: 'icon' %></p>
+          <p><%= image_tag '22093505.png', class: 'icon' %></p>
           <p>アニメ飯</p>
         </div>
+
+        <div class ="col-8 recipe_index">
         <% @anime_foods.shuffle.first(3).each do |m| %>
-        <ul class ="col-8 recipe_index">
-          <li><%= m.title %></li>
-          <li><%= link_to 'レシピを見る', post_path(m.id) %></li>
-          <% end %>
-        </ul>  
+          <div class = "row">
+            <div class ="col-8 rx-title"><%= m.title %></div>
+            <div class ="col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
+          </div>
+        <% end %>
+          <div class ="offset-8 row "><%= link_to 'レシピをもっと見る', scope_posts_path(sort_anime_food: "true") %></div>
+        </div> 
       </div>
-  
-      <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_anime_food: "true") %></p>
-      </ul>
     </div>
 
-    <div class ="recipe">
+    <div class ="col-4  recipe">
       <div class = "row recipe_form">
+
         <div class = "col-4 recipe_title">
           <p><%= image_tag '22001251.png', class: 'icon' %></p>
           <p>ダイエット</p>
         </div>
+
+        <div class ="col-8 recipe_index">
         <% @diets.shuffle.first(3).each do |m| %>
-        <ul class ="col-8 recipe_index">
-          <li><%= m.title %></li>
-          <li><%= link_to 'レシピを見る', post_path(m.id) %></li>
+        <div class = "row">
+        
+          <div class = "col-8 rx-title"><%= m.title %></div>
+          <div class = "col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
+        </div>
           <% end %>
-        </ul>  
+          <div class ="offset-8 row"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_diet: "true") %></div>
+        </div>  
       </div>
-  
-      <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_diet: "true") %></p>
-      </ul>
+
     </div>
 
-    <div class ="recipe">
+    <div class ="col-4  recipe">
       <div class = "row recipe_form">
+
         <div class = "col-4 recipe_title">
-          <p><%= image_tag '22001251.png', class: 'icon' %></p>
+          <p><%= image_tag '22132596.png', class: 'icon' %></p>
           <p>高タンパク料理</p>
         </div>
-        <% @high_proteins.shuffle.first(3).each do |m| %>
-        <ul class ="col-8 recipe_index">
-          <li><%= m.title %></li>
-          <li><%= link_to 'レシピを見る', post_path(m.id) %></li>
+
+        <div class ="col-8 recipe_index">
+          <% @high_proteins.shuffle.first(3).each do |m|  %>
+          <div class = "row">
+            <div class = "col-8 rx-title"><%= m.title %></div>
+            <div class = "col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
+          </div>
           <% end %>
-        </ul>  
+          <div class ="offset-8 row"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_high_protein: "true") %></div>
+        </div> 
       </div>
-  
-      <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_high_protein: "true") %></p>
-      </ul>
     </div>
 
-    <div class ="recipe">
+</div>
+
+<div class = "row">
+
+    <div class ="col-4  recipe">
       <div class = "row recipe_form">
         <div class = "col-4 recipe_title">
           <p><%= image_tag '22001251.png', class: 'icon' %></p>
           <p>お菓子</p>
         </div>
+
+        <div class ="col-8 recipe_index">
         <% @snacks.shuffle.first(3).each do |m| %>
-        <ul class ="col-8 recipe_index">
-          <li><%= m.title %></li>
-          <li><%= link_to 'レシピを見る', post_path(m.id) %></li>
-          <% end %>
-        </ul>  
+          <div class = "row">
+            <div class ="col-8 rx-title"><%= m.title %></div>
+            <div class ="col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
+          </div>
+        <% end %>
+          <div class ="offset-8 row "><%= link_to 'レシピをもっと見る', scope_posts_path(sort_snack: "true") %></div>
+        </div> 
       </div>
-  
-      <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_snack: "true") %></p>
-      </ul>
     </div>
 
-    <div class ="recipe">
+    <div class ="col-4  recipe">
       <div class = "row recipe_form">
+
         <div class = "col-4 recipe_title">
-          <p><%= image_tag '22001251.png', class: 'icon' %></p>
+          <p><%= image_tag '22077224.png', class: 'icon' %></p>
           <p>定番料理</p>
         </div>
+
+        <div class ="col-8 recipe_index">
         <% @classics.shuffle.first(3).each do |m| %>
-        <ul class ="col-8 recipe_index">
-          <li><%= m.title %></li>
-          <li><%= link_to 'レシピを見る', post_path(m.id) %></li>
+        <div class = "row">
+        
+          <div class = "col-8 rx-title"><%= m.title %></div>
+          <div class = "col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
+        </div>
           <% end %>
-        </ul>  
+          <div class ="offset-8 row"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_classic: "true") %></div>
+        </div>  
       </div>
-  
-      <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_classic: "true") %></p>
-      </ul>
+
     </div>
 
-     <div class ="recipe">
+    <div class ="col-4  recipe">
       <div class = "row recipe_form">
+
         <div class = "col-4 recipe_title">
-          <p><%= image_tag '22001251.png', class: 'icon' %></p>
+          <p><%= image_tag '22237988.png', class: 'icon' %></p>
           <p>その他</p>
         </div>
-        <% @others.shuffle.first(3).each do |m| %>
-        <ul class ="col-8 recipe_index">
-          <li><%= m.title %></li>
-          <li><%= link_to 'レシピを見る', post_path(m.id) %></li>
+
+        <div class ="col-8 recipe_index">
+          <% @others.shuffle.first(3).each do |m|  %>
+          <div class = "row">
+            <div class = "col-8 rx-title"><%= m.title %></div>
+            <div class = "col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
+          </div>
           <% end %>
-        </ul>  
+          <div class ="offset-8 row"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_other: "true") %></div>
+        </div> 
       </div>
-  
-      <ul class="row link_form">
-            <p class ="offset-10 col-2"><%= link_to 'レシピをもっと見る', search_posts_path(sort_other: "true") %></p>
-      </ul>
     </div>
-
-
-
-
-   
-  </div>
-
-    
 
 </div>
 
