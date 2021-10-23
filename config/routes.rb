@@ -17,11 +17,12 @@ Rails.application.routes.draw do
   resources :users
 
   resources :posts do
-    resources :comments
     collection do
       get :recipe
       get :search
+      get :scope
     end
+    resources :comments
   end
   
   resources :material_categories

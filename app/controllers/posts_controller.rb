@@ -1,13 +1,25 @@
 class PostsController < ApplicationController
   before_action :set_post, only: %i[ show edit update destroy ]
   before_action :authenticate_user!, only: %i[ edit update destroy]
-
+  before_action :search_product, only: [:index, :show, :search]
+  
   def index
     if user_signed_in?
       @posts = Post.all
     else
       redirect_to new_user_session_path
     end
+
+    if params[:q] != nil
+      params[:q]['title_cont_any'] = params[:q]['title_cont_any'].split(/[\p{blank}\s]+/)
+      @keyword =Post.ransack(params[:q])
+      @posts = @keyword.result
+    else
+      @keyword = Post.ransack(params[:q])
+      @posts = @keyword.result #検索の結果を受け取る。
+    end
+
+
   end
 
   def show
@@ -75,9 +87,18 @@ class PostsController < ApplicationController
     @snacks = Post.where(recipe_category: 18)
     @classics = Post.where(recipe_category: 19)
     @others = Post.where(recipe_category: 20)
+
+    if params[:q] != nil
+      params[:q]['title_cont_any'] = params[:q]['title_cont_any'].split(/[\p{blank}\s]+/)
+      @keyword =Post.ransack(params[:q])
+      @posts = @keyword.result
+    else
+      @keyword = Post.ransack(params[:q])
+      @posts = @keyword.result #検索の結果を受け取る。
+    end
   end
 
-  def search
+  def scope
     if params[:sort_meat]
       @posts = Post.where(recipe_category: 0) 
     elsif params[:sort_fish]
@@ -121,8 +142,20 @@ class PostsController < ApplicationController
     elsif params[:sort_other]
       @posts = Post.where(recipe_category: 20)
     else
-      @post = Post.all
+      redirect_to posts_path, notice: "けんさくできませんでした"
     end
+
+    # if params[:q] != nil
+    #   params[:q]['title_cont_any'] = params[:q]['title_cont_any'].split(/[\p{blank}\s]+/)
+    #   @keyword =Post.ransack(params[:q])
+    #   @posts = @keyword.result
+    # else
+    #   @keyword = Post.ransack(params[:q])
+    #   @posts = @keyword.result #検索の結果を受け取る。
+    # end
+  end
+
+  def search
   end
 
   private
@@ -161,4 +194,10 @@ class PostsController < ApplicationController
         redirect_to posts_path, notice: "アクセスできません"
       end
     end
+
+    
+  def search_product
+    @p = Post.ransack(params[:q])  
+    @results = @p.result
+  end
 end
