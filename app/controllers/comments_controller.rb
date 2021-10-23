@@ -1,5 +1,8 @@
 class CommentsController < ApplicationController
   before_action :set_post, only: [:create, :edit, :update]
+  before_action :authenticate_user!
+  # before_action :safety_lock, only: [:edit, :update, :destroy]
+
 
   def create
     @comment = @post.comments.build(comment_params)
@@ -13,12 +16,17 @@ class CommentsController < ApplicationController
   end
 
   def edit
-    @comment = @post.comments.find(params[:id])
-    respond_to do |format|
+    @comment = @post.comments.find(params[:post_id], params[:user_id])
+    if @comment.user_id == current_user.id
       flash.now[:notice] = 'コメントの編集中'
       format.js { render :edit }
+    else
+    respond_to do |format|
+      redirect_to post_path(@post), notice: "アクセスできません"
+    end
     end
   end
+
   
   def update
     @comment = @post.comments.find(params[:id])
@@ -48,7 +56,14 @@ class CommentsController < ApplicationController
   end
 
   def set_post
-    @post = Post.find(params[:post_id])
+    @post = Post.find(params[:post_id], params[:user_id])
   end
+
+#   def safety_lock
+#     if @comment.user_id != current_user.id
+#       redirect_to post_path(@post), notice: "アクセスできません"
+#     end
+#   end
 end
+
   

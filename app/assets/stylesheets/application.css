@@ -86,3 +86,12 @@ footer p {
   box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.5);
   transform: translateY(-1px);
 }
+
+.error_explanation {
+  height:auto;
+  text-align: center;
+}
+
+.error_explanation p {
+  padding: 10px;
+}

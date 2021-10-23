@@ -1,14 +1,14 @@
 <%= form_with(model: @post, local: true) do |f| %>
 
   <% if @post.errors.any?  %>
-  <div id ="error_explanation">
-    <h2><%= pluralize(@post.errors.count) %> 件のエラーがあります</h2>
+  <div class ="row">
+    <h2 class = 'error_explanation'><%= pluralize(@post.errors.count, "") %> 件のエラーがあります</h2>
 
-    <ul>
+    <div class = "error_explanation">
       <% @post.errors.full_messages.each do |message| %>
-        <li><%= message %></li> 
+        <p><%= message %></p> 
       <% end %> 
-    </ul>
+    </div>
   </div> 
   <% end %>
 

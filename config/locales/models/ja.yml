@@ -1,0 +1,7 @@
+ja:
+  activerecord:
+    models:
+      Title: レシピ
+      materials.material: 材料
+      materials.amount: 分量
+      procedures.procedure: 手順
