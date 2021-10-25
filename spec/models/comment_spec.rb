@@ -3,7 +3,8 @@ require 'rails_helper'
 RSpec.describe 'Comment', type: :model do
 
     before do
-        @post = FactoryBot.create(:post)
+        @user = FactoryBot.create(:user)
+        @post=FactoryBot.create(:post, user: @user) 
     end
 
 describe 'コメントモデル機能', type: :model do
@@ -26,7 +27,7 @@ describe 'コメントモデル機能', type: :model do
 
         context 'コメントが100文字以下で記載されている場合' do
             it 'バリデーションが通る' do
-                comment = FactoryBot.create(:comment, post: @post)
+                comment = FactoryBot.create(:comment, post: @post, user: @user)
                 expect(comment).to be_valid
             end
         end  

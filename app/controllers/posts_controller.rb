@@ -25,13 +25,18 @@ class PostsController < ApplicationController
   def show
     @favorite = current_user.favorites.find_by(post_id: @post.id)
     @comments = @post.comments
-    @comment = @post.comments.build
+    @comment = current_user.comments.new
   end
 
   def new
       @post = Post.new
       @materials = @post.materials.build
       @procedures = @post.procedures.build
+
+      @numbers = [1,2,3,4,5]
+      @sum = 0
+      @num = 0
+
   end
 
   def edit

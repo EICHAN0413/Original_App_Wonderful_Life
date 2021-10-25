@@ -1,7 +1,10 @@
 <%= form_with(model: [post, comment]) do |form| %>
 
     <div class = "row comment_form">
-      <div class ="col-12"><%= form.text_area :content %></div>
+      <div class ="col-12">
+      <%= form.label :content, "コメント欄" %>
+      <%= form.text_area :content %></div>
+      <%= form.hidden_field :post_id, value: @post.id %>
     </div>
 
     <div class = "row comment_button">

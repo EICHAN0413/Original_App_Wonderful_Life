@@ -30,6 +30,7 @@ gem 'ransack'
 gem 'dotenv-rails'
 gem 'mini_racer'
 
+
 gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do

@@ -6,8 +6,10 @@
           <div class = "col-12"><%= comment.content %></div>
         </div>
         <div class= "offset-9 row">
+          <% if current_user.id == comment.user.id%>
             <%= link_to "編集", edit_post_comment_path(post, comment), remote: true %>
             <%= link_to "削除", post_comment_path(comment.post_id, comment.id), method: :delete, remote: true, data: { confirm: "本当に削除しますか?"} %>
+          <% end %>
         </div>
     <% end %>
   <% end %>
