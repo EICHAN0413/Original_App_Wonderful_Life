@@ -1,8 +1,6 @@
-<% @user.posts.each do |post| %>
+<% @user.posts.first(3).each do |post| %>
 <%= post.title %>
 <%= image_tag post.cooking_image.url %>
-
-<%= post.text %>
 <p><%= link_to '詳細', post %></p>
 <p><%= link_to '編集', edit_post_path(post) %></p>
 <p><%= link_to '削除', post, method: :delete, data: { confirm: 'Are you sure?' } %></p>
