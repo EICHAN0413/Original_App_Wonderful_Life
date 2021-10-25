@@ -27,30 +27,25 @@
 
       <div class="title_form"> 
         <div class = "title_comment">
-          <p><%= f.label :コメント %></p> 
+          <p><%= f.label :text, 'コメント' %></p> 
           <p><%= f.text_field :text %></p> 
         </div>
       </div>
     </div> 
-    
+  
     <div class = "material_post">
       <div class ="material_format">
-        <div class="mx-auto">
+        <div class="mx-auto ">
           <h2>材料</h2>
           <%= f.fields_for :materials do |t| %>
             <%= render "material_fields", f: t %>
           <% end %>
         </div>
 
-        <div id="detail-association-insertion-point"></div>
 
         <div class="col-5 mx-auto mt-2">
           <%= link_to_add_association "追加", f, :materials,
-          class: "btn btn-secondary btn-block",
-          data: {
-          association_insertion_node: '#detail-association-insertion-point',
-          association_insertion_method: 'after'
-          }%>
+          class: "btn btn-secondary btn-block add_material"%>
         </div>
       </div>
     </div>
@@ -63,32 +58,27 @@
           <% end %>
       </div>
 
-      <div id="detail-association-insertion-point_procedure"></div>
 
       <div class="col-5 mx-auto mt-2">
           <%= link_to_add_association "追加", f, :procedures,
-          class: "btn btn-secondary btn-block",
-          data: {
-          association_insertion_node: '#detail-association-insertion-point_procedure',
-          association_insertion_method: 'after'
-          }%>
+          class: "btn btn-secondary btn-block add_procedure"%>
       </div>
     </div> 
 
     <div class = "category_post">
       <div class="tag_form"> 
-        <p><%= f.label :タグ %></p> 
+        <p><%= f.label :tag, "タグ" %></p> 
         <p><%= f.select :tag, Post.tags.keys,  include_blank: '選択してください' %>
       </div> 
 
       <div class="tag_form"> 
-        <p><%= f.label :レシピカテゴリー %></p> 
+        <p><%= f.label :recipe_category, 'レシピカテゴリー' %></p> 
         <p><%= f.select :recipe_category, Post.recipe_categories.keys,  include_blank: '選択してください' %></p>
       </div>
     </div> 
 
     <div class="actions"> 
-      <p><%= f.submit %> </p>
+      <p><%= f.submit '投稿する' %> </p>
       <p><%= link_to '戻る', posts_path %></p>
     </div> 
 

@@ -2,19 +2,6 @@
   <div class = "col-10 recipe_title">
     <h2><%= @post.title %></h2>
   </div>
-  <div class ="col-2 item_menu">
-    <% unless @post.user_id == current_user.id %>
-      <% if @favorite.present? %>
-        <p><%= link_to 'お気に入り解除する', favorite_path(post_id: @favorite.post.id), method: :delete, class: 'btn btn-primary' %></p>
-      <% else %>
-        <p><%= link_to 'お気に入りする', favorites_path(post_id: @post.id), method: :post, class: 'btn btn-primary' %></p>
-      <% end %>
-    <% end %>
-    <% if @post.user_id == current_user.id %>
-      <p><%= link_to '編集', edit_post_path(@post), class: 'btn btn-primary' %> </p>
-      <p><%= link_to '戻る', posts_path, class: 'btn btn-primary' %></p>
-    <% end %>
-  </div>
 </div>
 
 <div class = " row show_page">
@@ -25,9 +12,22 @@
           <%= image_tag @post.cooking_image.url, width: 'cover', height: '300px' %>
         </div>
         <div class ="col-6 show_tag">
+          <p>ユーザー名: <%= link_to@post.user.name, user_path(@post.user_id) %></p>
           <p>作成日: <%= @post.created_at %></p>
           <p>カテゴリー: <%= @post.recipe_category %></p>
           <p>タグ: <%= @post.tag %></p>
+          <p>コメント: <%= @post.text %></p>
+          <% unless @post.user_id == current_user.id %>
+            <% if @favorite.present? %>
+              <p><%= link_to 'お気に入り解除する', favorite_path(id: @favorite.id), method: :delete, class: 'btn btn-primary' %></p>
+            <% else %>
+              <p><%= link_to 'お気に入りする', favorites_path(post_id: @post.id), method: :post, class: 'btn btn-primary' %></p>
+          <% end %>
+          <% end %>
+          <% if @post.user_id == current_user.id %>
+            <li><%= link_to '編集', edit_post_path(@post), class: 'btn btn-primary' %> </li>
+            <li><%= link_to '戻る', posts_path, class: 'btn btn-primary' %></li>
+          <% end %>
         </div>
     </div>
 
@@ -60,21 +60,11 @@
       <% end %>
     </div>
 
-    <div class ="user_text">
-
-      <div class = "row one_comment" >
-        <p class ="offset-6 col-6">一言コメント</p>
-      </div>
-
-      <div class = "row show_text" >
-        <p><%= @post.text %></p> 
-      </div>
-    </div>
+    
 
   </div>
 
   <div class = "col-2 show_comment">
-    <p>コメント欄</p>
     <%= render partial: 'comments/form', locals: { comment: @comment, post: @post } %>
     <div id="comments_area" class= "row">
       <%= render partial: 'comments/index', locals: { comments: @comments, post: @post } %>

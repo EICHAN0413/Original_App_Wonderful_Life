@@ -61,6 +61,10 @@ footer p {
   text-align: center;
 }
 
+.field_with_errors {
+  display: contents
+}
+
 .tab {
   padding: 10px;
   cursor: pointer;
@@ -94,4 +98,7 @@ footer p {
 
 .error_explanation p {
   padding: 10px;
+}
+.error {
+  text-align: center;
 }

@@ -2,6 +2,7 @@ class ApplicationController < ActionController::Base
 
     before_action :configure_permitted_parameters, if: :devise_controller?
 
+
     def login_required
       redirect_to new_user_session_path unless current_user
     end
@@ -14,5 +15,6 @@ class ApplicationController < ActionController::Base
     def after_sign_in_path_for(resources)
       posts_path
     end
+
 
 end

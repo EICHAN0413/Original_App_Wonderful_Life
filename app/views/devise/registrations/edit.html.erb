@@ -4,35 +4,35 @@
   </div>
   
   
-    <div class ="field">
-      <h2>マイページ編集画面</h2>
+    <div class ="row mypage_form">
+      <h2 class = col-12>マイページ編集画面</h2>
     </div>
 
-    <div class ="row user_form">
-      <div class ="offset-2  avater">
-          <p class ="avater_image">アバター画像 <%= f.file_field :avatar, onchange: 'previewImage(preview)' %></p>
-      </div>
-      <div class ="col-4 user_information">
-        <p>ユーザ名 <%= f.text_field :name %></p>
-        <p>誕生日 <%= f.date_select :birth_date, start_year: 1930, end_year: (Time.now.year), default: Date.new(2000, 1, 1) %></p>
-        <p>非公開設定 <%= f.check_box :public_or_private %></p>
-      </div>
-    </div>
-
-    <div class ="row field">
-      <div class = "offset-3  profile">
+          <div class ="field">
+            <p>アバター画像</p>
+            <p><%= f.file_field :avatar%></p>
+          </div>
+          
+          <div class = 'field'>
+            <p class ='col-12'>ユーザ名 <%= f.text_field :name %></p>
+            <p class ='col-12'>誕生日 <%= f.date_select :birth_date, start_year: 1930, end_year: (Time.now.year), default: Date.new(2000, 1, 1) %></p>
+            <p class ='col-12'>非公開設定 <%= f.check_box :public_or_private %></p>
+          </div>
+  
+      <div class ="field">
         <p>プロフィール</p>
-        <p><%= f.text_area :profile, :size => "70*100", :maxlength => "300"	%></p>
+        <p><%= f.text_area :profile, :size => "50*50"	%></p>
       </div>
-    </div>
 
-    <div class ="user_password">
+  
+
+   
       <div class="field">
-    <%= f.label :password %> <i>(leave blank if you don't want to change it)</i><br />
+    <%= f.label :password %> <i>( パスワードを変更しない場合は空白にしてください)</i><br />
     <%= f.password_field :password, autocomplete: "new-password" %>
     <% if @minimum_password_length %>
       <br />
-      <em><%= @minimum_password_length %> characters minimum</em>
+      <em><%= @minimum_password_length %> 文字以上で入力してください</em>
     <% end %>
   </div>
 
@@ -42,7 +42,7 @@
   </div>
 
   <div class="field">
-    <%= f.label :current_password %> <i>(we need your current password to confirm your changes)</i><br />
+    <%= f.label :current_password %> <i>(変更するには現在のパスワードが必要です)</i><br />
     <%= f.password_field :current_password, autocomplete: "current-password" %>
   </div>
 

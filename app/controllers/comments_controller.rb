@@ -5,7 +5,7 @@ class CommentsController < ApplicationController
 
 
   def create
-    @comment = @post.comments.build(comment_params)
+    @comment = current_user.comments.new(comment_params)
     respond_to do |format|
       if @comment.save
         format.js { render :index }
@@ -16,14 +16,14 @@ class CommentsController < ApplicationController
   end
 
   def edit
-    @comment = @post.comments.find(params[:post_id], params[:user_id])
-    if @comment.user_id == current_user.id
-      flash.now[:notice] = 'コメントの編集中'
-      format.js { render :edit }
+    @comment = @post.comments.find(params[:id])
+    if @comment.user.id == current_user.id
+      respond_to do |format|
+        flash.now[:notice] = 'コメントの編集中'
+        format.js { render :edit }
+      end
     else
-    respond_to do |format|
       redirect_to post_path(@post), notice: "アクセスできません"
-    end
     end
   end
 
@@ -43,10 +43,14 @@ class CommentsController < ApplicationController
 
   def destroy
     @comment = Comment.find(params[:id])
-    @comment.destroy
-    respond_to do |format|
-      flash.now[:notice] = 'コメントが削除されました'
-      format.js { render :index }
+    if @comment.user.id == current_user.id
+      @comment.destroy
+      respond_to do |format|
+        flash.now[:notice] = 'コメントが削除されました'
+        format.js { render :index }
+      end
+    else
+      redirect_to post_path(@post), notice: "アクセスできません"
     end
   end
 
@@ -59,11 +63,11 @@ class CommentsController < ApplicationController
     @post = Post.find(params[:post_id], params[:user_id])
   end
 
-#   def safety_lock
-#     if @comment.user_id != current_user.id
-#       redirect_to post_path(@post), notice: "アクセスできません"
-#     end
-#   end
+  def comment_params
+    params.require(:comment).permit(:content, :post_id)
+  end
+
+
 end
 
   

@@ -1,7 +1,7 @@
 <p>検索画面</p>
 
 <%= search_form_for(@keyword, method: :get) do |f| %>
-  <%= f.label :title_cont_any, 'タイトル' %>
+  <%= f.label :title_cont_any, 'タイトル検索' %>
 
   <%= f.text_field :title_cont_any %>
 <div>
@@ -9,3 +9,7 @@
 </div>
 <% end %>
 <p><%= link_to 'カテゴリ一覧', recipe_posts_path %></p>
+
+<% if current_user.try(:admin?) %>
+  <p><%= link_to '管理画面へ', rails_admin_path %></p>
+<% end %>
