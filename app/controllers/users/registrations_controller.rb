@@ -11,7 +11,7 @@ class Users::RegistrationsController < Devise::RegistrationsController
   end
 
   def after_update_path_for(resources)
-    posts_path
+    user_path(current_user.id)
   end
 
 
@@ -36,12 +36,12 @@ class Users::RegistrationsController < Devise::RegistrationsController
   # end
 
   # PUT /resource
-  def update
-    super
-    if account_update_params[:avatar].present?
-      resource.avatar.attach(account_update_params[:avatar]) 
-    end
-  end
+  # def update
+  #   super
+  #   if account_update_params[:avatar].present?
+  #     resource.avatar.attach(account_update_params[:avatar]) 
+  #   end
+  # end
 
   # DELETE /resource
   # def destroy
