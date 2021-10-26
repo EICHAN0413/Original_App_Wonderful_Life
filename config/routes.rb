@@ -2,6 +2,8 @@ Rails.application.routes.draw do
 
   get 'recipes/index'
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
+  mount LetterOpenerWeb::Engine, at: "/letter_opener" if Rails.env.development?
+
   root 'top#index'
 
   devise_for :users, controllers: {
@@ -33,6 +35,8 @@ Rails.application.routes.draw do
   resources :favorites, only: [:create, :destroy]
   resources :relationships, only: [:create, :destroy]
 
-  mount LetterOpenerWeb::Engine, at: "/letter_opener" if Rails.env.development?
+
+
+
 
 end
