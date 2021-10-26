@@ -5,8 +5,6 @@ class Post < ApplicationRecord
     validates :title, presence: true, length: { maximum: 50 }
     validates :text, length: { maximum: 300 }
 
-    has_many :post_recipe_categories, dependent: :destroy
-    has_many :post_material_categories, dependent: :destroy
     has_many :favorites, dependent: :destroy
     has_many :favorite_users, through: :favorites, source: :user
     belongs_to :user

@@ -1,6 +1,14 @@
 ---
 ja:
   activerecord:
+    models:
+      user: ユーザー
+      post: レシピ
+      comment: コメント
+      favorite: お気に入り
+      relationship: フォロー
+      material: 食材
+      procedure: 料理手順
     attributes:
       post:
         title: レシピ

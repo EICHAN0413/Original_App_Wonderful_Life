@@ -13,7 +13,7 @@
 
         <div class = "offset-1 col-sm-14 col-md-7 title_field">
           <div class = "row content_field">
-            <% post.materials.first(5).each_with_index do |t| %>
+            <% post.materials.first(3).each_with_index do |t| %>
                 <li class = "col-sm-6 col-md-6"><%= t.material %></li>
                 <li class = "col-sm-6 col-md-6"><%= t.amount %></li>       
             <% end %>
