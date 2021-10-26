@@ -17,11 +17,11 @@ class Post < ApplicationRecord
     has_many :comments, dependent: :destroy
 
 
-    enum tag:{ ガッツリ系:0,
-               さっぱり味:1,
-               筋トレ飯:2,
-
-              }
+    enum tag:{ 
+        ガッツリ系:0,
+        さっぱり味:1,
+        筋トレ飯:2,
+    }
 
     enum recipe_category: {
         肉料理:0,
