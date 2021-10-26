@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_10_21_123617) do
+ActiveRecord::Schema.define(version: 2021_10_26_022118) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -39,7 +39,7 @@ ActiveRecord::Schema.define(version: 2021_10_21_123617) do
   create_table "comments", force: :cascade do |t|
     t.bigint "post_id"
     t.bigint "user_id"
-    t.text "content", default: "", null: false
+    t.text "content"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["post_id"], name: "index_comments_on_post_id"
@@ -55,22 +55,8 @@ ActiveRecord::Schema.define(version: 2021_10_21_123617) do
     t.index ["user_id"], name: "index_favorites_on_user_id"
   end
 
-  create_table "material_categories", force: :cascade do |t|
-    t.string "type"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "material_relationships", force: :cascade do |t|
-    t.bigint "material_category_id"
-    t.bigint "material_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["material_category_id"], name: "index_material_relationships_on_material_category_id"
-    t.index ["material_id"], name: "index_material_relationships_on_material_id"
-  end
-
   create_table "materials", force: :cascade do |t|
+    t.string "type_name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "material"
@@ -79,26 +65,8 @@ ActiveRecord::Schema.define(version: 2021_10_21_123617) do
     t.index ["post_id"], name: "index_materials_on_post_id"
   end
 
-  create_table "post_material_categories", force: :cascade do |t|
-    t.bigint "post_id"
-    t.bigint "material_category_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["material_category_id"], name: "index_post_material_categories_on_material_category_id"
-    t.index ["post_id"], name: "index_post_material_categories_on_post_id"
-  end
-
-  create_table "post_recipe_categories", force: :cascade do |t|
-    t.bigint "post_id"
-    t.bigint "recipe_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["post_id"], name: "index_post_recipe_categories_on_post_id"
-    t.index ["recipe_id"], name: "index_post_recipe_categories_on_recipe_id"
-  end
-
   create_table "posts", force: :cascade do |t|
-    t.string "title", null: false
+    t.string "title"
     t.text "cooking_image"
     t.integer "tag"
     t.text "text"
@@ -117,12 +85,6 @@ ActiveRecord::Schema.define(version: 2021_10_21_123617) do
     t.datetime "updated_at", null: false
     t.bigint "post_id"
     t.index ["post_id"], name: "index_procedures_on_post_id"
-  end
-
-  create_table "recipes", force: :cascade do |t|
-    t.string "title_category"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
   end
 
   create_table "relationships", force: :cascade do |t|
@@ -146,7 +108,7 @@ ActiveRecord::Schema.define(version: 2021_10_21_123617) do
     t.datetime "last_sign_in_at"
     t.inet "current_sign_in_ip"
     t.inet "last_sign_in_ip"
-    t.string "name", default: "", null: false
+    t.string "name"
     t.text "profile"
     t.text "image"
     t.boolean "public_or_private"
@@ -157,7 +119,7 @@ ActiveRecord::Schema.define(version: 2021_10_21_123617) do
     t.datetime "confirmed_at"
     t.datetime "confirmation_sent_at"
     t.string "unconfirmed_email"
-    t.boolean "admin", default: false, null: false
+    t.boolean "admin", default: false
     t.date "birth_date"
     t.index ["confirmation_token"], name: "index_users_on_confirmation_token", unique: true
     t.index ["email"], name: "index_users_on_email", unique: true
@@ -169,13 +131,7 @@ ActiveRecord::Schema.define(version: 2021_10_21_123617) do
   add_foreign_key "comments", "users"
   add_foreign_key "favorites", "posts"
   add_foreign_key "favorites", "users"
-  add_foreign_key "material_relationships", "material_categories"
-  add_foreign_key "material_relationships", "materials"
   add_foreign_key "materials", "posts"
-  add_foreign_key "post_material_categories", "material_categories"
-  add_foreign_key "post_material_categories", "posts"
-  add_foreign_key "post_recipe_categories", "posts"
-  add_foreign_key "post_recipe_categories", "recipes"
   add_foreign_key "posts", "users"
   add_foreign_key "procedures", "posts"
 end
