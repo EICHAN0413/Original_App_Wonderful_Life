@@ -1,4 +1,4 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: 'hideki.stf@gmail.com'
+  default from: 'eichannel.cooking@gmail.com'
   layout 'mailer'
 end
