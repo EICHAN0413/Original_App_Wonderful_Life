@@ -22,7 +22,7 @@
             <li><%= link_to '詳細を見る', post %></li>
               <% if post.user_id == current_user.id %>
                 <li><%= link_to '編集', edit_post_path(post) %></li>
-                <li><%= link_to '削除', post, method: :delete, data: { confirm: 'Are you sure?' } %></li>
+                <li><%= link_to '削除', post, method: :delete, data: { confirm: '本当に削除しますか?' } %></li>
               <% end %>
             </div>
         </div>
