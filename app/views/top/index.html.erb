@@ -23,7 +23,7 @@
                 <li><%= link_to "トップページ", posts_path%></li>
                 <li><%= link_to "レシピ投稿", new_post_path %></li>
                 <% unless  current_user.email == 'guest@example.com' %>
-                <li><%= link_to "マイページ", user_path(current_user.id),class: "btn btn-light btn-block" %></li>
+                <li><%= link_to "マイページ", user_path(current_user.id) %></li>
                 <% end %>
                 <li><%= link_to "ログアウト", destroy_user_session_path, method: :delete %></li>
               </ul>
