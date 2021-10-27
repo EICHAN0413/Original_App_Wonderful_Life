@@ -3,6 +3,6 @@
 <%= image_tag post.cooking_image.url %>
 <p><%= link_to '詳細', post %></p>
 <p><%= link_to '編集', edit_post_path(post) %></p>
-<p><%= link_to '削除', post, method: :delete, data: { confirm: 'Are you sure?' } %></p>
+<p><%= link_to '削除', post, method: :delete, data: { confirm: '本当に削除しますか?' } %></p>
 
 <% end %>

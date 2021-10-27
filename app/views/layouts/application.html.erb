@@ -23,18 +23,19 @@
           <li class="nav-item pl-4 active">
             <%= link_to "トップページ", posts_path,class: "btn btn-light btn-block" %></a>
           </li>
-          <li class="nav-item pl-4">
+          <li class="nav-item pl-4 active">
             <%= link_to "レシピ投稿", new_post_path,class: "btn btn-light btn-block" %></a>
           </li>
           <% unless  current_user.email == 'guest@example.com'%>
           <li class="nav-item pl-4">
             <%= link_to "マイページ", user_path(current_user.id),class: "btn btn-light btn-block" %></a>
           </li>
-        </ul>
+        
           <% end %>
           <li class="nav-item pl-4">
             <%= link_to "ログアウト", destroy_user_session_path, method: :delete,class: "btn btn-light btn-block" %></a>
           </li>
+        </ul>
         <% else %>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item pl-4 active">
