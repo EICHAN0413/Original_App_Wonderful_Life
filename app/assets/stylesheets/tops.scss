@@ -3,58 +3,119 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-.top_menu {
-  width: 50%;
-  height: 620px;
-  float: left;
-  background-color: darkseagreen;
+
+.top-wonderful-life {
+  height:auto;
 }
 
-
-  
-  
 
 #randomImg {
-    width: 100%;
-    height: 620px;
-    margin: 0;
-    background-image: url("https://user-images.githubusercontent.com/85597833/135962160-9477fe30-c30e-4185-9937-eca244ffe433.jpg");
-    background-position:center center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    
-
-    display: block;
-}
-
-.site_logo {
   width: 100%;
-  height: 200px;
-  background-image: url("https://user-images.githubusercontent.com/85597833/135971434-f0d70486-0ffe-4224-9062-e30257dac315.png");
+  height: auto;
+  margin: 0;
+  background-image: url("https://user-images.githubusercontent.com/85597833/135962160-9477fe30-c30e-4185-9937-eca244ffe433.jpg");
   background-position:center center;
   background-repeat: no-repeat;
-  background-size:cover;  
-  padding-left: 20px;
-  padding-bottom: 50px;
+  background-size:cover;
+  display: block;
+  filter: sepia(40%);
+}
+
+.blank {
+  height: 300px;
+
+}
+
+.top_logo {
+  height: 100px;
+  text-align: center;
+  color: white;
+}
+
+.top_logo h2 {
+  text-shadow:2px 2px 3px black;
+  background: linear-gradient(transparent 60%, #99ccff 0%);
 }
 
 .site_explanation {
-  width: 100%;
-  height: 350px;
-  padding-left: 5px;
-  padding-right: 5px;
-  color:white;
+  height: auto;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .site_explanation p {
-  font-size: 18px;
-  letter-spacing: 2px;
+  font-size: 20px;
+  letter-spacing: 5px;
+  line-height: 25px;
+  color: white;
+  text-shadow:2px 2px 3px black;
 }
 
 .information {
-  width: 100%;
-  height: 50px;
+  float: left;
+  height: auto;
   padding-left: 50px;
   padding-right: 50px;
-  color:black;
 }
+.information li {
+  font-size: 10px;
+}
+
+.fadeIn_ax {
+  opacity: 0;
+  animation: fadeIn_ax 3s ease forwards;
+}
+  
+  /*1で解説*/
+  @keyframes fadeIn_ax {
+      100% {  
+        opacity: 1;
+      }
+  }
+
+.top_logo {animation-delay: 0s;}
+.site_explanation {animation-delay: 3s;}
+.information {animation-delay: 7s;}
+
+// .fadeIn_bx {
+//   animation-name: fadeIn_bxAnime;/*1で解説*/
+//   animation-fill-mode:none;/*2で解説*/
+//   animation-duration:10s;/*3で解説*/   
+//   animation-iteration-count:1;/*4で解説*/
+//   animation-timing-function:ease;/*5で解説*/
+//   animation-delay: 0s;/*6で解説*/ 
+//   animation-direction:normal;/*7で解説*/
+// }
+    
+//     /*1で解説*/
+//   @keyframes fadeIn_bxAnime{
+//     0% {
+//       opacity: 0;
+//     }
+    
+//     100% {
+//       opacity: 1;
+//     }
+//   }
+
+//   .fadeIn_cx {
+//     animation-name: fadeIn_cxAnime;/*1で解説*/
+//     animation-fill-mode:none;/*2で解説*/
+//     animation-duration:2s;/*で解説*/   
+//     animation-iteration-count:1;/*4で解説*/
+//     animation-timing-function:ease;/*5で解説*/
+//     animation-delay: 0s;/*6で解説*/ 
+//     animation-direction:normal;/*7で解説*/
+//   }
+      
+//       /*1で解説*/
+//     @keyframes fadeIn_cxAnime{
+//       0% {
+//         opacity: 0;
+//       }
+      
+//       100% {
+//         opacity: 1;
+//       }
+//     }

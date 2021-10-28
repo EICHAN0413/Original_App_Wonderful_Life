@@ -111,12 +111,25 @@ li {
 
 .title_comment {
   width:100%;
-  height: 200px;
+  height: auto;
 }
 
-.title_comment  input[type="text"] {
-width: 500px;
-height: 300px;
+.reciep-comment-form {
+  border: 2px solid #0a0;  /* 枠線 */
+  border-radius: 0.67em;   /* 角丸 */
+  padding: 0.5em;          /* 内側の余白量 */
+  background-color: snow;  /* 背景色 */
+  box-sizing: border-box;  /* ※これがないと横にはみ出る */
+  height: 120px;           /* 高さ */
+  font-size: 1em;          /* 文字サイズ */
+  line-height: 1.2;
+  overflow-wrap: break-word;       /* 行の高さ */
+}
+
+.reciep-comment-form:focus {
+  border-color: skyblue;   /* 枠線の色 */
+  background-color: #ffc;  /* 背景色 */
+  outline: none;           /* ※ブラウザが標準で付加する線を消したいとき */
 }
 
 .mx-auto {
@@ -182,6 +195,8 @@ height: auto;
 height:auto;
 padding-left: 10px;
 }
+
+
 
 .show_tag {
 height: auto;

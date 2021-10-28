@@ -16,6 +16,8 @@ class Post < ApplicationRecord
 
     has_many :comments, dependent: :destroy
 
+    scope :recent, -> { all.order(created_at: :desc) }
+
 
     enum tag:{ 
         ガッツリ系:0,

@@ -5,7 +5,7 @@ class PostsController < ApplicationController
   
   def index
     if user_signed_in?
-      @posts = Post.all
+      @posts = Post.recent
     else
       redirect_to new_user_session_path
     end
@@ -16,7 +16,7 @@ class PostsController < ApplicationController
       @posts = @keyword.result
     else
       @keyword = Post.ransack(params[:q])
-      @posts = @keyword.result #検索の結果を受け取る。
+      @posts = @keyword.result
     end
 
 
@@ -32,10 +32,6 @@ class PostsController < ApplicationController
       @post = Post.new
       @materials = @post.materials.build
       @procedures = @post.procedures.build
-
-      @numbers = [1,2,3,4,5]
-      @sum = 0
-      @num = 0
 
   end
 

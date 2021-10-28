@@ -1,0 +1,41 @@
+<div class = "col-6 top_menu">
+    <div class="row">
+      <div class = "site_logo"></div>
+    </div>
+    <div class='row'>
+      <div class = "site_explanation">
+        <p>WonderfulLifeは料理投稿に特化した一般向けSNSアプリです。<br><br>
+          世の中に料理サイトは多くありますが、もっと気軽に調べて共有できる場所がもっとあればと考えています。<br>
+          WonderfulLifeでは他の料理投稿サイトと比べて、普段は料理投稿をしないユーザでもその日食べた料理やレシピを簡単に投稿することができるフォーマットを用意しています。<br>
+          またユーザ同士が料理を通して交流しやすい仕組みや機能を採用しているため、他のサイトにはない拡散力が期待できます。</p>
+      </div>
+    </div>
+    <div class='row'>
+      <div class = "information">
+      <% if user_signed_in? %>
+        <ul>
+          <li><%= link_to "トップページ", posts_path%></li>
+          <li><%= link_to "レシピ投稿", new_post_path %></li>
+          <% unless  current_user.email == 'guest@example.com' %>
+          <li><%= link_to "マイページ", user_path(current_user.id) %></li>
+          <% end %>
+          <li><%= link_to "ログアウト", destroy_user_session_path, method: :delete %></li>
+        </ul>
+      <% else %>
+        <ul>
+          <li><%= link_to "新規登録", new_user_session_path %></li>
+          <li><%= link_to "ログイン", user_session_path %></li>
+          <li><%= link_to "ゲストログイン", users_guest_sign_in_path, method: :post %></li>
+          <li><%= link_to '管理者ログイン', users_admin_guest_sign_in_path, method: :post%></li>
+        </ul>
+        <% end %>
+      </div>
+    </div>
+  </div>
+
+<div class = "col-6 top_menu">
+  <div class = "row">
+    <div id="randomImg"></div>
+  </div>
+</div>
+  
