@@ -1,13 +1,17 @@
-<p>検索画面</p>
+<div class ='row'>
+  <p class='offset-4 col-7'><strong>検索画面</strong></p>
+</div>
 
 <%= search_form_for(@keyword, method: :get) do |f| %>
   <%= f.label :title_cont_any, 'タイトル検索' %>
 
-  <%= f.text_field :title_cont_any %>
+  <%= f.text_field :title_cont_any, size: 20 %>
 <div>
   <%= f.submit '検索する' %>
 </div>
 <% end %>
+
+
 <p><%= link_to 'カテゴリ一覧', recipe_posts_path %></p>
 
 <% if current_user.try(:admin?) %>

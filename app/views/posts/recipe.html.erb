@@ -20,7 +20,7 @@
             <div class ="col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
           </div>
         <% end %>
-          <div class ="offset-8 row "><%= link_to 'レシピをもっと見る', scope_posts_path(sort_meat: "true") %></div>
+          <div class ="offset-3 row "><%= link_to "レシピをもっと見る(#{@meats.count}件)", scope_posts_path(sort_meat: "true") %></div>
         </div> 
       </div>
     </div>
@@ -41,7 +41,7 @@
           <div class = "col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
         </div>
           <% end %>
-          <div class ="offset-8 row"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_fish: "true") %></div>
+          <div class ="offset-3 row"><%= link_to "レシピをもっと見る(#{@fishs.count}件)", scope_posts_path(sort_fish: "true") %></div>
         </div>  
       </div>
 
@@ -62,7 +62,7 @@
             <div class = "col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
           </div>
           <% end %>
-          <div class ="offset-8 row"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_noodle: "true") %></div>
+          <div class ="offset-3 row"><%= link_to "レシピをもっと見る(#{@noodles.count}件)", scope_posts_path(sort_noodle: "true") %></div>
         </div> 
       </div>
     </div>
@@ -85,7 +85,7 @@
             <div class ="col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
           </div>
         <% end %>
-          <div class ="offset-8 row "><%= link_to 'レシピをもっと見る', scope_posts_path(sort_vegetable_dish: "true") %></div>
+          <div class ="offset-3 row "><%= link_to "レシピをもっと見る(#{@vegetable_dishes.count}件)", scope_posts_path(sort_vegetable_dish: "true") %></div>
         </div> 
       </div>
     </div>
@@ -106,7 +106,7 @@
           <div class = "col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
         </div>
           <% end %>
-          <div class ="offset-8 row"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_rice: "true") %></div>
+          <div class ="offset-3 row"><%= link_to "レシピをもっと見る(#{@rices.count}件)", scope_posts_path(sort_rice: "true") %></div>
         </div>  
       </div>
 
@@ -127,7 +127,7 @@
             <div class = "col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
           </div>
           <% end %>
-          <div class ="offset-8 row"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_pasta: "true") %></div>
+          <div class ="offset-3 row"><%= link_to "レシピをもっと見る(#{@pastas.count}件)", scope_posts_path(sort_pasta: "true") %></div>
         </div> 
       </div>
     </div>
@@ -150,7 +150,7 @@
             <div class ="col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
           </div>
         <% end %>
-          <div class ="offset-8 row "><%= link_to 'レシピをもっと見る', scope_posts_path(sort_washoku: "true") %></div>
+          <div class ="offset-3 row "><%= link_to "レシピをもっと見る(#{@washokus.count}件)", scope_posts_path(sort_washoku: "true") %></div>
         </div> 
       </div>
     </div>
@@ -171,7 +171,7 @@
           <div class = "col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
         </div>
           <% end %>
-          <div class ="offset-8 row"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_western_food: "true") %></div>
+          <div class ="offset-3 row"><%= link_to "レシピをもっと見る(#{@western_foods.count}件)", scope_posts_path(sort_western_food: "true") %></div>
         </div>  
       </div>
 
@@ -192,7 +192,7 @@
             <div class = "col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
           </div>
           <% end %>
-          <div class ="offset-8 row"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_italian: "true") %></div>
+          <div class ="offset-3 row"><%= link_to "レシピをもっと見る(#{@italians.count}件)", scope_posts_path(sort_italian: "true") %></div>
         </div> 
       </div>
     </div>
@@ -215,7 +215,7 @@
             <div class ="col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
           </div>
         <% end %>
-          <div class ="offset-8 row "><%= link_to 'レシピをもっと見る', scope_posts_path(sort_france: "true") %></div>
+          <div class ="offset-3 row "><%= link_to "レシピをもっと見る(#{@frances.count}件)", scope_posts_path(sort_france: "true") %></div>
         </div> 
       </div>
     </div>
@@ -236,7 +236,7 @@
           <div class = "col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
         </div>
           <% end %>
-          <div class ="offset-8 row"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_salada: "true") %></div>
+          <div class ="offset-3 row"><%= link_to "レシピをもっと見る(#{@saladas.count}件)", scope_posts_path(sort_salada: "true") %></div>
         </div>  
       </div>
 
@@ -257,7 +257,7 @@
             <div class = "col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
           </div>
           <% end %>
-          <div class ="offset-8 row"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_sauce: "true") %></div>
+          <div class ="offset-3 row"><%= link_to "レシピをもっと見る(#{@sauces.count}件)", scope_posts_path(sort_sauce: "true") %></div>
         </div> 
       </div>
     </div>
@@ -280,7 +280,7 @@
             <div class ="col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
           </div>
         <% end %>
-          <div class ="offset-8 row "><%= link_to 'レシピをもっと見る', scope_posts_path(sort_flour: "true") %></div>
+          <div class ="offset-3 row "><%= link_to "レシピをもっと見る(#{@flours.count}件)", scope_posts_path(sort_flour: "true") %></div>
         </div> 
       </div>
     </div>
@@ -301,7 +301,7 @@
           <div class = "col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
         </div>
           <% end %>
-          <div class ="offset-8 row"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_appetizer: "true") %></div>
+          <div class ="offset-3 row"><%= link_to "レシピをもっと見る(#{@appetizers.count}件)", scope_posts_path(sort_appetizer: "true") %></div>
         </div>  
       </div>
 
@@ -322,7 +322,7 @@
             <div class = "col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
           </div>
           <% end %>
-          <div class ="offset-8 row"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_time_saving: "true") %></div>
+          <div class ="offset-3 row"><%= link_to "レシピをもっと見る(#{@time_savings.count}件)", scope_posts_path(sort_time_saving: "true") %></div>
         </div> 
       </div>
     </div>
@@ -345,7 +345,7 @@
             <div class ="col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
           </div>
         <% end %>
-          <div class ="offset-8 row "><%= link_to 'レシピをもっと見る', scope_posts_path(sort_anime_food: "true") %></div>
+          <div class ="offset-3 row "><%= link_to "レシピをもっと見る(#{@anime_foods.count}件)", scope_posts_path(sort_anime_food: "true") %></div>
         </div> 
       </div>
     </div>
@@ -366,7 +366,7 @@
           <div class = "col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
         </div>
           <% end %>
-          <div class ="offset-8 row"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_diet: "true") %></div>
+          <div class ="offset-3 row"><%= link_to "レシピをもっと見る(#{@diets.count}件)", scope_posts_path(sort_diet: "true") %></div>
         </div>  
       </div>
 
@@ -387,7 +387,7 @@
             <div class = "col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
           </div>
           <% end %>
-          <div class ="offset-8 row"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_high_protein: "true") %></div>
+          <div class ="offset-3 row"><%= link_to "レシピをもっと見る(#{@high_proteins.count}件)", scope_posts_path(sort_high_protein: "true") %></div>
         </div> 
       </div>
     </div>
@@ -410,7 +410,7 @@
             <div class ="col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
           </div>
         <% end %>
-          <div class ="offset-8 row "><%= link_to 'レシピをもっと見る', scope_posts_path(sort_snack: "true") %></div>
+          <div class ="offset-3 row "><%= link_to "レシピをもっと見る(#{@snacks.count}件)", scope_posts_path(sort_snack: "true") %></div>
         </div> 
       </div>
     </div>
@@ -431,7 +431,7 @@
           <div class = "col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
         </div>
           <% end %>
-          <div class ="offset-8 row"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_classic: "true") %></div>
+          <div class ="offset-3 row"><%= link_to "レシピをもっと見る(#{@classics.count}件)", scope_posts_path(sort_classic: "true") %></div>
         </div>  
       </div>
 
@@ -452,7 +452,7 @@
             <div class = "col-4 rx-link"><%= link_to 'レシピを見る', post_path(m.id) %></div>
           </div>
           <% end %>
-          <div class ="offset-8 row"><%= link_to 'レシピをもっと見る', scope_posts_path(sort_other: "true") %></div>
+          <div class ="offset-3 row"><%= link_to "レシピをもっと見る(#{@others.count}件)", scope_posts_path(sort_other: "true") %></div>
         </div> 
       </div>
     </div>

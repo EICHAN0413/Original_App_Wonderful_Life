@@ -35,7 +35,9 @@
     <div class="col-6 user_profile">
       <div class="profile_form">
         <h4>プロフィール</h4>
+        <% if @user.profile? %>
         <p><%= @user.profile %></p>
+        <% end %>
       </div>
     </div>
   </div> 

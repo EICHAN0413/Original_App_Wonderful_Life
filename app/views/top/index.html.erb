@@ -1,51 +1,63 @@
-
+<html>
+  <head>
+    <title>WonderfulLife</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <meta name="viewport" content="width=device-width">
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
 
   <body>
-
-
-      <div class ="row">
-        <div class = "col-6 top_menu">
-          <div class="row">
-            <div class = "site_logo"></div>
-          </div>
-          <div class='row'>
-            <div class = "site_explanation">
-              <p>WonderfulLifeは料理投稿に特化した一般向けSNSアプリです。<br><br>
-                世の中に料理サイトは多くありますが、もっと気軽に調べて共有できる場所がもっとあればと考えています。<br>
-                WonderfulLifeでは他の料理投稿サイトと比べて、普段は料理投稿をしないユーザでもその日食べた料理やレシピを簡単に投稿することができるフォーマットを用意しています。<br>
-                またユーザ同士が料理を通して交流しやすい仕組みや機能を採用しているため、他のサイトにはない拡散力が期待できます。</p>
+    <div class='container-flued top'>
+      <div class = "row top-wonderful-life">
+        <div class='col-12'>
+          <div id="randomImg">
+            <div class='row blank'></div>
+            <div class='row'>
+              <div class='offset-1 col-5 top_logo fadeIn_ax'>
+                <h2>Wonderful Life </h2>
+              </div>
             </div>
-          </div>
-          <div class='row'>
-            <div class = "information">
-            <% if user_signed_in? %>
-              <ul>
-                <li><%= link_to "トップページ", posts_path%></li>
-                <li><%= link_to "レシピ投稿", new_post_path %></li>
-                <% unless  current_user.email == 'guest@example.com' %>
-                <li><%= link_to "マイページ", user_path(current_user.id) %></li>
+            <div class='row'>
+              <div class = "offset-1 col-5 site_explanation fadeIn_ax">
+                <p class= 'row'>WonderfulLifeは料理投稿に特化したSNSサイトです。<br><br>
+                    このサイトは、もっと気軽に料理を楽しんでもらうため、普段は料理投稿をしないユーザでもその日食べた料理やレシピを簡単に投稿することができるフォーマットを用意しています。<br>
+                    またユーザ同士が料理を通して交流しやすい仕組みや機能を採用しています<br><br>
+                    みんなで料理を楽し見ましょう♪</p>
+              </div>
+            </div>
+            <div class='row'>
+              <div class = "offset-1 col-5 information fadeIn_ax">
+                <% if user_signed_in? %>
+                  <ul class='row'>
+                    <li class='col-md-6 col-sm-12'><%= link_to "トップページ", posts_path, class: "btn btn-outline-primary" %></li>
+                    <li class='col-md-6 col-sm-12'><%= link_to "レシピ投稿", new_post_path, class: "btn btn-outline-primary" %></li>
+                      <% unless  current_user.email == 'guest@example.com' %>
+                        <li class='col-md-6 col-sm-12'><%= link_to "マイページ", user_path(current_user.id), class: "btn btn-outline-primary" %></li>
+                      <% end %>
+                    <li class='col-md-6 col-sm-12'><%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: "btn btn-outline-primary" %></li>
+                  </ul>
+                <% else %>
+                  <ul class='row'>
+                    <li class='col-md-6 col-sm-12'><%= link_to "新規登録", new_user_registration_path, class: "btn btn-outline-primary" %></li>
+                    <li class='col-md-6 col-sm-12'><%= link_to "ログイン", user_session_path, class: "btn btn-outline-primary" %></li>
+                    <li class='col-md-6 col-sm-12'><%= link_to "ゲストログイン", users_guest_sign_in_path, method: :post, class: "btn btn-outline-primary" %></li>
+                    <li class='col-md-6 col-sm-12'><%= link_to '管理者ログイン', users_admin_guest_sign_in_path, method: :post, class: "btn btn-outline-primary" %></li>
+                  </ul>
                 <% end %>
-                <li><%= link_to "ログアウト", destroy_user_session_path, method: :delete %></li>
-              </ul>
-            <% else %>
-              <ul>
-                <li><%= link_to "新規登録", new_user_session_path %></li>
-                <li><%= link_to "ログイン", user_session_path %></li>
-                <li><%= link_to "ゲストログイン", users_guest_sign_in_path, method: :post %></li>
-                <li><%= link_to '管理者ログイン', users_admin_guest_sign_in_path, method: :post%></li>
-              </ul>
-              <% end %>
+              </div>
             </div>
+            
           </div>
-        </div>
-
-      <div class = "col-6 top_menu">
-        <div class = "row">
-          <div id="randomImg"></div>
         </div>
       </div>
-        
-    </div>
+      <footer>
+        <p>WonderfuLife.2021</p>
+      </footer>
+    </div>  
+
+  
   </body>
 
- 
+ </html>

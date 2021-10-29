@@ -65,7 +65,9 @@ var images = [ 'url("https://user-images.githubusercontent.com/85597833/13705683
       var backgroundRandom = function(){
         var number = Math.floor(Math.random() * images.length); 
         var selectedImg = images[number]; 
-        $('#randomImg').css('background-image',selectedImg); 
+        $('#randomImg').css('background-image',selectedImg);
       };
       setInterval(backgroundRandom, 5000);
     });
+
+  

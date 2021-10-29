@@ -5,7 +5,7 @@ class PostsController < ApplicationController
   
   def index
     if user_signed_in?
-      @posts = Post.all
+      @posts = Post.page(params[:page]).per(30)
     else
       redirect_to new_user_session_path
     end
@@ -14,9 +14,11 @@ class PostsController < ApplicationController
       params[:q]['title_cont_any'] = params[:q]['title_cont_any'].split(/[\p{blank}\s]+/)
       @keyword =Post.ransack(params[:q])
       @posts = @keyword.result
+      @posts = Post.page(params[:page]).per(30)
     else
       @keyword = Post.ransack(params[:q])
-      @posts = @keyword.result #検索の結果を受け取る。
+      @posts = @keyword.result
+      @posts = Post.page(params[:page]).per(30)
     end
 
 
@@ -32,10 +34,6 @@ class PostsController < ApplicationController
       @post = Post.new
       @materials = @post.materials.build
       @procedures = @post.procedures.build
-
-      @numbers = [1,2,3,4,5]
-      @sum = 0
-      @num = 0
 
   end
 
@@ -106,6 +104,7 @@ class PostsController < ApplicationController
   def scope
     if params[:sort_meat]
       @posts = Post.where(recipe_category: 0) 
+      @posts = @posts.page(params[:page]).per(30)
     elsif params[:sort_fish]
       @posts = Post.where(recipe_category: 1)
     elsif params[:sort_noodle]
@@ -150,14 +149,10 @@ class PostsController < ApplicationController
       redirect_to posts_path, notice: "けんさくできませんでした"
     end
 
-    # if params[:q] != nil
-    #   params[:q]['title_cont_any'] = params[:q]['title_cont_any'].split(/[\p{blank}\s]+/)
-    #   @keyword =Post.ransack(params[:q])
-    #   @posts = @keyword.result
-    # else
-    #   @keyword = Post.ransack(params[:q])
-    #   @posts = @keyword.result #検索の結果を受け取る。
-    # end
+    
+    
+
+
   end
 
   def search
