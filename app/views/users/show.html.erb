@@ -1,6 +1,7 @@
 
 <div class = "user_page">
   <div class=" row user_field">
+
     <div class="col-6 user_title">
       <div class ="user_form">
         <% if @user.avatar.attached? %>
@@ -28,7 +29,7 @@
           <% if current_user.try(:admin?) %>
             <p><%= link_to '管理画面へ', rails_admin_path %></p>
             <% end %>
-          
+   
       </div>  
     </div>
 
@@ -42,10 +43,10 @@
     </div>
   </div> 
 
-<ul class="row tab-list list-unstyled">
-  <li class="col-6 tab tab-active">投稿一覧</li>
-  <li class="col-6 tab">お気に入り</li>
-</ul>
+  <ul class="row tab-list list-unstyled">
+    <li class="col-6 tab tab-active">投稿一覧</li>
+    <li class="col-6 tab">お気に入り</li>
+  </ul>
 
   <div class="tabbox-contents">
     <div class="tabbox box-show">
