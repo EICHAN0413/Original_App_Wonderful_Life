@@ -1,15 +1,20 @@
 <%= form_for(resource, as: resource_name, url: confirmation_path(resource_name), html: { method: :post }) do |f| %>
   <%= render "devise/shared/error_messages", resource: resource %>
 
-  <div class="field">
+
+<div class= 'row'>
+<div class ='offset-4 col-4 bg-form'>
+  <div class="col-12 field">
   <h2>確認メール再送信</h2>
     <%= f.email_field :email, autofocus: true, autocomplete: "email", value: (resource.pending_reconfirmation? ? resource.unconfirmed_email : resource.email), placeholder: 'Eメール' %>
   </div>
 
-  <div class= "field">
+  <div class= "col-12 field">
     <p><%= f.submit "確認メールを再送" %></p>
     <%= render "devise/shared/links" %>
   </div>
+</div>
+</div>
 <% end %>
 
 

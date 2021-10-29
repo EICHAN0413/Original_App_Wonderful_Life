@@ -17,36 +17,61 @@ li {
 }
 .post_index {
   display: inline-block;
-  width: 100%;
-  height: 650px;
-  background-color:ivory;
-  text-align:left; 
-  overflow: scroll;
+  height: auto;
+  text-align:center; 
 }
 
 .side_menu {
   display: inline-block;
   height: 650px;
   width: 100%;
-  background-color: ivory;
+  background-color:ivory;
+  border: 0.5px solid;
+  border-radius: 15px;
+  margin: 10px;
 }
 
 .post_field {
-  height: 200px;
+  height:auto;
   padding-left: 20px;
   padding-right: 20px;
   border: 0.5px solid;
-
+  border-radius: 15px;
+  background-color:ivory;
+  margin:10px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
-.title {
-  padding-top:20px;
+
+.title-photo {
+  height: auto;
+}
+
+.title_menu {
+  height: auto;
+  padding-top: 20px;
+  text-align: left;
+}
+
+.title_menu p {
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
 }
 
 .title_field {
-  height: 200px;
-  float: left;
+  height: auto;
 }
+
+.title_field_m {
+  height: auto;
+}
+
+.post-material-select {
+  background: linear-gradient(transparent 90%, #99ccff 0%);
+}
+
 
 .content_field {
   height: 150px;
@@ -54,14 +79,6 @@ li {
 
 .content_field p {
   float: left
-}
-
-.title_menu {
-  height: 20px;
-}
-
-.title_menu li {
-  float: left;
 }
 
 .icon{
@@ -115,22 +132,23 @@ li {
 }
 
 .reciep-comment-form {
-  border: 2px solid #0a0;  /* 枠線 */
-  border-radius: 0.67em;   /* 角丸 */
+  // border: 2px solid #0a0;  /* 枠線 */
+  // border-radius: 0.67em;   /* 角丸 */
   padding: 0.5em;          /* 内側の余白量 */
   background-color: snow;  /* 背景色 */
   box-sizing: border-box;  /* ※これがないと横にはみ出る */
-  height: 120px;           /* 高さ */
+  height: 100%;
+  width: 100%;           /* 高さ */
   font-size: 1em;          /* 文字サイズ */
   line-height: 1.2;
   overflow-wrap: break-word;       /* 行の高さ */
 }
 
-.reciep-comment-form:focus {
-  border-color: skyblue;   /* 枠線の色 */
-  background-color: #ffc;  /* 背景色 */
-  outline: none;           /* ※ブラウザが標準で付加する線を消したいとき */
-}
+// .reciep-comment-form:focus {
+//   border-color: skyblue;   /* 枠線の色 */
+//   background-color: #ffc;  /* 背景色 */
+//   outline: none;           /* ※ブラウザが標準で付加する線を消したいとき */
+// }
 
 .mx-auto {
 padding: 10px;
@@ -281,13 +299,15 @@ overflow: scroll;
 }
 
 .recipe_title_field {
-height: auto;
+height: 50px;
 text-align: center;
+
 }
 
 .recipe_title_field p {
 font-size: 30px;
-padding-top: 50px;
+height: 50px;
+padding-top:20px;
 }
 
 .recipe_title {

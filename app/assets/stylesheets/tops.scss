@@ -25,6 +25,10 @@
   height: 300px;
 
 }
+body {
+  background-color: black;
+}
+
 
 .top_logo {
   height: 100px;
@@ -64,10 +68,10 @@
 
 .fadeIn_ax {
   opacity: 0;
-  animation: fadeIn_ax 3s ease forwards;
+  animation: fadeIn_ax 2s ease forwards;
 }
   
-  /*1で解説*/
+
   @keyframes fadeIn_ax {
       100% {  
         opacity: 1;
@@ -75,47 +79,6 @@
   }
 
 .top_logo {animation-delay: 0s;}
-.site_explanation {animation-delay: 3s;}
-.information {animation-delay: 7s;}
+.site_explanation {animation-delay: 2s;}
+.information {animation-delay: 5s;}
 
-// .fadeIn_bx {
-//   animation-name: fadeIn_bxAnime;/*1で解説*/
-//   animation-fill-mode:none;/*2で解説*/
-//   animation-duration:10s;/*3で解説*/   
-//   animation-iteration-count:1;/*4で解説*/
-//   animation-timing-function:ease;/*5で解説*/
-//   animation-delay: 0s;/*6で解説*/ 
-//   animation-direction:normal;/*7で解説*/
-// }
-    
-//     /*1で解説*/
-//   @keyframes fadeIn_bxAnime{
-//     0% {
-//       opacity: 0;
-//     }
-    
-//     100% {
-//       opacity: 1;
-//     }
-//   }
-
-//   .fadeIn_cx {
-//     animation-name: fadeIn_cxAnime;/*1で解説*/
-//     animation-fill-mode:none;/*2で解説*/
-//     animation-duration:2s;/*で解説*/   
-//     animation-iteration-count:1;/*4で解説*/
-//     animation-timing-function:ease;/*5で解説*/
-//     animation-delay: 0s;/*6で解説*/ 
-//     animation-direction:normal;/*7で解説*/
-//   }
-      
-//       /*1で解説*/
-//     @keyframes fadeIn_cxAnime{
-//       0% {
-//         opacity: 0;
-//       }
-      
-//       100% {
-//         opacity: 1;
-//       }
-//     }

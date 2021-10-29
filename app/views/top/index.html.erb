@@ -9,7 +9,7 @@
   </head>
 
   <body>
-    <div class='container-flued'>
+    <div class='container-flued top'>
       <div class = "row top-wonderful-life">
         <div class='col-12'>
           <div id="randomImg">
@@ -40,7 +40,7 @@
                   </ul>
                 <% else %>
                   <ul class='row'>
-                    <li class='col-md-6 col-sm-12'><%= link_to "新規登録", new_user_session_path, class: "btn btn-outline-primary" %></li>
+                    <li class='col-md-6 col-sm-12'><%= link_to "新規登録", new_user_registration_path, class: "btn btn-outline-primary" %></li>
                     <li class='col-md-6 col-sm-12'><%= link_to "ログイン", user_session_path, class: "btn btn-outline-primary" %></li>
                     <li class='col-md-6 col-sm-12'><%= link_to "ゲストログイン", users_guest_sign_in_path, method: :post, class: "btn btn-outline-primary" %></li>
                     <li class='col-md-6 col-sm-12'><%= link_to '管理者ログイン', users_admin_guest_sign_in_path, method: :post, class: "btn btn-outline-primary" %></li>
@@ -52,11 +52,12 @@
           </div>
         </div>
       </div>
+      <footer>
+        <p>WonderfuLife.2021</p>
+      </footer>
     </div>  
 
-  <footer>
-    <p>WonderfuLife.2021</p>
-  </footer>
+  
   </body>
 
  </html>

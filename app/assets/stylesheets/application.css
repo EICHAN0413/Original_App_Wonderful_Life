@@ -26,6 +26,8 @@ body {
   margin: 0;
   padding: 0;
   display: block;
+  background-color: lavender;
+  /* background-image: url('https://user-images.githubusercontent.com/85597833/139173393-a01b90cc-46f6-4e6e-b812-e69903152ee5.jpg'); */
 }
 
 .login_home {
@@ -35,9 +37,10 @@ body {
 }
 
 .bg-main{
-  background-color:cornflowerblue;
+  background-color:ivory;
   border-radius: 15px;
   margin: 10px;
+
 }
 
 
@@ -48,7 +51,7 @@ footer {
 }
 
 footer p {
-  padding-top: 50px;
+  padding-top: 25px;
 }
 
 .container_main {
@@ -60,6 +63,16 @@ footer p {
 
 .field {
   text-align: center;
+  height:auto
+}
+
+.bg-form {
+  background-color: ivory;
+  text-align: center;
+  height: auto;
+  border-radius: 15px;
+  padding: 50px;
+  margin-top:100px;
 }
 
 .field_with_errors {
@@ -101,5 +114,15 @@ footer p {
   padding: 10px;
 }
 .error {
+  text-align: center;
+}
+
+.kaminari {
+  text-align: center;
+  padding-top: 30px;
+  height: 100px
+}
+
+.kaminari li {
   text-align: center;
 }

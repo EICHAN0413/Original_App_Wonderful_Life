@@ -21,36 +21,36 @@
       <% if user_signed_in? %>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item pl-4 active">
-            <%= link_to "トップページ", posts_path,class: "btn btn-light btn-block" %></a>
+            <%= link_to "トップページ", posts_path,class: "btn btn-outline-success" %></a>
           </li>
           <li class="nav-item pl-4 active">
-            <%= link_to "レシピ投稿", new_post_path,class: "btn btn-light btn-block" %></a>
+            <%= link_to "レシピ投稿", new_post_path,class: "btn btn-outline-success" %></a>
           </li>
           <% unless  current_user.email == 'guest@example.com'%>
           <li class="nav-item pl-4">
-            <%= link_to "マイページ", user_path(current_user.id),class: "btn btn-light btn-block" %></a>
+            <%= link_to "マイページ", user_path(current_user.id),class: "btn btn-outline-success" %></a>
           </li>
         
           <% end %>
           <li class="nav-item pl-4">
-            <%= link_to "ログアウト", destroy_user_session_path, method: :delete,class: "btn btn-light btn-block" %></a>
+            <%= link_to "ログアウト", destroy_user_session_path, method: :delete,class: "btn btn-outline-success" %></a>
           </li>
         </ul>
         <% else %>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item pl-4 active">
-            <%= link_to "新規登録", new_user_registration_path,class: "btn btn-light btn-block" %></p>
+            <%= link_to "新規登録", new_user_registration_path,class: "btn btn-outline-success" %></p>
           </li>
           <li class="nav-item pl-4">
-            <%= link_to "ログイン", new_user_session_path,class: "btn btn-light btn-block" %></a>
+            <%= link_to "ログイン", new_user_session_path,class: "btn btn-outline-success" %></a>
           </li>
           
           <li class="nav-item pl-4">
-            <%= link_to 'ゲストログイン', users_guest_sign_in_path, method: :post,class: "btn btn-light btn-block" %></a>
+            <%= link_to 'ゲストログイン', users_guest_sign_in_path, method: :post,class: "btn btn-outline-success" %></a>
           </li>
 
           <li class="nav-item pl-4">
-            <%= link_to '管理者ログイン', users_admin_guest_sign_in_path, method: :post,class: "btn btn-light btn-block" %>
+            <%= link_to '管理者ログイン', users_admin_guest_sign_in_path, method: :post,class: "btn btn-outline-success" %>
           </li>
         </ul>
       
@@ -58,13 +58,14 @@
       </div>
     </div>
   </nav>
-    <% if notice %>
-      <p class="alert alert-notice"><%= notice %></p>
-    <% end %>
-    <% if alert %>
-      <p class="alert alert-error"><%= alert %></p>
-    <% end %>
-  </div>
+    <div class ="row">
+      <% if notice %>
+        <p class="alert alert-notice"><%= notice %></p>
+      <% end %>
+      <% if alert %>
+        <p class="alert alert-error"><%= alert %></p>
+      <% end %>
+    </div>
   
   <div class ="container-fluid">
     <%= yield %>

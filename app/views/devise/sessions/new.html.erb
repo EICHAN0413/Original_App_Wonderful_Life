@@ -1,28 +1,32 @@
 
 
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
-  <div class="field">
+<div class= 'row'>
+<div class ='offset-4 col-4 bg-form'>
+  <div class="col-12 field">
   <h2>ログイン画面</h2>
     <P><%= f.label :email %></P>
     <P><%= f.email_field :email, autofocus: true, autocomplete: "email" %></P>
   </div>
 
-  <div class="field">
+  <div class="col-12 field">
     <P><%= f.label :password %></P>
     <P><%= f.password_field :password, autocomplete: "current-password" %></P>
   </div>
 
   <% if devise_mapping.rememberable? %>
-    <div class="field">
+    <div class="col-12 field">
       <P><%= f.check_box :remember_me %></P>
       <P><%= f.label :remember_me %></P>
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="col-12 field">
     <P><%= f.submit "ログイン" %></P>
     <%= render "devise/shared/links" %>
   </div>
+</div>
+</div>
 <% end %>
 
 
