@@ -78,7 +78,7 @@ end
     end
 end
 
-5.times do |n|
+50.times do |n|
     Procedure.seed do |s|
         s.id = n + 101
         s.procedure = "テスト手順#{n + 101}"
