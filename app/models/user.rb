@@ -12,7 +12,6 @@ class User < ApplicationRecord
   has_many :following, through: :active_relationships, source: :followed
   has_many :followers, through: :passive_relationships, source: :follower
   has_many :comments, dependent: :destroy
-  has_many :sns_credentials, dependent: :destroy
 
 
   has_one_attached :avatar
@@ -56,7 +55,7 @@ class User < ApplicationRecord
                       provider: auth.provider,
                       uid:      auth.uid,
                       password: Devise.friendly_token[0, 20],
-                                   )
+      )
     end
     user.save
     user
