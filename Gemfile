@@ -30,6 +30,10 @@ gem 'ransack'
 gem 'dotenv-rails'
 gem 'mini_racer'
 gem 'kaminari'
+gem 'omniauth'
+gem 'omniauth-twitter'
+gem 'omniauth-google-oauth2'
+gem "omniauth-rails_csrf_protection"
 
 
 gem 'bootsnap', '>= 1.1.0', require: false

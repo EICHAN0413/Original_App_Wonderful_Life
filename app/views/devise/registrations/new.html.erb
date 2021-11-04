@@ -4,9 +4,23 @@
   <%= render "devise/shared/error_messages", resource: resource %>
 
 <div class= 'row'>
-<div class ='offset-4 col-4 bg-form'>
+
+<div class='offset-1 col-4 bg-form'>
+
   <div class="col-12 field">
-    <h2>新規登録画面</h2>
+    <h2>他アカウントを利用<br><br></h2>
+  </div>
+
+  <div class="col-12 field">
+    <%= link_to 'Googleアカウントでログイン', user_google_omniauth_authorize_path, method: :post, class: "btn btn-outline-primary" %>
+  </div>
+
+</div>
+
+<div class ='offset-2 col-4 bg-form'>
+
+  <div class="col-12 field">
+    <h2>新規登録</h2>
   </div>
 
   <div class="col-12 field">
@@ -34,7 +48,6 @@
 
   <div class="col-12 field">
     <p><%= f.submit  %></p>
-    <%= render "devise/shared/links" %>
   </div>
 </div>
 </div>
