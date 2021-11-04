@@ -1,5 +1,6 @@
 class User < ApplicationRecord
-  devise :database_authenticatable, :registerable, :recoverable, :rememberable, :validatable
+  devise  :database_authenticatable, :registerable, :recoverable, :rememberable, :validatable,:trackable,
+          :omniauthable, omniauth_providers: %i(google)
 
   validates :profile, length: { maximum: 300 }
 
@@ -19,6 +20,7 @@ class User < ApplicationRecord
   def self.guest
     find_or_create_by!( email: 'guest@example.com') do |user|
       user.password = SecureRandom.urlsafe_base64
+      user.name = 'ゲスト'
       user.confirmed_at = Time.now  
     end
   end
@@ -42,4 +44,22 @@ class User < ApplicationRecord
   def unfollow!(other_user)
     active_relationships.find_by(followed_id: other_user.id).destroy
   end
+
+  def self.create_unique_string
+    SecureRandom.uuid
+  end
+
+  def self.find_for_google(auth)
+    user = User.find_by(email: auth.info.email)
+    unless user
+      user = User.new(email: auth.info.email,
+                      provider: auth.provider,
+                      uid:      auth.uid,
+                      password: Devise.friendly_token[0, 20],
+      )
+    end
+    user.save
+    user
+  end
+
 end

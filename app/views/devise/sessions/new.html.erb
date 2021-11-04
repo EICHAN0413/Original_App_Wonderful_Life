@@ -23,7 +23,7 @@
 
   <div class="col-12 field">
     <P><%= f.submit "ログイン" %></P>
-    <%= render "devise/shared/links" %>
+    <%= link_to 'Googleでサインアップしてね', user_google_omniauth_authorize_path, method: :post %>
   </div>
 </div>
 </div>

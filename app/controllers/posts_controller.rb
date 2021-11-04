@@ -104,7 +104,6 @@ class PostsController < ApplicationController
   def scope
     if params[:sort_meat]
       @posts = Post.where(recipe_category: 0) 
-      @posts = @posts.page(params[:page]).per(30)
     elsif params[:sort_fish]
       @posts = Post.where(recipe_category: 1)
     elsif params[:sort_noodle]

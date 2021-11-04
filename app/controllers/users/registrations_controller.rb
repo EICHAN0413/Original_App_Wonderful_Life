@@ -14,6 +14,11 @@ class Users::RegistrationsController < Devise::RegistrationsController
     user_path(current_user.id)
   end
 
+  def build_resource(hash={})
+    hash[:uid] = User.create_unique_string
+    super
+  end
+
 
   
 

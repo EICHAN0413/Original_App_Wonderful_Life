@@ -30,6 +30,8 @@ end
         s.tag = rand1
         s.recipe_category = rand2
         s.text = "テスト投稿#{n + 1}だよ"
+        s.uid = ""
+        s.provider = ""
     end
 end
 
