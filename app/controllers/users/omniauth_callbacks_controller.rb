@@ -5,9 +5,6 @@ class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
   # devise :omniauthable, omniauth_providers: [:twitter]
 
   # You should also create an action method in this controller like this:
-  def twitter
-    callback_for(:twitter)
-  end
 
   def google
     @user = User.find_for_google(request.env['omniauth.auth'])
