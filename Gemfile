@@ -34,6 +34,7 @@ gem 'omniauth'
 gem 'omniauth-twitter'
 gem 'omniauth-google-oauth2'
 gem "omniauth-rails_csrf_protection"
+gem 'activerecord-session_store'
 
 
 gem 'bootsnap', '>= 1.1.0', require: false

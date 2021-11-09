@@ -18,6 +18,8 @@ Devise.setup do |config|
 
   # Oauth
   config.omniauth :google_oauth2, ENV['GOOGLE_APP_ID'], ENV['GOOGLE_APP_SECRET'], name: :google, skip_jwt: true
+  config.omniauth :twitter, ENV['TWITTER_APP_ID'], ENV['TWITTER_APP_SECRET'], name: :twitter, skip_jwt: true
+
 
   # ==> Controller configuration
   # Configure the parent class to the devise controllers.
