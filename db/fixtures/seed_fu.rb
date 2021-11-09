@@ -15,6 +15,7 @@ User.create! (
         s.password = "12345678#{n+1}"
         s.profile = "テストプロフィール#{n+1}"
         s.id = n + 1 
+        s.uid =  33333333333 + n
     end
 end
 
@@ -30,8 +31,6 @@ end
         s.tag = rand1
         s.recipe_category = rand2
         s.text = "テスト投稿#{n + 1}だよ"
-        s.uid = ""
-        s.provider = ""
     end
 end
 
