@@ -1,6 +1,6 @@
 class User < ApplicationRecord
   devise  :database_authenticatable, :registerable, :recoverable, :rememberable, :validatable,:trackable,
-          :omniauthable, omniauth_providers: %i(google twitter)
+          :omniauthable, omniauth_providers: %i(google twitter facebook)
 
   validates :profile, length: { maximum: 300 }
 
@@ -65,6 +65,19 @@ class User < ApplicationRecord
   end
 
   def self.find_for_twitter(auth)
+    user = User.find_by(email: auth.info.email)
+    unless user
+      user = User.new(email: auth.info.email,
+                      provider: auth.provider,
+                      uid:      auth.uid,
+                      password: Devise.friendly_token[0, 20],
+      )
+    end
+    user.save
+    user
+  end
+
+  def self.find_for_facebook(auth)
     user = User.find_by(email: auth.info.email)
     unless user
       user = User.new(email: auth.info.email,
