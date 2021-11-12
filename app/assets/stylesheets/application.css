@@ -126,3 +126,7 @@ footer p {
 .kaminari li {
   text-align: center;
 }
+
+.omniauth-field {
+  padding-top: 20px;
+}
