@@ -7,13 +7,19 @@
 
 <div class='offset-1 col-4 bg-form'>
 
-  <div class="col-12 field">
+  <div class="col-12 field ">
     <h2>他アカウントを利用<br><br></h2>
   </div>
 
-  <div class="col-12 field">
+  <div class="col-12 field omniauth-field">
     <%= link_to 'Googleアカウントでログイン', user_google_omniauth_authorize_path, method: :post, class: "btn btn-outline-primary" %>
+  </div>
+
+  <div class="col-12 field omniauth-field">
     <%= link_to 'Twitterアカウントでログイン', user_twitter_omniauth_authorize_path, method: :post, class: "btn btn-outline-primary" %>
+  </div>
+
+  <div class="col-12 field omniauth-field">
     <%= link_to 'facebookアカウントでログイン', user_facebook_omniauth_authorize_path, method: :post, class: "btn btn-outline-primary" %>
   </div>
 
