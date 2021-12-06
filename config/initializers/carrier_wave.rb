@@ -16,11 +16,12 @@ if Rails.env.production?
         aws_secret_access_key: ENV['S3_SECRET_KEY'],
         path_style: true
       }
+      CarrierWave::SanitizedFile.sanitize_regexp = /[^[:word:]\.\-\+]/ 
       # キャッシュの保存期間
-    else 
-      config.storage :file
-      config.enable_processing = false if Rails.env.test?
     end
+  else 
+    config.storage :file
+    config.enable_processing = false if Rails.env.test?
     # 日本語ファイル名の設定
     CarrierWave::SanitizedFile.sanitize_regexp = /[^[:word:]\.\-\+]/ 
   end
