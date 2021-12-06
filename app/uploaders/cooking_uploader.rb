@@ -4,7 +4,14 @@ class CookingUploader < CarrierWave::Uploader::Base
   # include CarrierWave::MiniMagick
 
   # Choose what kind of storage to use for this uploader:
-  storage :file
+  if Rails.env.development? # 開発環境の場合
+    storage :file
+  elsif Rails.env.test? # テスト環境の場合
+    storage :file
+  else # 本番環境の場合
+    storage :fog
+  end
+  # storage :fog
   # storage :fog
 
   # Override the directory where uploaded files will be stored.
@@ -15,6 +22,10 @@ class CookingUploader < CarrierWave::Uploader::Base
 
   def default_url
     '75167714-円は白背景にサンプル-レッド-スタンプ-テキスト.jpeg'
+  end
+
+  def extension_whitelist
+    %w(jpg jpeg gif png)
   end
 
   # Provide a default URL as a default if there hasn't been a file uploaded:

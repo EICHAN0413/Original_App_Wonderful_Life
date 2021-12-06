@@ -36,6 +36,8 @@ gem 'omniauth-google-oauth2'
 gem 'omniauth-facebook'
 gem "omniauth-rails_csrf_protection"
 gem 'activerecord-session_store'
+gem "aws-sdk-s3", require: false
+gem 'fog-aws'
 
 
 gem 'bootsnap', '>= 1.1.0', require: false
