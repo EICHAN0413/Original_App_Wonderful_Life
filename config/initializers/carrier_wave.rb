@@ -17,7 +17,7 @@ if Rails.env.production?
         path_style: true
       }
       # キャッシュの保存期間
-    else # 本番環境以外の場合はアプリケーション内にアップロード
+    else 
       config.storage :file
       config.enable_processing = false if Rails.env.test?
     end
