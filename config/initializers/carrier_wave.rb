@@ -1,13 +1,9 @@
-require 'carrierwave/storage/abstract'
-require 'carrierwave/storage/file'
-require 'carrierwave/storage/fog'
 
 if Rails.env.production?
     CarrierWave.configure do |config|
       config.storage :fog
       config.fog_provider = 'fog/aws'  #=> 追加
       config.fog_directory     =  ENV['S3_BUCKET']
-      config.fog_attributes = { 'Cache-Control' => "max-age=#{365.day.to_i}" }
       config.fog_credentials = {
         # Amazon S3用の設定
         provider: 'AWS',
