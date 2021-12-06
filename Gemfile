@@ -38,7 +38,7 @@ gem "omniauth-rails_csrf_protection"
 gem 'activerecord-session_store'
 gem "aws-sdk-s3", require: false
 gem 'fog-aws'
-gem 'fog'
+
 
 
 gem 'bootsnap', '>= 1.1.0', require: false
