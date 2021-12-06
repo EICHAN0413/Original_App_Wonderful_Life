@@ -5,7 +5,7 @@ class PostsController < ApplicationController
   
   def index
     if user_signed_in?
-      @posts = Post.page(params[:page]).per(30)
+      @posts = Post.page(params[:page]).per(30).order(created_at: :desc)
     else
       redirect_to new_user_session_path
     end
@@ -14,11 +14,11 @@ class PostsController < ApplicationController
       params[:q]['title_cont_any'] = params[:q]['title_cont_any'].split(/[\p{blank}\s]+/)
       @keyword =Post.ransack(params[:q])
       @posts = @keyword.result
-      @posts = Post.page(params[:page]).per(30)
+      @posts = Post.page(params[:page]).per(30).order(created_at: :desc)
     else
       @keyword = Post.ransack(params[:q])
       @posts = @keyword.result
-      @posts = Post.page(params[:page]).per(30)
+      @posts = Post.page(params[:page]).per(30).order(created_at: :desc)
     end
 
 

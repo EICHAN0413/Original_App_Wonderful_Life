@@ -19,9 +19,6 @@ if Rails.env.production?
       CarrierWave::SanitizedFile.sanitize_regexp = /[^[:word:]\.\-\+]/ 
       # キャッシュの保存期間
     end
-  else 
-    config.storage :file
-    config.enable_processing = false if Rails.env.test?
     # 日本語ファイル名の設定
     CarrierWave::SanitizedFile.sanitize_regexp = /[^[:word:]\.\-\+]/ 
   end
